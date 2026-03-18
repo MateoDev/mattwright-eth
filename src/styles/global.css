@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-dead-black;
+  }
+
+  html {
+    @apply bg-cream text-dead-black;
+  }
+
+  body {
+    @apply font-inter;
+  }
+
+  /* Remove all border-radius globally */
+  * {
+    border-radius: 0 !important;
+  }
+}
+
+@layer components {
+  .btn-brutalist {
+    @apply inline-block px-6 py-3 border-4 border-dead-black font-mono text-xs uppercase tracking-wider font-bold transition-colors;
+    @apply hover:bg-dead-black hover:text-cream;
+  }
+
+  .receipt-card {
+    @apply border-2 border-dead-black bg-white transition-all;
+    @apply hover:translate-x-1 hover:translate-y-1;
+  }
+
+  .divider-thick {
+    @apply h-1 w-full bg-dead-black;
+  }
+
+  .divider-thin {
+    @apply h-px w-full bg-dead-black;
+  }
+}

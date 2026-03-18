@@ -1,0 +1,31 @@
+{
+  "name": "mattwright-eth",
+  "version": "1.0.0",
+  "description": "Matt Wright's personal blog - Building agentic infrastructure",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoDev/mattwright-eth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoDev/mattwright-eth/issues"
+  },
+  "homepage": "https://github.com/MateoDev/mattwright-eth#readme",
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.2",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "astro": "^6.0.6",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
+  }
+}

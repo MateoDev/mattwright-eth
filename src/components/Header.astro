@@ -1,0 +1,37 @@
+---
+const currentPath = Astro.url.pathname;
+---
+
+<header class="border-b-4 border-dead-black bg-cream">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+    <a
+      href="/"
+      class="font-mono text-[13px] font-bold uppercase tracking-[0.15em] hover:text-amber transition-colors"
+    >
+      MATTWRIGHT.ETH
+    </a>
+
+    <nav class="flex gap-6">
+      <a
+        href="/"
+        class={`font-mono text-[11px] uppercase tracking-wider hover:text-amber transition-colors ${currentPath === '/' ? 'text-amber' : ''}`}
+      >
+        WRITING
+      </a>
+      <a
+        href="/about"
+        class={`font-mono text-[11px] uppercase tracking-wider hover:text-amber transition-colors ${currentPath === '/about' ? 'text-amber' : ''}`}
+      >
+        ABOUT
+      </a>
+      <a
+        href="https://github.com/MateoDev"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="font-mono text-[11px] uppercase tracking-wider hover:text-amber transition-colors"
+      >
+        GITHUB
+      </a>
+    </nav>
+  </div>
+</header>
