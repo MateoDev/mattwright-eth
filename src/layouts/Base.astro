@@ -1,17 +1,13 @@
 ---
-import '../styles/global.css';
-
 interface Props {
   title?: string;
   description?: string;
 }
 
 const {
-  title = 'Matt Wright - Building Agentic Infrastructure',
-  description = 'Writing about AI, web3, and what comes next. Building the future of autonomous agents.',
+  title = "Matt Wright's website",
+  description = 'Writing about AI, web3, and the agentic future.',
 } = Astro.props;
-
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -20,24 +16,68 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap" rel="stylesheet" />
     <title>{title}</title>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        body { background-color: #1c1c1c; color: white; }
+        a { color: #aaa; }
+        a:hover { color: white; }
+        .post-date { color: #888; }
+      }
+
+      body {
+        font-family: 'Space Mono', monospace;
+        font-size: 15px;
+        line-height: 1.7;
+        max-width: 680px;
+        margin: 40px auto;
+        padding: 0 20px;
+        color: #333;
+        background: #fff;
+      }
+
+      #doc {
+        padding: 0;
+      }
+
+      a { color: #333; }
+      a:hover { color: #000; text-decoration: underline; }
+
+      h1 { font-size: 1.4em; font-weight: bold; margin-bottom: 4px; }
+      h2 { font-size: 1.2em; font-weight: bold; }
+      h3 { font-size: 1em; font-weight: normal; margin: 0; display: inline; }
+      h3 a { text-decoration: none; }
+      h3 a:hover { text-decoration: underline; }
+
+      .post-entry { margin-bottom: 12px; }
+      .post-date { color: #666; font-size: 13px; display: block; }
+
+      /* Article styles */
+      .markdown-body { font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.8; }
+      .markdown-body h2 { font-family: 'Space Mono', monospace; font-size: 1.1em; margin-top: 2em; }
+      .markdown-body hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
+      .markdown-body p { margin-bottom: 1.2em; }
+      .markdown-body a { color: #333; }
+      .post-header { margin-bottom: 2em; border-bottom: 1px solid #ddd; padding-bottom: 1em; }
+      .post-meta { font-size: 13px; color: #666; margin-top: 6px; }
+      .back-link { font-size: 13px; margin-bottom: 2em; display: block; }
+
+      @media (max-width: 600px) {
+        body { margin: 20px auto; font-size: 14px; }
+      }
+    </style>
   </head>
-  <body class="min-h-screen flex flex-col">
-    <slot />
+  <body>
+    <div id="doc">
+      <slot />
+    </div>
   </body>
 </html>

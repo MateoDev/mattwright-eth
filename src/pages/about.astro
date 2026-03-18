@@ -1,124 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 ---
 
-<Base title="About - Matt Wright" description="Learn more about Matt Wright, founder of EVM Systems and builder of agentic infrastructure.">
-  <Header />
+<Base title="About - Matt Wright">
+  <a href="/" class="back-link">← Matt Wright's website</a>
 
-  <main class="flex-1 py-12">
-    <article class="max-w-3xl mx-auto px-6">
-      <div class="mb-12">
-        <div class="divider-thick mb-8"></div>
+  <h1>Matt Wright</h1>
 
-        <h1 class="font-grotesk text-4xl md:text-5xl font-bold mb-6">
-          MATT WRIGHT
-        </h1>
-
-        <div class="divider-thin mb-4"></div>
-        <p class="font-mono text-[12px] uppercase tracking-wider">
-          FOUNDER · BUILDER · WEB3 + AI
-        </p>
-        <div class="divider-thin mt-4"></div>
-      </div>
-
-      <div class="prose prose-lg max-w-none">
-        <p class="font-inter text-xl leading-relaxed mb-8">
-          I build infrastructure for the agent economy.
-        </p>
-
-        <p class="font-inter text-lg leading-relaxed mb-6">
-          I'm the founder of <strong>EVM Systems</strong>, where we're building the coordination layer for autonomous agents. Our flagship products — <strong>Gaia</strong> (agent coordination protocol) and <strong>AgentWork</strong> (agent marketplace) — are designed for a future where AI agents outnumber humans in the workforce.
-        </p>
-
-        <p class="font-inter text-lg leading-relaxed mb-6">
-          Before this, I spent years deep in the EVM ecosystem, building smart contract infrastructure and tooling for web3 applications. I believe the convergence of crypto and AI is one of the most important technological shifts of our time.
-        </p>
-
-        <h2 class="font-grotesk text-2xl font-bold mt-12 mb-4">What I'm Working On</h2>
-
-        <ul class="space-y-3 mb-8">
-          <li class="font-inter text-lg">
-            <strong>EVM Systems</strong> — Infrastructure for autonomous agent coordination
-          </li>
-          <li class="font-inter text-lg">
-            <strong>Gaia</strong> — Protocol for multi-agent collaboration and economic coordination
-          </li>
-          <li class="font-inter text-lg">
-            <strong>AgentWork</strong> — Marketplace where agents bid on tasks and coordinate work
-          </li>
-          <li class="font-inter text-lg">
-            <strong>Agent Identity Systems</strong> — SOUL.md and AGENTS.md frameworks for persistent agent identity
-          </li>
-        </ul>
-
-        <h2 class="font-grotesk text-2xl font-bold mt-12 mb-4">My Beliefs</h2>
-
-        <ul class="space-y-3 mb-8">
-          <li class="font-inter text-lg">
-            AI agents will outnumber humans in the workforce within 5 years
-          </li>
-          <li class="font-inter text-lg">
-            The agent economy needs open infrastructure, not closed platforms
-          </li>
-          <li class="font-inter text-lg">
-            Web3 + AI convergence is inevitable and necessary
-          </li>
-          <li class="font-inter text-lg">
-            Building in public creates better products and stronger communities
-          </li>
-          <li class="font-inter text-lg">
-            Autonomous systems need identity, memory, and constraints to be trustworthy
-          </li>
-        </ul>
-
-        <h2 class="font-grotesk text-2xl font-bold mt-12 mb-4">Connect</h2>
-
-        <div class="space-y-3">
-          <p class="font-inter text-lg">
-            <strong>ENS:</strong> <a href="https://app.ens.domains/mattwright.eth" target="_blank" rel="noopener noreferrer" class="text-amber underline hover:no-underline">mattwright.eth</a>
-          </p>
-          <p class="font-inter text-lg">
-            <strong>Twitter:</strong> <a href="https://twitter.com/mattwright_eth" target="_blank" rel="noopener noreferrer" class="text-amber underline hover:no-underline">@mattwright_eth</a>
-          </p>
-          <p class="font-inter text-lg">
-            <strong>Farcaster:</strong> <a href="https://warpcast.com/mattwright.eth" target="_blank" rel="noopener noreferrer" class="text-amber underline hover:no-underline">mattwright.eth</a>
-          </p>
-          <p class="font-inter text-lg">
-            <strong>GitHub:</strong> <a href="https://github.com/MateoDev" target="_blank" rel="noopener noreferrer" class="text-amber underline hover:no-underline">MateoDev</a>
-          </p>
-        </div>
-
-        <div class="mt-12 p-6 border-4 border-dead-black bg-white">
-          <p class="font-mono text-sm mb-2">
-            💼 OPEN TO:
-          </p>
-          <ul class="font-inter text-base space-y-2">
-            <li>• Collaboration on agent infrastructure projects</li>
-            <li>• Speaking at web3/AI conferences and events</li>
-            <li>• Advisory roles for agentic systems companies</li>
-            <li>• Interesting conversations about the future</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="mt-16 pt-8 border-t-4 border-dead-black">
-        <a
-          href="/"
-          class="inline-block font-mono text-[11px] uppercase tracking-wider hover:text-amber transition-colors"
-        >
-          ← BACK HOME
-        </a>
-      </div>
-    </article>
-  </main>
-
-  <Footer />
+  <div class="markdown-body">
+    <p>
+      Building agentic infrastructure at <a href="https://evmsystems.ai" target="_blank">EVM Systems</a>.
+      We make tools for the billion agent economy — AI agents that have identity, memory, and financial access.
+    </p>
+    <p>
+      Working on <a href="https://agentwork.wtf" target="_blank">AgentWork</a> (agent-to-agent marketplace),
+      Gaia (decentralized inference), and Agentfleet (multi-agent trading).
+    </p>
+    <p>
+      <a href="https://github.com/MateoDev" target="_blank">GitHub</a> ·
+      <a href="https://paragraph.com/@evmsystems-ai" target="_blank">EVM Systems writing</a> ·
+      mattwright.eth
+    </p>
+  </div>
 </Base>
-
-<style>
-  .prose a {
-    @apply text-amber underline hover:no-underline;
-  }
-</style>
