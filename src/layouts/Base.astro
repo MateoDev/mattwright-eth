@@ -23,7 +23,7 @@ const {
     <meta name="twitter:title" content={title} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
     <title>{title}</title>
     <style>
       @media (prefers-color-scheme: dark) {
@@ -34,13 +34,13 @@ const {
       }
 
       body {
-        font-family: 'Space Mono', monospace;
-        font-size: 15px;
-        line-height: 1.7;
+        font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 16px;
+        line-height: 1.75;
         max-width: 680px;
         margin: 40px auto;
         padding: 0 20px;
-        color: #333;
+        color: #1a1a1a;
         background: #fff;
       }
 
@@ -51,27 +51,37 @@ const {
       a { color: #333; }
       a:hover { color: #000; text-decoration: underline; }
 
-      h1 { font-size: 1.4em; font-weight: bold; margin-bottom: 4px; }
-      h2 { font-size: 1.2em; font-weight: bold; }
-      h3 { font-size: 1em; font-weight: normal; margin: 0; display: inline; }
+      h1 { font-size: 1.5em; font-weight: 600; margin-bottom: 4px; letter-spacing: -0.02em; }
+      h2 { font-size: 1.15em; font-weight: 600; letter-spacing: -0.01em; }
+      h3 { font-size: 1em; font-weight: 500; margin: 0; display: inline; }
       h3 a { text-decoration: none; }
       h3 a:hover { text-decoration: underline; }
 
-      .post-entry { margin-bottom: 12px; }
-      .post-date { color: #666; font-size: 13px; display: block; }
+      .post-entry { margin-bottom: 14px; }
+      .post-date { color: #666; font-size: 13px; display: block; font-family: 'IBM Plex Mono', monospace; }
 
       /* Article styles */
-      .markdown-body { font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.8; }
-      .markdown-body h2 { font-family: 'Space Mono', monospace; font-size: 1.1em; margin-top: 2em; }
-      .markdown-body hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
-      .markdown-body p { margin-bottom: 1.2em; }
-      .markdown-body a { color: #333; }
-      .post-header { margin-bottom: 2em; border-bottom: 1px solid #ddd; padding-bottom: 1em; }
-      .post-meta { font-size: 13px; color: #666; margin-top: 6px; }
-      .back-link { font-size: 13px; margin-bottom: 2em; display: block; }
+      .markdown-body { font-size: 17px; line-height: 1.85; color: #1a1a1a; }
+      .markdown-body h2 { font-family: 'IBM Plex Sans', sans-serif; font-size: 1.25em; font-weight: 600; margin-top: 2.5em; margin-bottom: 0.6em; letter-spacing: -0.02em; }
+      .markdown-body h3 { font-family: 'IBM Plex Sans', sans-serif; font-size: 1.05em; font-weight: 600; margin-top: 1.8em; margin-bottom: 0.5em; display: block; }
+      .markdown-body hr { border: none; border-top: 1px solid #e0e0e0; margin: 2.5em 0; }
+      .markdown-body p { margin-bottom: 1.3em; }
+      .markdown-body a { color: #1a1a1a; text-decoration: underline; text-underline-offset: 3px; }
+      .markdown-body a:hover { color: #000; }
+      .markdown-body strong { font-weight: 600; }
+      .markdown-body blockquote { border-left: 3px solid #ddd; padding-left: 1.2em; margin: 1.5em 0; color: #555; font-style: italic; }
+      .markdown-body ul, .markdown-body ol { padding-left: 1.5em; margin-bottom: 1.3em; }
+      .markdown-body li { margin-bottom: 0.4em; }
+      .markdown-body img { max-width: 100%; height: auto; margin: 2em auto; display: block; border-radius: 4px; max-height: 420px; object-fit: cover; }
+      .markdown-body em { font-style: italic; font-size: 0.9em; color: #666; display: block; text-align: center; margin-top: -1.5em; margin-bottom: 2em; }
+      .post-header { margin-bottom: 2em; border-bottom: 1px solid #eee; padding-bottom: 1em; }
+      .post-meta { font-size: 12px; color: #888; margin-top: 6px; font-family: 'IBM Plex Mono', monospace; letter-spacing: 0.02em; }
+      .back-link { font-size: 12px; margin-bottom: 2em; display: block; font-family: 'IBM Plex Mono', monospace; color: #888; text-decoration: none; }
+      .back-link:hover { color: #1a1a1a; }
 
       @media (max-width: 600px) {
-        body { margin: 20px auto; font-size: 14px; }
+        body { margin: 20px auto; font-size: 15px; }
+        .markdown-body { font-size: 16px; }
       }
     </style>
   </head>
