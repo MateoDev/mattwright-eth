@@ -1,0 +1,118 @@
+---
+interface Props {
+  url: string;
+}
+
+const { url } = Astro.props;
+
+let tweet = null;
+let error = false;
+
+try {
+  const oembedUrl = `https://publish.twitter.com/oembed?url=${encodeURIComponent(url)}&maxwidth=500&omit_script=true`;
+  const res = await fetch(oembedUrl);
+  if (res.ok) {
+    tweet = await res.json();
+  }
+} catch (e) {
+  error = true;
+}
+
+// Extract plain text from the blockquote HTML
+function extractText(html: string): string {
+  return html
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&mdash;/g, '—')
+    .trim();
+}
+
+const tweetText = tweet ? extractText(tweet.html) : '';
+// Trim to first 240 chars of the actual tweet body (before the "— @author" attribution)
+const bodyMatch = tweetText.match(/^([\s\S]+?)(?:\n— |\s—\s)/);
+const body = bodyMatch ? bodyMatch[1].trim() : tweetText.split('\n—')[0].trim();
+---
+
+{tweet && (
+  <a href={url} target="_blank" rel="noopener noreferrer" class="tweet-card">
+    <div class="tweet-header">
+      <span class="tweet-author">{tweet.author_name}</span>
+      <svg class="tweet-x-logo" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+      </svg>
+    </div>
+    <p class="tweet-body">{body.slice(0, 280)}{body.length > 280 ? '…' : ''}</p>
+    <span class="tweet-link">View on X →</span>
+  </a>
+)}
+
+{(!tweet || error) && (
+  <a href={url} target="_blank" rel="noopener noreferrer" class="tweet-card tweet-card--fallback">
+    <span class="tweet-link">View tweet on X →</span>
+  </a>
+)}
+
+<style>
+  .tweet-card {
+    display: block;
+    border: 1px solid var(--faint, #e8e8e8);
+    border-radius: 4px;
+    padding: 16px 20px;
+    margin: 2em 0;
+    text-decoration: none;
+    color: var(--ink, #111);
+    transition: border-color 0.15s;
+    background: var(--bg, #fff);
+  }
+
+  .tweet-card:hover {
+    border-color: var(--ink, #111);
+    opacity: 1;
+  }
+
+  .tweet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .tweet-author {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--ink, #111);
+  }
+
+  .tweet-x-logo {
+    color: var(--ink, #111);
+    opacity: 0.6;
+    flex-shrink: 0;
+  }
+
+  .tweet-body {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 12px 0;
+    color: var(--ink, #111);
+    white-space: pre-line;
+  }
+
+  .tweet-link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted, #777);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .tweet-card--fallback {
+    padding: 12px 16px;
+  }
+</style>
