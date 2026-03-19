@@ -6,6 +6,8 @@ category: "STRATEGY"
 readTime: "20 min"
 ---
 
+![The Agentic Bazaar — a grand marketplace built on circuit infrastructure, where billions of agents exchange value](/images/billion-agent-economy-header.jpg)
+
 ## The largest unbanked population in history is coming online — and they are not human.
 
 In 2024, bot traffic surpassed human traffic on the internet for the first time in a decade. Automated activity now accounts for 51% of all web traffic. Humans generate less than half.
