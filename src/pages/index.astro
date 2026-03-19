@@ -6,21 +6,201 @@ const posts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
 );
 
+const categories = ['All', ...Array.from(new Set(posts.map(p => p.data.category).filter(Boolean)))];
+
 function formatDate(dateStr: string) {
   const d = new Date(dateStr);
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 ---
 
-<Base title="Matt Wright's website">
-  <div style="font-family: 'Space Mono', monospace; font-size: 13px; margin-bottom: 32px;">
-    <strong>Matt Wright</strong> · <a href="/about">about</a> · <a href="https://github.com/MateoDev" target="_blank">github</a>
+<Base title="Matt Wright">
+  <!-- Header / bio -->
+  <div class="site-header">
+    <div class="site-nav">
+      <strong>Matt Wright</strong>
+      <span class="nav-links">
+        <a href="/about">about</a>
+        <a href="https://x.com/mateo_ventures" target="_blank">twitter</a>
+        <a href="https://github.com/MateoDev" target="_blank">github</a>
+      </span>
+    </div>
+    <p class="site-bio">
+      Building infrastructure for the agentic economy. Co-founder at EVM Systems &amp; Gaia. 
+      Writing about AI, sovereign intelligence, and what comes after the internet as we know it.
+    </p>
   </div>
 
-  {posts.map((post) => (
-    <div class="post-entry">
-      <span class="post-date">{formatDate(post.data.date)}</span>
-      <h3><a href={`/${post.id}`}>{post.data.title}</a></h3>
-    </div>
-  ))}
+  <!-- Category filter -->
+  <div class="category-bar" id="category-bar">
+    {categories.map((cat) => (
+      <button
+        class={`cat-btn ${cat === 'All' ? 'active' : ''}`}
+        data-category={cat}
+        onclick="filterPosts(this)"
+      >
+        {cat}
+      </button>
+    ))}
+  </div>
+
+  <!-- Post list -->
+  <div id="post-list">
+    {posts.map((post) => (
+      <div class="post-entry" data-category={post.data.category || 'Uncategorized'}>
+        <span class="post-date">{formatDate(post.data.date)}</span>
+        <a href={`/${post.id}`} class="post-title">{post.data.title}</a>
+        {post.data.category && <span class="post-cat">{post.data.category}</span>}
+      </div>
+    ))}
+  </div>
 </Base>
+
+<style>
+  .site-header {
+    margin-bottom: 32px;
+  }
+
+  .site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 12px;
+  }
+
+  .site-nav strong {
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .nav-links a {
+    color: #888;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    color: #1a1a1a;
+  }
+
+  .site-bio {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+    max-width: 540px;
+  }
+
+  .category-bar {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .cat-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 1px solid #1a1a1a;
+    background: #fff;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border-radius: 2px;
+  }
+
+  .cat-btn:hover,
+  .cat-btn.active {
+    background: #1a1a1a;
+    color: #fff;
+  }
+
+  .post-entry {
+    display: grid;
+    grid-template-columns: 90px 1fr auto;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .post-entry:last-child {
+    border-bottom: none;
+  }
+
+  .post-date {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #999;
+    white-space: nowrap;
+  }
+
+  .post-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1a1a1a;
+    text-decoration: none;
+    letter-spacing: -0.01em;
+    line-height: 1.4;
+  }
+
+  .post-title:hover {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .post-cat {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #bbb;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 500px) {
+    .post-entry {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+    .post-cat { display: none; }
+    .site-nav { flex-direction: column; gap: 8px; }
+    .nav-links { gap: 12px; }
+  }
+</style>
+
+<script>
+  function filterPosts(btn: HTMLElement) {
+    const category = btn.dataset.category;
+
+    // Update active button
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Filter posts
+    document.querySelectorAll('#post-list .post-entry').forEach((el: Element) => {
+      const postCat = (el as HTMLElement).dataset.category;
+      if (category === 'All' || postCat === category) {
+        (el as HTMLElement).style.display = 'grid';
+      } else {
+        (el as HTMLElement).style.display = 'none';
+      }
+    });
+  }
+
+  // Make global
+  (window as any).filterPosts = filterPosts;
+</script>
