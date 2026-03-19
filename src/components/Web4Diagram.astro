@@ -1,0 +1,128 @@
+---
+---
+<div class="fig-wrap">
+  <div class="fig-label">FIGURE 01 — THE INTERNET STACK</div>
+  <div class="web4-grid">
+    <div class="web4-col">
+      <div class="web4-era">WEB 1</div>
+      <div class="web4-action">READ</div>
+      <div class="web4-panel">
+        <div class="panel-row"><span class="dot"></span> Static pages</div>
+        <div class="panel-row"><span class="dot"></span> Passive consumption</div>
+        <div class="panel-row"><span class="dot"></span> Traditional banking</div>
+        <div class="panel-row dim"><span class="dot"></span> HTTP / HTML</div>
+      </div>
+    </div>
+    <div class="web4-col">
+      <div class="web4-era">WEB 2</div>
+      <div class="web4-action">READ + WRITE</div>
+      <div class="web4-panel">
+        <div class="panel-row"><span class="dot"></span> User content</div>
+        <div class="panel-row"><span class="dot"></span> Social platforms</div>
+        <div class="panel-row"><span class="dot"></span> Fintech rails</div>
+        <div class="panel-row dim"><span class="dot"></span> APIs / OAuth</div>
+      </div>
+    </div>
+    <div class="web4-col">
+      <div class="web4-era">WEB 3</div>
+      <div class="web4-action">READ + WRITE + OWN</div>
+      <div class="web4-panel">
+        <div class="panel-row"><span class="dot"></span> Internet-native money</div>
+        <div class="panel-row"><span class="dot"></span> Self-sovereign assets</div>
+        <div class="panel-row"><span class="dot"></span> Programmable finance</div>
+        <div class="panel-row dim"><span class="dot"></span> Smart contracts / ENS</div>
+      </div>
+    </div>
+    <div class="web4-col active">
+      <div class="web4-era">WEB 4</div>
+      <div class="web4-action">READ + WRITE + OWN + ACT</div>
+      <div class="web4-panel">
+        <div class="panel-row"><span class="dot"></span> Autonomous agents</div>
+        <div class="panel-row"><span class="dot"></span> Machine-speed commerce</div>
+        <div class="panel-row"><span class="dot"></span> Agent economic citizenship</div>
+        <div class="panel-row dim"><span class="dot"></span> MCP / A2A / x402</div>
+      </div>
+    </div>
+  </div>
+  <div class="fig-caption">Each chapter built on the last. Web4 is where software gains agency.</div>
+</div>
+
+<style>
+  .fig-wrap {
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    background: #111;
+    padding: 24px;
+    margin: 2.5em 0;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .fig-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: #555;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .web4-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .web4-col {
+    background: #181818;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+    padding: 14px 12px;
+  }
+  .web4-col.active {
+    border-color: #f0a500;
+    background: #1a1600;
+  }
+  .web4-era {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    color: #555;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .web4-col.active .web4-era { color: #f0a500; }
+  .web4-action {
+    font-size: 10px;
+    color: #e0e0e0;
+    font-weight: 500;
+    margin-bottom: 14px;
+    line-height: 1.4;
+    min-height: 28px;
+  }
+  .web4-col.active .web4-action { color: #f8d070; }
+  .web4-panel { border-top: 1px solid #2a2a2a; padding-top: 10px; }
+  .panel-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    color: #888;
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+  .panel-row.dim { color: #444; }
+  .dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #444;
+    flex-shrink: 0;
+  }
+  .web4-col.active .panel-row { color: #aaa; }
+  .web4-col.active .dot { background: #f0a500; }
+  .fig-caption {
+    font-size: 11px;
+    color: #555;
+    margin-top: 16px;
+    text-align: center;
+    font-style: italic;
+  }
+  @media (max-width: 560px) {
+    .web4-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

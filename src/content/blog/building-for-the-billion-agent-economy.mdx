@@ -6,6 +6,11 @@ category: "STRATEGY"
 readTime: "20 min"
 ---
 import TweetCard from '../../components/TweetCard.astro';
+import Web4Diagram from '../../components/Web4Diagram.astro';
+import AgentIdentityTree from '../../components/AgentIdentityTree.astro';
+import AgentIDCard from '../../components/AgentIDCard.astro';
+import AgentResourceStack from '../../components/AgentResourceStack.astro';
+import FinancialRails from '../../components/FinancialRails.astro';
 
 ![The Agentic Bazaar — a grand marketplace built on circuit infrastructure, where billions of agents exchange value](/images/billion-agent-economy-header.jpg)
 
@@ -91,7 +96,11 @@ The internet has evolved in clean chapters, and each one expanded what its users
 
 Each chapter didn't replace the last. It built on top of it.
 
-Web4 is read, write, own, and act. The internet gains agency. Software doesn't just respond to prompts — it perceives, decides, and executes autonomously. And the entire infrastructure stack needs to be rethought for users that operate nothing like us.
+Web4 is read, write, own, and act. The internet gains agency.
+
+<Web4Diagram />
+
+Software doesn't just respond to prompts — it perceives, decides, and executes autonomously. And the entire infrastructure stack needs to be rethought for users that operate nothing like us.
 
 ### Agents consume resources differently than humans
 
@@ -169,6 +178,8 @@ This matters because agent identity is hierarchical in ways human identity is no
 
 Traditional wallet models don't handle this. Even existing decentralized identity frameworks like ENS assume a persistent, singular entity behind the address. Agents break that assumption. They can be ephemeral — existing for a single task and then disappearing. They can be delegated — operating with borrowed authority. They can be nested — agents within agents within agents.
 
+<AgentIdentityTree />
+
 ERC-8004, which went live on Ethereum mainnet in January 2026, is the first comprehensive standard designed for this reality. It introduces three on-chain registries — Identity, Reputation, and Validation — that give agents portable, censorship-resistant identifiers built on ERC-721. Each agent gets a unique on-chain handle that resolves to a registration file describing what the agent does, how to reach it, and which protocols it supports.
 
 But what makes ERC-8004 significant isn't just the identity layer — it's the design philosophy. The standard was co-authored by teams from MetaMask, the Ethereum Foundation, Google, and Coinbase. It extends Google's Agent-to-Agent (A2A) protocol with a trust layer, enabling agents to discover and interact across organizational boundaries without pre-existing relationships. The Ethereum Foundation has explicitly positioned ERC-8004 as a key component of its strategic roadmap, with a dedicated Decentralized AI (dAI) team driving adoption.
@@ -182,6 +193,8 @@ Human identity is flat. Agent identity is a tree. And the infrastructure has to 
 Identity tells you who an agent is. Reputation tells you whether to trust it.
 
 Humans build credit scores over decades. Agents need to build trust in hours. The tempo is entirely different, and so is the architecture.
+
+<AgentIDCard />
 
 On-chain history becomes the foundation — what has this agent done, how much value has it transacted, has it ever been disputed or slashed? ERC-8004's Reputation Registry creates a standardized interface for posting and retrieving feedback signals, with scoring that happens both on-chain for composability and off-chain for more sophisticated algorithms.
 
@@ -211,11 +224,15 @@ This is where DAOs potentially evolve into something far more interesting than h
 
 ---
 
+<AgentResourceStack />
+
 ## IV. Financial Rails: Why Your Agent Will Have a Wallet Before a Bank Account
 
 Identity, reputation, and governance create the conditions for economic activity. Financial rails are how value actually moves. And here is a reality that traditional finance needs to internalize: your agent is far more likely to access a crypto wallet than a bank account.
 
 This isn't ideological — it's practical. Opening a bank account requires KYC documentation, human verification, physical or regulated-entity relationships, and days to weeks of processing. A crypto wallet can be generated programmatically in milliseconds. Smart contracts are open source, composable, and available to anyone — or any_thing_ — that can sign a transaction. For an autonomous agent that needs to transact immediately, permissionlessly, and at machine speed, the choice isn't even close.
+
+<FinancialRails />
 
 ### Payments: The Protocol Layer
 

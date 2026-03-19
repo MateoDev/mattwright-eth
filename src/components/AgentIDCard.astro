@@ -1,0 +1,226 @@
+---
+---
+<div class="fig-wrap">
+  <div class="fig-label">FIGURE 03 — AGENT IDENTITY CREDENTIAL</div>
+  <div class="card-layout">
+    <div class="card-left">
+      <div class="card-header">
+        <div class="card-avatar">AI</div>
+        <div>
+          <div class="card-handle">papi.evm</div>
+          <div class="card-did">did:erc8004:0x7f2c...6D33</div>
+        </div>
+        <div class="risk-badge risk-low">LOW RISK</div>
+      </div>
+      <div class="card-stats">
+        <div class="stat">
+          <div class="stat-value">2,841</div>
+          <div class="stat-label">Tasks Completed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">98.3%</div>
+          <div class="stat-label">Success Rate</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">$47,200</div>
+          <div class="stat-label">Value Processed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">127</div>
+          <div class="stat-label">Days Active</div>
+        </div>
+      </div>
+      <div class="card-section-label">ATTESTATIONS</div>
+      <div class="attestations">
+        <div class="attest attest-ok">✓ Deployer: EVM Systems</div>
+        <div class="attest attest-ok">✓ Model: Claude Sonnet 4.6</div>
+        <div class="attest attest-ok">✓ Runtime: OpenClaw v2</div>
+        <div class="attest attest-ok">✓ KYA verified · Privado.id</div>
+        <div class="attest attest-warn">⚠ Financial limit: $500/tx</div>
+      </div>
+    </div>
+    <div class="card-right">
+      <div class="card-section-label">RECENT ACTIVITY LOG</div>
+      <div class="log">
+        <div class="log-entry">
+          <span class="log-time">20:29</span>
+          <span class="log-ok">✓</span>
+          <span class="log-text">Pinned IPFS build to Pinata</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-time">20:15</span>
+          <span class="log-ok">✓</span>
+          <span class="log-text">Pushed to GitHub main</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-time">19:52</span>
+          <span class="log-ok">✓</span>
+          <span class="log-text">Built Astro static site</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-time">14:07</span>
+          <span class="log-ok">✓</span>
+          <span class="log-text">Formatted 3 blog posts</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-time">13:04</span>
+          <span class="log-ok">✓</span>
+          <span class="log-text">Pinata creds saved to 1Password</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-time">13:03</span>
+          <span class="log-ok">✓</span>
+          <span class="log-text">mattwright.eth.limo verified live</span>
+        </div>
+      </div>
+      <div class="card-section-label" style="margin-top:16px">REPUTATION SCORE</div>
+      <div class="rep-bar-wrap">
+        <div class="rep-bar"><div class="rep-fill" style="width:94%"></div></div>
+        <span class="rep-score">94 / 100</span>
+      </div>
+      <div class="rep-note">Based on on-chain task history, attestations, and deployer stake</div>
+    </div>
+  </div>
+  <div class="fig-caption">Agents build trust in hours, not decades. Identity is provenance, not authentication.</div>
+</div>
+
+<style>
+  .fig-wrap {
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    background: #111;
+    padding: 24px;
+    margin: 2.5em 0;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .fig-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: #555;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .card-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .card-left, .card-right {
+    background: #181818;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+    padding: 16px;
+  }
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .card-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #2a3a2a;
+    border: 1px solid #5a9a5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #5a9a5a;
+    flex-shrink: 0;
+  }
+  .card-handle {
+    font-size: 14px;
+    color: #e0e0e0;
+    font-weight: 500;
+  }
+  .card-did {
+    font-size: 10px;
+    color: #555;
+    margin-top: 2px;
+  }
+  .risk-badge {
+    margin-left: auto;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    padding: 3px 8px;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+  .risk-low { background: #1a3a1a; color: #5a9a5a; border: 1px solid #2a5a2a; }
+  .risk-med { background: #3a2a1a; color: #f0a500; border: 1px solid #5a4a1a; }
+  .card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .stat {
+    background: #111;
+    border: 1px solid #2a2a2a;
+    border-radius: 2px;
+    padding: 10px;
+  }
+  .stat-value {
+    font-size: 16px;
+    color: #e0e0e0;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .stat-label { font-size: 9px; color: #555; letter-spacing: 0.05em; text-transform: uppercase; }
+  .card-section-label {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .attestations { display: flex; flex-direction: column; gap: 5px; }
+  .attest { font-size: 11px; }
+  .attest-ok { color: #5a9a5a; }
+  .attest-warn { color: #f0a500; }
+  .log { display: flex; flex-direction: column; gap: 6px; }
+  .log-entry {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    color: #666;
+  }
+  .log-time { color: #444; min-width: 36px; }
+  .log-ok { color: #5a9a5a; }
+  .log-text { color: #888; }
+  .rep-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0 6px;
+  }
+  .rep-bar {
+    flex: 1;
+    height: 4px;
+    background: #222;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .rep-fill {
+    height: 100%;
+    background: #5a9a5a;
+    border-radius: 2px;
+  }
+  .rep-score { font-size: 12px; color: #5a9a5a; white-space: nowrap; }
+  .rep-note { font-size: 9px; color: #444; line-height: 1.4; }
+  .fig-caption {
+    font-size: 11px;
+    color: #555;
+    margin-top: 16px;
+    text-align: center;
+    font-style: italic;
+  }
+  @media (max-width: 560px) {
+    .card-layout { grid-template-columns: 1fr; }
+    .card-stats { grid-template-columns: 1fr 1fr; }
+  }
+</style>

@@ -1,0 +1,191 @@
+---
+---
+<div class="fig-wrap">
+  <div class="fig-label">FIGURE 05 &mdash; AGENTFI FINANCIAL RAILS</div>
+  <div class="rails-grid">
+    <div class="rail">
+      <div class="rail-num">LAYER 01</div>
+      <div class="rail-title">PAYMENTS</div>
+      <div class="rail-sub">Protocol Layer</div>
+      <div class="terminal">
+        <div class="term-line"><span class="term-p">$</span> agent.call(api, &#123;</div>
+        <div class="term-line term-indent"><span class="term-k">payment</span>: <span class="term-s">"x402"</span>,</div>
+        <div class="term-line term-indent"><span class="term-k">amount</span>: <span class="term-n">0.001 USDC</span></div>
+        <div class="term-line">&#125;)</div>
+        <div class="term-line term-ok">OK 402 Payment Required &rarr; paid</div>
+        <div class="term-line term-ok">OK Response delivered in 120ms</div>
+      </div>
+      <div class="rail-stats">
+        <div class="rs"><div class="rs-val">75M+</div><div class="rs-lbl">Transactions</div></div>
+        <div class="rs"><div class="rs-val">$24M</div><div class="rs-lbl">Volume</div></div>
+      </div>
+      <div class="rail-note">Per-call payments across EVM and Solana. No accounts. No API keys.</div>
+    </div>
+
+    <div class="rail rail-green">
+      <div class="rail-num">LAYER 02</div>
+      <div class="rail-title">AGENTFI</div>
+      <div class="rail-sub">Self-Driving Money</div>
+      <div class="terminal">
+        <div class="term-line"><span class="term-p">&rsaquo;</span> perceive_market()</div>
+        <div class="term-line term-ok">&nbsp; USDC yield: 8.2% Aave</div>
+        <div class="term-line term-ok">&nbsp; ETH funding: -0.02% HL</div>
+        <div class="term-line"><span class="term-p">&rsaquo;</span> generate_strategy()</div>
+        <div class="term-line term-ok">&nbsp; Rebalance &rarr; stablecoin yield</div>
+        <div class="term-line"><span class="term-p">&rsaquo;</span> execute_onchain()</div>
+        <div class="term-line term-ok">&nbsp; 2 txs confirmed, no human</div>
+      </div>
+      <div class="phases">
+        <div class="phase phase-done">Automation</div>
+        <div class="phase phase-now">Intent Copilots</div>
+        <div class="phase phase-next">True AgentFi</div>
+      </div>
+      <div class="rail-note">DeFi gave humans finance without banks. AgentFi gives agents finance without humans.</div>
+    </div>
+
+    <div class="rail">
+      <div class="rail-num">LAYER 03</div>
+      <div class="rail-title">TRADFI BRIDGE</div>
+      <div class="rail-sub">Intent Resolution</div>
+      <div class="terminal">
+        <div class="term-line"><span class="term-p">&rsaquo;</span> intent: <span class="term-s">"8% yield, low risk"</span></div>
+        <div class="term-line"><span class="term-p">&rsaquo;</span> resolving...</div>
+        <div class="term-line term-ok">&nbsp; DeFi: Aave USDC 6.2%</div>
+        <div class="term-line term-ok">&nbsp; TradFi: T-bill 4.8%</div>
+        <div class="term-line term-ok">&nbsp; Blended: 8.1% LOW RISK</div>
+        <div class="term-line term-warn">! Position above $500 &rarr; escalate</div>
+        <div class="term-line term-ok">&nbsp; Human confirmed, execute</div>
+      </div>
+      <div class="risk-list">
+        <div class="rc-label">RISK GUARDRAILS</div>
+        <div class="rc-item rc-ok">Max position size enforced</div>
+        <div class="rc-item rc-ok">Auto de-risk triggers active</div>
+        <div class="rc-item rc-ok">Human escalation above $500</div>
+        <div class="rc-item rc-ok">Cross-chain routing enabled</div>
+      </div>
+    </div>
+  </div>
+  <div class="fig-caption">Identity, reputation, and governance create the conditions for economic activity. Financial rails are how value moves.</div>
+</div>
+
+<style>
+  .fig-wrap {
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    background: #111;
+    padding: 24px;
+    margin: 2.5em 0;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .fig-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: #555;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .rails-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .rail {
+    background: #181818;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+    padding: 14px;
+  }
+  .rail.rail-green {
+    border-color: #2a4a2a;
+    background: #141a14;
+  }
+  .rail-num {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .rail-green .rail-num { color: #3a6a3a; }
+  .rail-title {
+    font-size: 14px;
+    color: #e0e0e0;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .rail-green .rail-title { color: #7aaa7a; }
+  .rail-sub {
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 14px;
+  }
+  .terminal {
+    background: #0d0d0d;
+    border: 1px solid #222;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+  .term-line { color: #777; }
+  .term-indent { padding-left: 12px; }
+  .term-p { color: #555; margin-right: 4px; }
+  .term-k { color: #9a9aaa; }
+  .term-s { color: #aaa87a; }
+  .term-n { color: #7aaaa0; }
+  .term-ok { color: #5a9a5a; }
+  .term-warn { color: #f0a500; }
+  .rail-stats {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .rs {
+    flex: 1;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 2px;
+    padding: 8px;
+    text-align: center;
+  }
+  .rs-val { font-size: 15px; color: #e0e0e0; font-weight: 500; }
+  .rs-lbl { font-size: 9px; color: #555; text-transform: uppercase; letter-spacing: 0.05em; }
+  .rail-note { font-size: 10px; color: #555; line-height: 1.5; }
+  .phases {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+  .phase {
+    flex: 1;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 4px;
+    border-radius: 2px;
+    letter-spacing: 0.04em;
+    line-height: 1.3;
+  }
+  .phase-done { background: #1a2a1a; color: #5a7a5a; border: 1px solid #2a3a2a; }
+  .phase-now { background: #1a3a1a; color: #7aaa7a; border: 1px solid #3a6a3a; }
+  .phase-next { background: #2a5a2a; color: #aaeaaa; border: 1px solid #5aaa5a; }
+  .risk-list {
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 2px;
+    padding: 10px;
+  }
+  .rc-label { font-size: 9px; color: #444; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; }
+  .rc-item { font-size: 10px; color: #5a9a5a; margin-bottom: 4px; }
+  .rc-item::before { content: "OK "; }
+  .fig-caption {
+    font-size: 11px;
+    color: #555;
+    margin-top: 16px;
+    text-align: center;
+    font-style: italic;
+  }
+  @media (max-width: 560px) {
+    .rails-grid { grid-template-columns: 1fr; }
+  }
+</style>

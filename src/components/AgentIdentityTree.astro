@@ -1,0 +1,145 @@
+---
+---
+<div class="fig-wrap">
+  <div class="fig-label">FIGURE 02 — AGENT IDENTITY HIERARCHY</div>
+  <div class="tree">
+    <div class="tree-row root">
+      <div class="node node--human">
+        <div class="node-type">HUMAN</div>
+        <div class="node-name">mattwright.eth</div>
+        <div class="node-meta">Principal · Full authority</div>
+      </div>
+    </div>
+    <div class="tree-connector"></div>
+    <div class="tree-row">
+      <div class="node node--company">
+        <div class="node-type">ORGANIZATION</div>
+        <div class="node-name">EVM Systems</div>
+        <div class="node-meta">Deploys agents · Sets boundaries</div>
+      </div>
+    </div>
+    <div class="tree-connector"></div>
+    <div class="tree-row multi">
+      <div class="node node--primary">
+        <div class="node-type">PRIMARY AGENT</div>
+        <div class="node-name">papi.evm</div>
+        <div class="node-meta">Read/write · Can delegate</div>
+        <div class="node-perm perm-ok">✓ Financial ops up to $500</div>
+        <div class="node-perm perm-ok">✓ GitHub write access</div>
+        <div class="node-perm perm-no">✗ Cannot mint keys</div>
+      </div>
+      <div class="node node--primary">
+        <div class="node-type">PRIMARY AGENT</div>
+        <div class="node-name">stu.evm</div>
+        <div class="node-meta">Inference · Local compute</div>
+        <div class="node-perm perm-ok">✓ GPU access</div>
+        <div class="node-perm perm-ok">✓ RAG pipelines</div>
+        <div class="node-perm perm-no">✗ No external wallets</div>
+      </div>
+    </div>
+    <div class="tree-connector"></div>
+    <div class="tree-row multi">
+      <div class="node node--sub">
+        <div class="node-type">SUB-AGENT</div>
+        <div class="node-name">task-0x4f2a</div>
+        <div class="node-meta">Ephemeral · Single task</div>
+        <div class="node-perm perm-ok">✓ Read project data</div>
+        <div class="node-perm perm-no">✗ No financial ops</div>
+      </div>
+      <div class="node node--sub">
+        <div class="node-type">SUB-AGENT</div>
+        <div class="node-name">task-0x7c19</div>
+        <div class="node-meta">Ephemeral · Single task</div>
+        <div class="node-perm perm-ok">✓ API calls only</div>
+        <div class="node-perm perm-no">✗ Isolated sandbox</div>
+      </div>
+      <div class="node node--sub">
+        <div class="node-type">EXTERNAL AGENT</div>
+        <div class="node-name">gpt-analyst.ai</div>
+        <div class="node-meta">Third-party · Attested</div>
+        <div class="node-perm perm-ok">✓ Read-only data</div>
+        <div class="node-perm perm-no">✗ No delegation</div>
+      </div>
+    </div>
+  </div>
+  <div class="fig-caption">Human identity is flat. Agent identity is a tree. Provenance is verifiable at every link.</div>
+</div>
+
+<style>
+  .fig-wrap {
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    background: #111;
+    padding: 24px;
+    margin: 2.5em 0;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .fig-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: #555;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .tree { display: flex; flex-direction: column; align-items: center; }
+  .tree-row { display: flex; gap: 10px; justify-content: center; width: 100%; }
+  .tree-row.root { justify-content: center; }
+  .tree-row.multi { justify-content: center; }
+  .tree-connector {
+    width: 1px;
+    height: 16px;
+    background: #333;
+    margin: 6px 0;
+  }
+  .node {
+    background: #181818;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+    padding: 12px 14px;
+    min-width: 160px;
+    max-width: 180px;
+  }
+  .node--human { border-color: #555; min-width: 200px; }
+  .node--company { border-color: #444; min-width: 200px; }
+  .node--primary { border-color: #2a4a2a; }
+  .node--sub { border-color: #2a2a2a; }
+  .node-type {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: #555;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  .node--human .node-type { color: #888; }
+  .node--primary .node-type { color: #5a9a5a; }
+  .node-name {
+    font-size: 13px;
+    color: #e0e0e0;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  .node-meta {
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+  .node-perm {
+    font-size: 9px;
+    margin-bottom: 3px;
+    line-height: 1.3;
+  }
+  .perm-ok { color: #5a9a5a; }
+  .perm-no { color: #7a3a3a; }
+  .fig-caption {
+    font-size: 11px;
+    color: #555;
+    margin-top: 16px;
+    text-align: center;
+    font-style: italic;
+  }
+  @media (max-width: 560px) {
+    .tree-row.multi { flex-direction: column; align-items: center; }
+    .node { min-width: 100%; max-width: 100%; }
+  }
+</style>
