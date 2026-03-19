@@ -1,191 +1,307 @@
 ---
 ---
-<div class="fig-wrap">
-  <div class="fig-label">FIGURE 05 &mdash; AGENTFI FINANCIAL RAILS</div>
+<div class="fig-outer">
+  <div class="fig-meta">FIGURE 05</div>
+  <h2 class="fig-title">Financial Rails: Three Layers</h2>
+  <p class="fig-sub">Your agent will have a wallet before a bank account</p>
+
   <div class="rails-grid">
-    <div class="rail">
-      <div class="rail-num">LAYER 01</div>
-      <div class="rail-title">PAYMENTS</div>
-      <div class="rail-sub">Protocol Layer</div>
-      <div class="terminal">
-        <div class="term-line"><span class="term-p">$</span> agent.call(api, &#123;</div>
-        <div class="term-line term-indent"><span class="term-k">payment</span>: <span class="term-s">"x402"</span>,</div>
-        <div class="term-line term-indent"><span class="term-k">amount</span>: <span class="term-n">0.001 USDC</span></div>
-        <div class="term-line">&#125;)</div>
-        <div class="term-line term-ok">OK 402 Payment Required &rarr; paid</div>
-        <div class="term-line term-ok">OK Response delivered in 120ms</div>
-      </div>
-      <div class="rail-stats">
-        <div class="rs"><div class="rs-val">75M+</div><div class="rs-lbl">Transactions</div></div>
-        <div class="rs"><div class="rs-val">$24M</div><div class="rs-lbl">Volume</div></div>
-      </div>
-      <div class="rail-note">Per-call payments across EVM and Solana. No accounts. No API keys.</div>
-    </div>
 
-    <div class="rail rail-green">
-      <div class="rail-num">LAYER 02</div>
-      <div class="rail-title">AGENTFI</div>
-      <div class="rail-sub">Self-Driving Money</div>
+    <div class="rail">
+      <div class="rail-label">LAYER 01</div>
+      <h3 class="rail-title">Payments</h3>
+      <p class="rail-desc">MoonPay Agent CLI &middot; The starting point</p>
       <div class="terminal">
-        <div class="term-line"><span class="term-p">&rsaquo;</span> perceive_market()</div>
-        <div class="term-line term-ok">&nbsp; USDC yield: 8.2% Aave</div>
-        <div class="term-line term-ok">&nbsp; ETH funding: -0.02% HL</div>
-        <div class="term-line"><span class="term-p">&rsaquo;</span> generate_strategy()</div>
-        <div class="term-line term-ok">&nbsp; Rebalance &rarr; stablecoin yield</div>
-        <div class="term-line"><span class="term-p">&rsaquo;</span> execute_onchain()</div>
-        <div class="term-line term-ok">&nbsp; 2 txs confirmed, no human</div>
+        <div class="term-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="term-name">terminal &mdash; mp</span></div>
+        <pre class="term-body"><span class="c"># Install MoonPay Agent CLI</span>
+<span class="p">$</span> npm install -g @moonpay/cli
+<span class="c"># Create HD wallet (Solana + EVM + BTC)</span>
+<span class="p">$</span> mp wallet create --name agent-main
+<span class="ok">✓ Wallet created: agent-main</span>
+  Solana: 7xKKt...9mPq
+  Ethereum: 0x3f8a...c2d1
+  Base: 0x3f8a...c2d1
+  Bitcoin: bc1qxy...w4p2
+<span class="c"># Agent swaps tokens autonomously</span>
+<span class="p">$</span> mp token swap \
+  --wallet agent-main \
+  --chain solana \
+  --from-token USDC \
+  --to-token SOL \
+  --from-amount 50
+<span class="ok">✓ Swap executed: 50 USDC &rarr; 0.31 SOL</span>
+<span class="c"># x402 micropayment for API access</span>
+<span class="p">$</span> mp x402 request \
+  --url api.data-provider.xyz/v1
+<span class="ok">✓ Payment: 0.001 USDC &middot; HTTP 200</span>
+<span class="c"># Start MCP server for Claude/Cursor</span>
+<span class="p">$</span> mp mcp
+  MCP server running on stdio...</pre>
       </div>
-      <div class="phases">
-        <div class="phase phase-done">Automation</div>
-        <div class="phase phase-now">Intent Copilots</div>
-        <div class="phase phase-next">True AgentFi</div>
-      </div>
-      <div class="rail-note">DeFi gave humans finance without banks. AgentFi gives agents finance without humans.</div>
     </div>
 
     <div class="rail">
-      <div class="rail-num">LAYER 03</div>
-      <div class="rail-title">TRADFI BRIDGE</div>
-      <div class="rail-sub">Intent Resolution</div>
+      <div class="rail-label">LAYER 02</div>
+      <h3 class="rail-title">AgentFi</h3>
+      <p class="rail-desc">Epoch Protocol SDK &middot; Self-driving money</p>
       <div class="terminal">
-        <div class="term-line"><span class="term-p">&rsaquo;</span> intent: <span class="term-s">"8% yield, low risk"</span></div>
-        <div class="term-line"><span class="term-p">&rsaquo;</span> resolving...</div>
-        <div class="term-line term-ok">&nbsp; DeFi: Aave USDC 6.2%</div>
-        <div class="term-line term-ok">&nbsp; TradFi: T-bill 4.8%</div>
-        <div class="term-line term-ok">&nbsp; Blended: 8.1% LOW RISK</div>
-        <div class="term-line term-warn">! Position above $500 &rarr; escalate</div>
-        <div class="term-line term-ok">&nbsp; Human confirmed, execute</div>
-      </div>
-      <div class="risk-list">
-        <div class="rc-label">RISK GUARDRAILS</div>
-        <div class="rc-item rc-ok">Max position size enforced</div>
-        <div class="rc-item rc-ok">Auto de-risk triggers active</div>
-        <div class="rc-item rc-ok">Human escalation above $500</div>
-        <div class="rc-item rc-ok">Cross-chain routing enabled</div>
+        <div class="term-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="term-name">agent-strategy.ts</span></div>
+        <pre class="term-body"><span class="c">// Epoch Protocol: Intent-based AgentFi</span>
+<span class="c">// Agent expresses WHAT, protocol handles HOW</span>
+<span class="kw">import</span> &#123; SimpleAccountAPI, HttpRpcClient &#125;
+  <span class="kw">from</span> <span class="s">"@epoch-protocol/sdk"</span>;
+
+<span class="c">// 1. Agent creates smart account</span>
+<span class="kw">const</span> wallet = <span class="kw">new</span> SimpleAccountAPI(&#123;
+  provider,
+  entryPointAddress,
+  owner: agentSigner,
+  factoryAddress
+&#125;);
+
+<span class="c">// 2. Express intent (not transaction)</span>
+<span class="kw">const</span> intent = &#123;
+  action: <span class="s">"rebalance_yield"</span>,
+  targets: [<span class="s">"pendle"</span>, <span class="s">"aave"</span>, <span class="s">"morpho"</span>],
+  constraints: &#123;
+    maxSlippage: 0.005,
+    minAPY: 0.08,
+    riskBudget: 0.15
+  &#125;
+&#125;;
+
+<span class="c">// 3. Solvers compete for best execution</span>
+<span class="kw">const</span> userOp = <span class="kw">await</span> wallet
+  .createSignedUserOp(&#123;
+    target: epochRouter,
+    data: encodeIntent(intent)
+  &#125;);
+
+<span class="c">// 4. Submit to bundler network</span>
+<span class="kw">await</span> bundler.sendUserOpToBundler(userOp);
+<span class="c">// Result: optimal execution across</span>
+<span class="c">// multiple protocols and chains</span>
+<span class="ok">// ✓ Rebalanced: 12.4% APY achieved</span></pre>
       </div>
     </div>
+
+    <div class="rail rail-light">
+      <div class="rail-label">LAYER 03</div>
+      <h3 class="rail-title">TradFi Bridge</h3>
+      <p class="rail-desc">Governance Dashboard &middot; The intelligent middle layer</p>
+
+      <div class="alert-box">
+        <div class="alert-header">
+          <span class="alert-icon">&#9888;</span>
+          <strong>Risk Escalation</strong>
+          <span class="alert-time">2 min ago</span>
+        </div>
+        <p class="alert-body">yield-agent-03 requesting approval to increase ETH/USDC position beyond $10K governance limit. Current exposure: $9,847. Requested: $15,000.</p>
+        <p class="alert-meta">Agent Rep: 0.94 &middot; Success Rate: 98.2% &middot; Active 47 days</p>
+        <div class="alert-actions">
+          <button class="btn btn-approve">&#10003; Approve</button>
+          <button class="btn btn-deny">&#10005; Deny</button>
+          <button class="btn btn-adjust">Adjust Limit</button>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-label">PORTFOLIO VALUE</div>
+          <div class="stat-val">$142.8K</div>
+          <div class="stat-change pos">+3.2%</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">DAILY PNL</div>
+          <div class="stat-val">+$847</div>
+          <div class="stat-change pos">+0.59%</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">RISK SCORE</div>
+          <div class="stat-val">0.34</div>
+          <div class="stat-change">Low</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">AGENT DECISIONS</div>
+          <div class="stat-val">2,847</div>
+          <div class="stat-change">12 escalated</div>
+        </div>
+      </div>
+
+      <div class="gov-log-label">GOVERNANCE LOG</div>
+      <div class="gov-log">
+        <div class="log-row"><span class="log-time">14:32 UTC</span><span class="log-type auto">AUTO</span><span class="log-text">De-risk trigger fired on AVAX. Reduced 30%.</span></div>
+        <div class="log-row"><span class="log-time">14:18 UTC</span><span class="log-type auto">AUTO</span><span class="log-text">x402 bulk settlement: 47 payments, $3.21 total.</span></div>
+        <div class="log-row"><span class="log-time">13:55 UTC</span><span class="log-type human">HUMAN</span><span class="log-text">Approved new external agent collaboration.</span></div>
+        <div class="log-row"><span class="log-time">13:22 UTC</span><span class="log-type auto">AUTO</span><span class="log-text">Rebalanced yield across Pendle + Aave.</span></div>
+        <div class="log-row"><span class="log-time">12:47 UTC</span><span class="log-type human">HUMAN</span><span class="log-text">Updated max position limit: $8K &rarr; $10K.</span></div>
+      </div>
+    </div>
+
   </div>
-  <div class="fig-caption">Identity, reputation, and governance create the conditions for economic activity. Financial rails are how value moves.</div>
+  <p class="fig-caption">Agents access DeFi for composability and speed. TradFi for depth and compliance. Intents bridge both worlds.</p>
 </div>
 
 <style>
-  .fig-wrap {
-    border: 1px solid #2a2a2a;
-    border-radius: 4px;
-    background: #111;
-    padding: 24px;
+  .fig-outer {
     margin: 2.5em 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
   }
-  .fig-label {
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    color: #555;
-    margin-bottom: 20px;
+  .fig-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #999;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .fig-title {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 4px 0;
+    letter-spacing: -0.02em;
+  }
+  .fig-sub {
+    font-size: 14px;
+    color: #888;
+    margin: 0 0 24px 0;
   }
   .rails-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    gap: 16px;
+    margin-bottom: 16px;
   }
   .rail {
-    background: #181818;
-    border: 1px solid #2a2a2a;
-    border-radius: 3px;
-    padding: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 16px;
+    background: #fff;
   }
-  .rail.rail-green {
-    border-color: #2a4a2a;
-    background: #141a14;
-  }
-  .rail-num {
-    font-size: 9px;
-    letter-spacing: 0.1em;
-    color: #444;
+  .rail-light { background: #fafafa; }
+  .rail-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: #aaa;
     text-transform: uppercase;
     margin-bottom: 4px;
   }
-  .rail-green .rail-num { color: #3a6a3a; }
   .rail-title {
-    font-size: 14px;
-    color: #e0e0e0;
-    font-weight: 500;
-    margin-bottom: 2px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 2px 0;
   }
-  .rail-green .rail-title { color: #7aaa7a; }
-  .rail-sub {
-    font-size: 10px;
-    color: #555;
-    margin-bottom: 14px;
+  .rail-desc {
+    font-size: 12px;
+    color: #aaa;
+    margin: 0 0 12px 0;
   }
   .terminal {
-    background: #0d0d0d;
-    border: 1px solid #222;
-    border-radius: 3px;
+    background: #1a1a1a;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 11px;
+  }
+  .term-bar {
+    background: #2a2a2a;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot.r { background: #ff5f57; }
+  .dot.y { background: #febc2e; }
+  .dot.g { background: #28c840; }
+  .term-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #888;
+    margin-left: 4px;
+  }
+  .term-body {
+    padding: 12px 14px;
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    line-height: 1.65;
+    color: #ccc;
+    white-space: pre;
+    overflow-x: auto;
+  }
+  .term-body .c { color: #6a9a6a; }
+  .term-body .p { color: #e0e0e0; font-weight: bold; }
+  .term-body .ok { color: #7acf7a; }
+  .term-body .kw { color: #c07ab8; }
+  .term-body .s { color: #a0c8a0; }
+  /* Alert box */
+  .alert-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
     padding: 12px;
     margin-bottom: 12px;
-    font-size: 10px;
-    line-height: 1.6;
+    background: #fff;
   }
-  .term-line { color: #777; }
-  .term-indent { padding-left: 12px; }
-  .term-p { color: #555; margin-right: 4px; }
-  .term-k { color: #9a9aaa; }
-  .term-s { color: #aaa87a; }
-  .term-n { color: #7aaaa0; }
-  .term-ok { color: #5a9a5a; }
-  .term-warn { color: #f0a500; }
-  .rail-stats {
+  .alert-header {
     display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+  .alert-icon { font-size: 14px; color: #f0a500; }
+  .alert-header strong { font-size: 13px; font-weight: 600; color: #111; flex: 1; }
+  .alert-time { font-size: 11px; color: #aaa; font-family: 'IBM Plex Mono', monospace; }
+  .alert-body { font-size: 12px; color: #555; margin: 0 0 4px 0; line-height: 1.4; }
+  .alert-meta { font-size: 11px; color: #aaa; margin: 0 0 10px 0; font-family: 'IBM Plex Mono', monospace; }
+  .alert-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+  .btn {
+    font-size: 11px;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    cursor: default;
+    background: #fff;
+    color: #333;
+  }
+  .btn-approve { border-color: #2a5a2a; color: #2a5a2a; }
+  .btn-deny { border-color: #8a2a2a; color: #8a2a2a; }
+  /* Stats */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
-  .rs {
-    flex: 1;
-    background: #111;
-    border: 1px solid #222;
-    border-radius: 2px;
-    padding: 8px;
-    text-align: center;
-  }
-  .rs-val { font-size: 15px; color: #e0e0e0; font-weight: 500; }
-  .rs-lbl { font-size: 9px; color: #555; text-transform: uppercase; letter-spacing: 0.05em; }
-  .rail-note { font-size: 10px; color: #555; line-height: 1.5; }
-  .phases {
-    display: flex;
-    gap: 4px;
-    margin-bottom: 10px;
-  }
-  .phase {
-    flex: 1;
-    font-size: 9px;
-    text-align: center;
-    padding: 5px 4px;
-    border-radius: 2px;
-    letter-spacing: 0.04em;
-    line-height: 1.3;
-  }
-  .phase-done { background: #1a2a1a; color: #5a7a5a; border: 1px solid #2a3a2a; }
-  .phase-now { background: #1a3a1a; color: #7aaa7a; border: 1px solid #3a6a3a; }
-  .phase-next { background: #2a5a2a; color: #aaeaaa; border: 1px solid #5aaa5a; }
-  .risk-list {
-    background: #111;
-    border: 1px solid #222;
-    border-radius: 2px;
+  .stat-box {
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
     padding: 10px;
   }
-  .rc-label { font-size: 9px; color: #444; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; }
-  .rc-item { font-size: 10px; color: #5a9a5a; margin-bottom: 4px; }
-  .rc-item::before { content: "OK "; }
-  .fig-caption {
-    font-size: 11px;
-    color: #555;
-    margin-top: 16px;
-    text-align: center;
-    font-style: italic;
-  }
-  @media (max-width: 560px) {
+  .stat-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: #aaa; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+  .stat-val { font-size: 18px; font-weight: 600; color: #111; margin-bottom: 2px; }
+  .stat-change { font-size: 11px; color: #888; }
+  .stat-change.pos { color: #2a8a2a; }
+  /* Governance log */
+  .gov-log-label { font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: #aaa; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; }
+  .gov-log { display: flex; flex-direction: column; gap: 6px; }
+  .log-row { display: flex; align-items: flex-start; gap: 8px; font-size: 11px; }
+  .log-time { font-family: 'IBM Plex Mono', monospace; color: #aaa; white-space: nowrap; min-width: 60px; }
+  .log-type { font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.04em; padding: 1px 5px; border-radius: 2px; white-space: nowrap; }
+  .log-type.auto { background: #e8f0e8; color: #2a6a2a; }
+  .log-type.human { background: #e8e8f8; color: #2a2a8a; }
+  .log-text { color: #555; line-height: 1.4; }
+  .fig-caption { font-size: 12px; color: #aaa; text-align: center; font-style: italic; margin-top: 12px; }
+  @media (max-width: 600px) {
     .rails-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
   }
 </style>
