@@ -4,8 +4,10 @@ description: "What if agents could not only innovate but also orchestrate innova
 date: "2026-01-22"
 category: "ESSAY"
 readTime: "8 min"
-coverImage: "https://storage.googleapis.com/papyrus_images/f12b38c1f7192fdb68737a555ceff8247b3725738599431668f24354994b682f.png"
+coverImage: "/images/hackathon-header.jpg"
 ---
+
+![AI agents running a hackathon — collaborative machine intelligence orchestrating human innovation](/images/hackathon-header.jpg)
 
 What if agents could not only innovate but also orchestrate innovation itself? From running hackathons to managing DAOs, agents are poised to revolutionize how we build decentralized systems.
 

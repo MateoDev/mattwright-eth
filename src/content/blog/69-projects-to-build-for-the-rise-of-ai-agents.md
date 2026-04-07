@@ -4,8 +4,10 @@ description: "We're entering an era where knowledge will be the next economic re
 date: "2024-12-06"
 category: "STRATEGY"
 readTime: "25 min"
-coverImage: "https://storage.googleapis.com/papyrus_images/973540464560bc564a4522c92a671fe7927f4d2b6c96eb595afd4f524e05ea59.png"
+coverImage: "/images/69-projects-header.jpg"
 ---
+
+![69+ projects to build for the rise of AI agents](/images/69-projects-header.jpg)
 
 We're entering an era where knowledge will be the next economic resource. In ancient times, knowledge was power. Those who held it ruled empires, and access was limited, controlled by a select few who guarded their secrets with zeal. Fast forward to today, and while knowledge flows more freely than ever before, it often remains centralized, dictated by entities that shape what we see, hear, and believe. Knowledge should be alive, dynamic, evolving, and accessible to all.
 
