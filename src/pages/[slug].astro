@@ -23,7 +23,10 @@ function formatDate(dateStr: string) {
 <Base title={`${post.data.title} — Matt Wright`} description={post.data.description}>
   <div class="post-nav">
     <a href="/" class="back-link">← Writing</a>
-    <span class="post-cat-label">{post.data.category}</span>
+    <div style="display:flex;align-items:center;gap:12px">
+      <span class="post-cat-label">{post.data.category}</span>
+      <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">dark</button>
+    </div>
   </div>
 
   <div class="post-header">
@@ -59,15 +62,15 @@ function formatDate(dateStr: string) {
     letter-spacing: 0.02em;
   }
 
-  .back-link:hover { color: #1a1a1a; }
+  .back-link:hover { color: var(--ink); opacity: 1; }
 
   .post-cat-label {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: #bbb;
-    border: 1px solid #e0e0e0;
+    color: var(--muted);
+    border: 1px solid var(--faint);
     padding: 3px 8px;
     border-radius: 2px;
   }
@@ -75,7 +78,7 @@ function formatDate(dateStr: string) {
   .post-header {
     margin-bottom: 40px;
     padding-bottom: 24px;
-    border-bottom: 2px solid #1a1a1a;
+    border-bottom: 2px solid var(--ink);
   }
 
   h1 {
@@ -84,27 +87,27 @@ function formatDate(dateStr: string) {
     letter-spacing: -0.03em;
     line-height: 1.2;
     margin-bottom: 12px;
-    color: #1a1a1a;
+    color: var(--ink);
   }
 
   .post-meta {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
-    color: #999;
+    color: var(--muted);
     letter-spacing: 0.02em;
   }
 
   .post-footer {
     margin-top: 60px;
     padding-top: 24px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--faint);
   }
 
   /* Prose styles */
   .markdown-body {
     font-size: 17px;
     line-height: 1.85;
-    color: #1a1a1a;
+    color: var(--ink);
   }
 
   .markdown-body :global(h2) {
@@ -113,7 +116,7 @@ function formatDate(dateStr: string) {
     letter-spacing: -0.02em;
     margin-top: 2.5em;
     margin-bottom: 0.6em;
-    color: #1a1a1a;
+    color: var(--ink);
   }
 
   .markdown-body :global(h3) {
@@ -121,7 +124,7 @@ function formatDate(dateStr: string) {
     font-weight: 600;
     margin-top: 2em;
     margin-bottom: 0.5em;
-    color: #1a1a1a;
+    color: var(--ink);
   }
 
   .markdown-body :global(p) {
@@ -129,14 +132,15 @@ function formatDate(dateStr: string) {
   }
 
   .markdown-body :global(a) {
-    color: #1a1a1a;
+    color: var(--ink);
     text-decoration: underline;
     text-underline-offset: 3px;
+    text-decoration-color: var(--faint);
   }
 
   .markdown-body :global(a:hover) {
-    color: #000;
-    text-decoration: none;
+    text-decoration-color: var(--ink);
+    opacity: 1;
   }
 
   .markdown-body :global(strong) {
@@ -148,10 +152,10 @@ function formatDate(dateStr: string) {
   }
 
   .markdown-body :global(blockquote) {
-    border-left: 3px solid #ddd;
+    border-left: 3px solid var(--faint);
     padding-left: 1.2em;
     margin: 1.8em 0;
-    color: #555;
+    color: var(--muted);
     font-style: italic;
   }
 
@@ -168,11 +172,10 @@ function formatDate(dateStr: string) {
 
   .markdown-body :global(hr) {
     border: none;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid var(--faint);
     margin: 2.5em 0;
   }
 
-  /* Image handling — the key fix */
   .markdown-body :global(img) {
     max-width: 100%;
     width: 100%;
@@ -181,35 +184,20 @@ function formatDate(dateStr: string) {
     object-fit: cover;
     display: block;
     margin: 2em auto;
-    border-radius: 4px;
   }
 
-  /* Caption (em directly after img) */
-  .markdown-body :global(p:has(img) + p > em:only-child),
-  .markdown-body :global(p > em:first-child:last-child) {
-    display: block;
-    font-size: 13px;
-    color: #888;
-    text-align: center;
-    margin-top: -1.2em;
-    margin-bottom: 2em;
-    font-style: normal;
-  }
-
-  /* Code */
   .markdown-body :global(code) {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.875em;
-    background: #f5f5f5;
+    background: var(--faint);
     padding: 2px 5px;
-    border-radius: 3px;
+    border-radius: 2px;
   }
 
   .markdown-body :global(pre) {
-    background: #1a1a1a;
-    color: #e8e8e8;
+    background: var(--ink);
+    color: var(--bg);
     padding: 20px;
-    border-radius: 4px;
     overflow-x: auto;
     margin: 1.5em 0;
   }
@@ -218,6 +206,26 @@ function formatDate(dateStr: string) {
     background: none;
     padding: 0;
     font-size: 14px;
+  }
+
+  /* Table */
+  .markdown-body :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 2em 0;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .markdown-body :global(th),
+  .markdown-body :global(td) {
+    border: 1px solid var(--faint);
+    padding: 8px 12px;
+    text-align: left;
+    color: var(--ink);
+  }
+  .markdown-body :global(th) {
+    background: var(--faint);
+    font-weight: 600;
   }
 
   @media (max-width: 600px) {

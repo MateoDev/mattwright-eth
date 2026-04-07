@@ -19,11 +19,14 @@ function formatDate(dateStr: string) {
   <div class="site-header">
     <div class="site-nav">
       <strong>Matt Wright</strong>
-      <span class="nav-links">
-        <a href="/about">about</a>
-        <a href="https://x.com/mateo_ventures" target="_blank">twitter</a>
-        <a href="https://github.com/MateoDev" target="_blank">github</a>
-      </span>
+      <div class="nav-right">
+        <span class="nav-links">
+          <a href="/about">about</a>
+          <a href="https://x.com/mateo_ventures" target="_blank">twitter</a>
+          <a href="https://github.com/MateoDev" target="_blank">github</a>
+        </span>
+        <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">dark</button>
+      </div>
     </div>
     <p class="site-bio">
       Building infrastructure for the agentic economy. Co-founder at EVM Systems &amp; Gaia. 
@@ -81,18 +84,19 @@ function formatDate(dateStr: string) {
   }
 
   .nav-links a {
-    color: #888;
+    color: var(--muted);
     text-decoration: none;
   }
 
   .nav-links a:hover {
-    color: #1a1a1a;
+    color: var(--ink);
+    opacity: 1;
   }
 
   .site-bio {
     font-size: 14px;
     line-height: 1.6;
-    color: #555;
+    color: var(--muted);
     margin: 0;
     max-width: 540px;
   }
@@ -103,7 +107,7 @@ function formatDate(dateStr: string) {
     flex-wrap: wrap;
     margin-bottom: 28px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--faint);
   }
 
   .cat-btn {
@@ -112,9 +116,9 @@ function formatDate(dateStr: string) {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     padding: 5px 10px;
-    border: 1px solid #1a1a1a;
-    background: #fff;
-    color: #1a1a1a;
+    border: 1px solid var(--ink);
+    background: var(--bg);
+    color: var(--ink);
     cursor: pointer;
     transition: all 0.15s ease;
     border-radius: 2px;
@@ -122,8 +126,8 @@ function formatDate(dateStr: string) {
 
   .cat-btn:hover,
   .cat-btn.active {
-    background: #1a1a1a;
-    color: #fff;
+    background: var(--ink);
+    color: var(--bg);
   }
 
   .post-entry {
@@ -133,7 +137,7 @@ function formatDate(dateStr: string) {
     gap: 12px;
     margin-bottom: 14px;
     padding-bottom: 14px;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid var(--faint);
   }
 
   .post-entry:last-child {
@@ -143,29 +147,29 @@ function formatDate(dateStr: string) {
   .post-date {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11px;
-    color: #999;
+    color: var(--muted);
     white-space: nowrap;
   }
 
   .post-title {
     font-size: 15px;
     font-weight: 500;
-    color: #1a1a1a;
+    color: var(--ink);
     text-decoration: none;
     letter-spacing: -0.01em;
     line-height: 1.4;
   }
 
   .post-title:hover {
-    color: #000;
     text-decoration: underline;
     text-underline-offset: 3px;
+    opacity: 0.65;
   }
 
   .post-cat {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 10px;
-    color: #bbb;
+    color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     white-space: nowrap;
