@@ -11,6 +11,8 @@ const blog = defineCollection({
     readTime: z.string().optional(),
     forum_url: z.string().optional(),
     forum_name: z.string().optional(),
+    excerpt: z.boolean().optional(),
+    chapter: z.string().optional(),
   }),
 });
 

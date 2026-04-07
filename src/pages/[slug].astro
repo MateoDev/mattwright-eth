@@ -27,10 +27,14 @@ function formatDate(dateStr: string) {
   </div>
 
   <div class="post-header">
+    {post.data.chapter && (
+      <div class="chapter-label">{post.data.chapter}</div>
+    )}
     <h1>{post.data.title}</h1>
     <div class="post-meta">
       {formatDate(post.data.date)}
       {post.data.readTime && <span> · {post.data.readTime} read</span>}
+      {post.data.excerpt && <span> · excerpt</span>}
     </div>
   </div>
 
@@ -78,6 +82,22 @@ function formatDate(dateStr: string) {
   }
 
   .back-link:hover { color: var(--ink); opacity: 1; }
+
+  /* Chapter label for fiction */
+  .chapter-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  /* Fiction prose — slightly more generous line height */
+  :global(.markdown-body .fiction-prose) {
+    font-size: 18px;
+    line-height: 2;
+  }
 
   /* Forum cross-post callout */
   .forum-callout {
