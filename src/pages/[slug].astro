@@ -34,9 +34,27 @@ function formatDate(dateStr: string) {
     </div>
   </div>
 
+  {post.data.forum_url && (
+    <div class="forum-callout">
+      <span class="forum-callout-label">// cross-posted</span>
+      <a href={post.data.forum_url} target="_blank" rel="noopener noreferrer">
+        Originally posted on {post.data.forum_name || 'Forum'} →
+      </a>
+    </div>
+  )}
+
   <div class="markdown-body">
     <Content />
   </div>
+
+  {post.data.forum_url && (
+    <div class="forum-callout forum-callout-bottom">
+      <span class="forum-callout-label">// discuss</span>
+      <a href={post.data.forum_url} target="_blank" rel="noopener noreferrer">
+        Join the discussion on {post.data.forum_name || 'Forum'} →
+      </a>
+    </div>
+  )}
 
   <div class="post-footer">
     <a href="/" class="back-link">← Back to writing</a>
@@ -60,6 +78,41 @@ function formatDate(dateStr: string) {
   }
 
   .back-link:hover { color: var(--ink); opacity: 1; }
+
+  /* Forum cross-post callout */
+  .forum-callout {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    border: 1px solid var(--faint);
+    border-left: 2px solid var(--ink);
+    padding: 10px 14px;
+    margin-bottom: 32px;
+    color: var(--muted);
+  }
+  .forum-callout-bottom {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .forum-callout-label {
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+  .forum-callout a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--faint);
+  }
+  .forum-callout a:hover {
+    text-decoration-color: var(--ink);
+    opacity: 1;
+  }
 
   .post-cat-label {
     font-family: 'IBM Plex Mono', monospace;

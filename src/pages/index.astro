@@ -50,7 +50,10 @@ function formatDate(dateStr: string) {
       <div class="post-entry" data-category={post.data.category || 'Uncategorized'}>
         <span class="post-date">{formatDate(post.data.date)}</span>
         <a href={`/${post.id}`} class="post-title">{post.data.title}</a>
-        {post.data.category && <span class="post-cat">{post.data.category}</span>}
+        <span class="post-cat">
+          {post.data.category}
+          {post.data.forum_url && <span class="forum-dot" title="Cross-posted to forum"> ↗</span>}
+        </span>
       </div>
     ))}
   </div>
@@ -170,6 +173,11 @@ function formatDate(dateStr: string) {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     white-space: nowrap;
+  }
+  .forum-dot {
+    color: var(--ink);
+    font-style: normal;
+    font-size: 11px;
   }
 
   @media (max-width: 500px) {

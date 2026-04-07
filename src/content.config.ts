@@ -9,6 +9,8 @@ const blog = defineCollection({
     date: z.string(),
     category: z.string().optional(),
     readTime: z.string().optional(),
+    forum_url: z.string().optional(),
+    forum_name: z.string().optional(),
   }),
 });
 
