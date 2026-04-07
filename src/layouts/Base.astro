@@ -45,20 +45,24 @@ const {
         --bg: #141414;
       }
 
-      /* Dark mode pill toggle */
+      /* Dark mode pill toggle — fixed top-right */
       .theme-toggle {
-        position: relative;
+        position: fixed;
+        top: 16px;
+        right: 20px;
+        z-index: 100;
         display: inline-flex;
         align-items: center;
         width: 56px;
         height: 28px;
-        background: #888;
+        background: #999;
         border-radius: 14px;
         border: none;
         cursor: pointer;
         padding: 0;
         transition: background 0.2s;
         flex-shrink: 0;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.15);
       }
       html[data-theme="dark"] .theme-toggle {
         background: #555;
@@ -79,7 +83,6 @@ const {
       html[data-theme="dark"] .theme-toggle::after {
         transform: translateX(28px);
       }
-      /* Moon icon (left side) */
       .theme-toggle .icon-moon,
       .theme-toggle .icon-sun {
         position: absolute;
@@ -87,16 +90,10 @@ const {
         height: 14px;
         pointer-events: none;
       }
-      .theme-toggle .icon-moon {
-        left: 6px;
-        opacity: 1;
-      }
-      .theme-toggle .icon-sun {
-        right: 6px;
-        opacity: 1;
-      }
-      html[data-theme="dark"] .theme-toggle .icon-moon { opacity: 0.5; }
-      html:not([data-theme="dark"]) .theme-toggle .icon-sun { opacity: 0.5; }
+      .theme-toggle .icon-moon { left: 6px; }
+      .theme-toggle .icon-sun  { right: 6px; }
+      html[data-theme="dark"] .theme-toggle .icon-moon { opacity: 0.45; }
+      html:not([data-theme="dark"]) .theme-toggle .icon-sun { opacity: 0.45; }
 
       html { font-size: 16px; }
 
@@ -368,20 +365,72 @@ const {
         border-top: 1px solid var(--faint);
       }
 
+      /* ── TABLES (condensed, scrollable) ────── */
+      .markdown-body table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-collapse: collapse;
+        font-family: var(--mono);
+        font-size: 11px;
+        line-height: 1.4;
+        margin: 2em 0;
+        color: var(--ink);
+      }
+      .markdown-body th,
+      .markdown-body td {
+        border: 1px solid var(--faint);
+        padding: 5px 8px;
+        text-align: left;
+        white-space: nowrap;
+      }
+      .markdown-body th {
+        background: var(--faint);
+        font-weight: 500;
+        font-size: 10px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .markdown-body tr:nth-child(even) td {
+        background: color-mix(in srgb, var(--faint) 40%, var(--bg));
+      }
+
       /* ── MOBILE ──────────────────────────── */
       @media (max-width: 560px) {
-        body { margin: 24px auto; padding: 0 18px; }
+        body { margin: 20px auto; padding: 0 16px; }
         .post-entry { grid-template-columns: 1fr; gap: 3px; }
         .post-date { display: none; }
         .post-cat-tag { display: none; }
         .site-nav { flex-direction: column; gap: 10px; }
-        .post-header h1 { font-size: 1.3em; }
-        .markdown-body { font-size: 16px; }
-        .markdown-body img { max-height: 260px; }
+        .nav-right { flex-direction: row; gap: 12px; }
+        .post-header h1 { font-size: 1.25em; }
+        .markdown-body { font-size: 16px; line-height: 1.75; }
+        .markdown-body img { max-height: 220px; }
+        .markdown-body h2 { font-size: 0.95em; }
+        .markdown-body table { font-size: 10px; }
+        .markdown-body th,
+        .markdown-body td { padding: 4px 6px; }
       }
     </style>
   </head>
   <body>
+    <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="4"/>
+        <line x1="12" y1="2" x2="12" y2="4"/>
+        <line x1="12" y1="20" x2="12" y2="22"/>
+        <line x1="2" y1="12" x2="4" y2="12"/>
+        <line x1="20" y1="12" x2="22" y2="12"/>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+    </button>
     <div id="doc">
       <slot />
     </div>
@@ -405,14 +454,7 @@ const {
         updateToggleLabel();
       }
 
-      function updateToggleLabel() {
-        const btn = document.getElementById('theme-toggle');
-        if (!btn) return;
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        btn.textContent = isDark ? 'light' : 'dark';
-      }
-
-      document.addEventListener('DOMContentLoaded', updateToggleLabel);
+      // no label to update — icon-only toggle
     </script>
   </body>
 </html>
