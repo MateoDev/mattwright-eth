@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 460" width="750" height="460">
+  <text x="375" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">THE AGENTIC BAZAAR</text>
+  <text x="375" y="46" text-anchor="middle" font-size="10" fill="#888" font-family="Helvetica,Arial,sans-serif">A composable marketplace of resources, tools, context, and knowledge at machine speed</text>
+
+  <circle cx="375" cy="220" r="35" stroke="#111" stroke-width="2.5" fill="none"/>
+  <text x="375" y="216" text-anchor="middle" font-size="10" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">PRIMARY</text>
+  <text x="375" y="230" text-anchor="middle" font-size="10" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">AGENT</text>
+
+  <rect x="80" y="75" width="130" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="145" y="98" text-anchor="middle" font-size="11" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">COMPUTE</text>
+  <text x="145" y="112" text-anchor="middle" font-size="9" fill="#666" font-family="Helvetica,Arial,sans-serif">GPU / Cloud / Edge</text>
+  <line x1="210" y1="108" x2="345" y2="198" stroke="#111" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <rect x="530" y="75" width="130" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="595" y="98" text-anchor="middle" font-size="11" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">MODELS</text>
+  <text x="595" y="112" text-anchor="middle" font-size="9" fill="#666" font-family="Helvetica,Arial,sans-serif">Open / Frontier / Fine-tuned</text>
+  <line x1="530" y1="108" x2="405" y2="198" stroke="#111" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <rect x="50" y="195" width="130" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="115" y="218" text-anchor="middle" font-size="11" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">CONTEXT</text>
+  <text x="115" y="232" text-anchor="middle" font-size="9" fill="#666" font-family="Helvetica,Arial,sans-serif">RAG / VectorDB / KBs</text>
+  <line x1="180" y1="220" x2="340" y2="220" stroke="#111" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <rect x="560" y="195" width="130" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="625" y="218" text-anchor="middle" font-size="11" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">TOOLS</text>
+  <text x="625" y="232" text-anchor="middle" font-size="9" fill="#666" font-family="Helvetica,Arial,sans-serif">MCP / APIs / Services</text>
+  <line x1="560" y1="220" x2="410" y2="220" stroke="#111" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <rect x="80" y="315" width="130" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="145" y="338" text-anchor="middle" font-size="11" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">OTHER AGENTS</text>
+  <text x="145" y="352" text-anchor="middle" font-size="9" fill="#666" font-family="Helvetica,Arial,sans-serif">A2A / Delegation</text>
+  <line x1="210" y1="335" x2="348" y2="248" stroke="#111" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <rect x="530" y="315" width="130" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="595" y="338" text-anchor="middle" font-size="11" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">FINANCIAL RAILS</text>
+  <text x="595" y="352" text-anchor="middle" font-size="9" fill="#666" font-family="Helvetica,Arial,sans-serif">x402 / DeFi / AgentFi</text>
+  <line x1="530" y1="335" x2="402" y2="248" stroke="#111" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <rect x="285" y="305" width="180" height="50" rx="6" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="375" y="328" text-anchor="middle" font-size="11" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">DISCOVERY ENGINE</text>
+  <text x="375" y="344" text-anchor="middle" font-size="9" fill="#666" font-family="Helvetica,Arial,sans-serif">Reputation / Pricing / Rankings</text>
+  <line x1="375" y1="255" x2="375" y2="305" stroke="#111" stroke-width="1.5"/>
+  <polygon points="370,303 375,311 380,303" fill="#111"/>
+
+  <text x="268" y="150" text-anchor="middle" font-size="10" fill="#bbb" font-family="Helvetica,Arial,sans-serif">$</text>
+  <text x="475" y="150" text-anchor="middle" font-size="10" fill="#bbb" font-family="Helvetica,Arial,sans-serif">$</text>
+  <text x="255" y="215" text-anchor="middle" font-size="10" fill="#bbb" font-family="Helvetica,Arial,sans-serif">$</text>
+  <text x="492" y="215" text-anchor="middle" font-size="10" fill="#bbb" font-family="Helvetica,Arial,sans-serif">$</text>
+
+  <text x="375" y="410" text-anchor="middle" font-size="10" fill="#888" font-style="italic" font-family="Helvetica,Arial,sans-serif">Every connection is a transaction. Every resource is composable.</text>
+  <text x="375" y="425" text-anchor="middle" font-size="10" fill="#888" font-style="italic" font-family="Helvetica,Arial,sans-serif">The agent selects optimal resources for each micro-task in real-time.</text>
+
+  <circle cx="40" cy="140" r="4" stroke="#ccc" stroke-width="1" fill="none"/>
+  <circle cx="30" cy="280" r="3" stroke="#ccc" stroke-width="1" fill="none"/>
+  <circle cx="710" cy="140" r="4" stroke="#ccc" stroke-width="1" fill="none"/>
+  <circle cx="720" cy="290" r="3" stroke="#ccc" stroke-width="1" fill="none"/>
+</svg>

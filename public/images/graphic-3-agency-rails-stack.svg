@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="700" height="520">
+  <text x="350" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">AGENCY RAILS</text>
+  <text x="350" y="48" text-anchor="middle" font-size="10" fill="#888" font-family="Helvetica,Arial,sans-serif">The infrastructure stack for agent economic citizenship</text>
+
+  <rect x="80" y="410" width="520" height="70" rx="4" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="100" y="440" font-size="24" font-weight="700" fill="#ddd" font-family="Helvetica,Arial,sans-serif">V</text>
+  <text x="140" y="440" font-size="14" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">OPEN INFRASTRUCTURE</text>
+  <text x="140" y="458" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">Decentralized compute / Open models / Verifiable inference / Open data</text>
+  <text x="140" y="472" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">Where agents run permissionlessly</text>
+
+  <rect x="80" y="325" width="520" height="70" rx="4" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="100" y="355" font-size="24" font-weight="700" fill="#ddd" font-family="Helvetica,Arial,sans-serif">IV</text>
+  <text x="140" y="355" font-size="14" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">FINANCIAL RAILS</text>
+  <text x="140" y="373" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">Payments (x402) / AgentFi / TradFi bridge / Intents / Risk management</text>
+  <text x="140" y="387" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">How value moves at machine speed</text>
+
+  <rect x="80" y="240" width="520" height="70" rx="4" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="100" y="270" font-size="24" font-weight="700" fill="#ddd" font-family="Helvetica,Arial,sans-serif">III</text>
+  <text x="140" y="270" font-size="14" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">GOVERNANCE</text>
+  <text x="140" y="288" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">Permissions / Boundaries / Escalation / Smart contract enforcement</text>
+  <text x="140" y="302" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">The rules of engagement, immutable</text>
+
+  <rect x="80" y="155" width="520" height="70" rx="4" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="100" y="185" font-size="24" font-weight="700" fill="#ddd" font-family="Helvetica,Arial,sans-serif">II</text>
+  <text x="140" y="185" font-size="14" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">REPUTATION</text>
+  <text x="140" y="203" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">On-chain history / Staking / Attestations / Validation / Context-dependent trust</text>
+  <text x="140" y="217" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">Earned, not assigned</text>
+
+  <rect x="80" y="70" width="520" height="70" rx="4" stroke="#111" stroke-width="2.5" fill="none"/>
+  <text x="100" y="100" font-size="24" font-weight="700" fill="#ddd" font-family="Helvetica,Arial,sans-serif">I</text>
+  <text x="140" y="100" font-size="14" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">IDENTITY</text>
+  <text x="140" y="118" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">ERC-8004 / Provenance chain / Hierarchical identity / Portable credentials</text>
+  <text x="140" y="132" font-size="10" fill="#555" font-family="Helvetica,Arial,sans-serif">Provenance, not authentication</text>
+
+  <path d="M 620 80 Q 640 80 640 105 L 640 375 Q 640 400 620 400" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="660" y="280" text-anchor="middle" font-size="10" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif" transform="rotate(90,660,260)">ECONOMIC CITIZENSHIP</text>
+
+  <text x="350" y="508" text-anchor="middle" font-size="10" fill="#888" font-family="Helvetica,Arial,sans-serif">Each layer enables the next. Without identity, reputation cannot form.</text>
+</svg>

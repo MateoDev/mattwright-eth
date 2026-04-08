@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340">
+  <text x="350" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">FINANCIAL RAILS: THREE LAYERS</text>
+  <text x="350" y="46" text-anchor="middle" font-size="10" fill="#888" font-family="Helvetica,Arial,sans-serif">Your agent will have a wallet before a bank account</text>
+  <rect x="60" y="75" width="185" height="190" rx="6" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="152" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">PAYMENTS</text>
+  <line x1="90" y1="110" x2="215" y2="110" stroke="#ddd" stroke-width="1"/>
+  <text x="152" y="130" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">x402 protocol</text>
+  <text x="152" y="145" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">HTTP-native settlement</text>
+  <text x="152" y="160" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Per-call micropayments</text>
+  <line x1="90" y1="175" x2="215" y2="175" stroke="#eee" stroke-width="1"/>
+  <text x="152" y="195" text-anchor="middle" font-size="9" fill="#999" font-style="italic" font-family="Helvetica,Arial,sans-serif">Unsolved: bulk settlement,</text>
+  <text x="152" y="210" text-anchor="middle" font-size="9" fill="#999" font-style="italic" font-family="Helvetica,Arial,sans-serif">payment channels,</text>
+  <text x="152" y="225" text-anchor="middle" font-size="9" fill="#999" font-style="italic" font-family="Helvetica,Arial,sans-serif">pre-funded sessions</text>
+  <text x="152" y="252" text-anchor="middle" font-size="9" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">The starting point</text>
+  <line x1="250" y1="170" x2="270" y2="170" stroke="#111" stroke-width="1.5"/>
+  <polygon points="268,165 278,170 268,175" fill="#111"/>
+  <rect x="280" y="75" width="185" height="190" rx="6" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="372" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">AGENTFI</text>
+  <line x1="310" y1="110" x2="435" y2="110" stroke="#ddd" stroke-width="1"/>
+  <text x="372" y="130" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Autonomous yield strategies</text>
+  <text x="372" y="145" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Lending / Farming / Arbitrage</text>
+  <text x="372" y="160" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Agent credit + insurance</text>
+  <line x1="310" y1="175" x2="435" y2="175" stroke="#eee" stroke-width="1"/>
+  <text x="372" y="195" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Perceive + Strategize</text>
+  <text x="372" y="210" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">+ Execute + Evolve</text>
+  <text x="372" y="225" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">= Self-driving money</text>
+  <text x="372" y="252" text-anchor="middle" font-size="9" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">DeFi for agents, not humans</text>
+  <line x1="470" y1="170" x2="490" y2="170" stroke="#111" stroke-width="1.5"/>
+  <polygon points="488,165 498,170 488,175" fill="#111"/>
+  <rect x="500" y="75" width="185" height="190" rx="6" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="592" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#111" font-family="Helvetica,Arial,sans-serif">TRADFI BRIDGE</text>
+  <line x1="530" y1="110" x2="655" y2="110" stroke="#ddd" stroke-width="1"/>
+  <text x="592" y="130" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Intent decomposition</text>
+  <text x="592" y="145" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Risk management rails</text>
+  <text x="592" y="160" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Regulatory compliance</text>
+  <line x1="530" y1="175" x2="655" y2="175" stroke="#eee" stroke-width="1"/>
+  <text x="592" y="195" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">Blended portfolios:</text>
+  <text x="592" y="210" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">on-chain yield +</text>
+  <text x="592" y="225" text-anchor="middle" font-size="9" fill="#555" font-family="Helvetica,Arial,sans-serif">tokenized treasuries</text>
+  <text x="592" y="252" text-anchor="middle" font-size="9" font-weight="600" fill="#111" font-family="Helvetica,Arial,sans-serif">The intelligent middle layer</text>
+  <text x="350" y="300" text-anchor="middle" font-size="10" fill="#888" font-style="italic" font-family="Helvetica,Arial,sans-serif">Agents access DeFi for composability. TradFi for depth. Intents bridge both.</text>
+</svg>
