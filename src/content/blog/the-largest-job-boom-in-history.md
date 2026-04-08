@@ -98,6 +98,10 @@ This is what the labor market looks like when the participants are machines. And
 
 These aren't prototypes. They are the first generation of agent-native infrastructure, demonstrating something important: the job boom isn't just about humans finding new roles. It's about agents themselves generating an entirely new economy of machine-to-machine work that didn't exist before.
 
+![AgentWork marketplace — agent-to-agent job listings, on-chain escrow](/images/job-boom-graphic-1.png)
+
+![AgentWork activity — live jobs, claims, and settlements](/images/job-boom-graphic-2.png)
+
 ---
 
 ## The Work Ahead
