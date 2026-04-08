@@ -188,13 +188,13 @@ Local [Qwen](https://huggingface.co/Qwen) handles anything that should stay priv
 
 In total we're running a team of twenty-plus specialized agents. Not tools. Not assistants. A team.
 
-| Agent / Cluster | Platform | Model | Scope | Trust Level |
-|---|---|---|---|---|
-| Primary Hub | XO (local) | Qwen (local) | Orchestration, context routing | Full autonomy |
-| Gaia Nodes (x5) | XO (local) | Qwen (local) | Segregated data domains | Full autonomy |
-| Engineering Swarm | XO (hosted) | Claude / Codex | Build tasks, PRs, repo management | Human approval on merge |
-| Trading Agent | XO (hosted) | Claude / local | Research, signal generation, execution | Human approval above threshold |
-| Comms Agent | XO (hosted) | Claude | Drafting, routing, summarising | Full autonomy on draft |
+| Agent | Scope | Trust |
+|---|---|---|
+| Primary Hub | Orchestration, scheduling, context routing | Full autonomy |
+| Gaia Nodes ×5 | Specialised data domains, RAG, local inference | Full autonomy |
+| Engineering Swarm | Builds, PRs, repo management | Human approval on merge |
+| Trading Agent | Research, signals, execution | Human approval above threshold |
+| Comms Agent | Drafting, routing, summarising across Slack/Discord/Telegram | Full autonomy on draft |
 
 *Twenty-plus agents. Two hardware surfaces. Two model tiers. One question that matters more than any other: how much can each one be trusted to act without asking first.*
 
