@@ -2,7 +2,7 @@
 title: "10 Pro-Tips to Help You Work From Home During a Global Pandemic"
 description: "From limiting your distractions, taking control of your notifications and much more."
 date: "2020-03-26"
-category: "CULTURE"
+category: "ESSAY"
 readTime: "7 min"
 forum_url: "https://medium.com/@mateo_ventures/10-pro-tips-to-help-you-work-from-home-during-a-global-pandemic-4bd7a45abd7f"
 forum_name: "Medium"

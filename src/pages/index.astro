@@ -6,7 +6,7 @@ const posts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
 );
 
-const categories = ['All', ...Array.from(new Set(posts.map(p => p.data.category).filter(Boolean)))];
+const categories = ['All', 'TECHNICAL', 'STRATEGY', 'ESSAY', 'FICTION'];
 
 function formatDate(dateStr: string) {
   const d = new Date(dateStr);
