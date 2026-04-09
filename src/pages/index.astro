@@ -104,10 +104,20 @@ function formatDate(dateStr: string) {
   .category-bar {
     display: flex;
     gap: 6px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
     margin-bottom: 28px;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--faint);
+    /* fade right edge to hint scroll */
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+
+  .category-bar::-webkit-scrollbar {
+    display: none;
   }
 
   .cat-btn {
@@ -122,6 +132,8 @@ function formatDate(dateStr: string) {
     cursor: pointer;
     transition: all 0.15s ease;
     border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .cat-btn:hover,
@@ -180,14 +192,29 @@ function formatDate(dateStr: string) {
     font-size: 11px;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 560px) {
     .post-entry {
       grid-template-columns: 1fr;
-      gap: 4px;
+      gap: 3px;
+      margin-bottom: 16px;
+      padding-bottom: 16px;
+    }
+    .post-date {
+      font-size: 10px;
+    }
+    .post-title {
+      font-size: 14px;
     }
     .post-cat { display: none; }
-    .site-nav { flex-direction: column; gap: 8px; }
+    .site-nav { flex-direction: column; gap: 6px; }
     .nav-links { gap: 12px; }
+    .site-bio { font-size: 13px; }
+    /* remove fade on narrow screens since it can clip active button */
+    .category-bar {
+      -webkit-mask-image: none;
+      mask-image: none;
+      padding-bottom: 16px;
+    }
   }
 </style>
 
