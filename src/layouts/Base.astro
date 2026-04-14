@@ -345,6 +345,23 @@ const {
         object-fit: cover;
         margin: 2.5em auto;
         border-radius: 3px;
+        transition: filter 0.2s ease;
+      }
+
+      /* Dark mode: diagram/graphic PNGs (white bg) get inverted for readability.
+         Photos/JPGs just get dimmed slightly. */
+      html[data-theme="dark"] .markdown-body img[src$=".png"] {
+        filter: invert(1) hue-rotate(180deg) brightness(0.9);
+      }
+
+      html[data-theme="dark"] .markdown-body img[src$=".jpg"],
+      html[data-theme="dark"] .markdown-body img[src$=".jpeg"] {
+        filter: brightness(0.8);
+      }
+
+      /* Header image (first img in article) — always full color, just dim slightly */
+      html[data-theme="dark"] .markdown-body img:first-of-type {
+        filter: brightness(0.75);
       }
 
       /* Caption — italic em right after an image paragraph */
