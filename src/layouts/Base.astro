@@ -348,6 +348,18 @@ const {
         transition: filter 0.2s ease;
       }
 
+      /* Bordered graphics — governance, financial rails, inference stack */
+      .markdown-body img[src*="governance"],
+      .markdown-body img[src*="financial-rails"],
+      .markdown-body img[src*="inference-stack"],
+      .markdown-body img[src*="agentic-bazaar"] {
+        border: 1.5px solid #d0d0d0;
+        border-radius: 6px;
+        object-fit: contain;
+        max-height: 600px;
+        padding: 0;
+      }
+
       /* Dark mode: diagram/graphic PNGs (white bg) get inverted for readability.
          Photos/JPGs just get dimmed slightly. */
       html[data-theme="dark"] .markdown-body img[src$=".png"] {
