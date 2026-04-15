@@ -359,20 +359,18 @@ const {
         padding: 0;
       }
 
-      /* Dark mode: diagram/graphic PNGs (white bg) get inverted for readability.
-         Photos/JPGs just get dimmed slightly. */
-      html[data-theme="dark"] .markdown-body img[src$=".png"] {
-        filter: invert(1) hue-rotate(180deg) brightness(0.9);
+      /* Dark mode: only dim photos slightly, never invert or wash out */
+      html[data-theme="dark"] .markdown-body img {
+        filter: brightness(0.9);
       }
 
-      html[data-theme="dark"] .markdown-body img[src$=".jpg"],
-      html[data-theme="dark"] .markdown-body img[src$=".jpeg"] {
-        filter: brightness(0.8);
-      }
-
-      /* Header image (first img in article) — always full color, just dim slightly */
-      html[data-theme="dark"] .markdown-body img:first-of-type {
-        filter: brightness(0.75);
+      /* Dark-background graphics (dashboards, diagrams) — no filter needed */
+      html[data-theme="dark"] .markdown-body img[src*="agents-all"],
+      html[data-theme="dark"] .markdown-body img[src*="agentic-bazaar"],
+      html[data-theme="dark"] .markdown-body img[src*="financial-rails"],
+      html[data-theme="dark"] .markdown-body img[src*="lmarena"],
+      html[data-theme="dark"] .markdown-body img[src*="anthropic"] {
+        filter: none;
       }
 
       /* Caption — italic em right after an image paragraph */
@@ -452,7 +450,8 @@ const {
         .site-nav { flex-direction: column; gap: 10px; }
         .nav-right { flex-direction: row; gap: 12px; }
         .post-header h1 { font-size: 1.25em; }
-        .markdown-body { font-size: 12px; line-height: 1.55; }
+        .markdown-body { font-size: 12px !important; line-height: 1.55 !important; }
+        body { font-size: 12px !important; }
         .markdown-body img { width: 100%; height: auto; }
         .markdown-body h2 { font-size: 0.9em; }
         .markdown-body table { font-size: 10px; }
