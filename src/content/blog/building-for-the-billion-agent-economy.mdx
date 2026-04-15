@@ -123,8 +123,6 @@ We spent a decade trying to make people comfortable with infrastructure that was
 
 ![MyEtherWallet CX — managing wallets, private keys, keystore files. Built for humans doing robot work.](/images/myetherwallet-cx.jpg)
 
-![OpenWallet Standard — one CLI command to connect any AI agent to any blockchain wallet.](/images/openwallet-homepage.jpg)
-
 Wall Street didn't set out to own the agent economy's financial rails. They were chasing something more familiar: efficiency.
 
 They saw digital money coming. They saw a generation losing faith in institutions - in governments that printed money, in banks that froze accounts, in intermediaries that extracted margin for doing nothing. They saw faster settlement. More transparency. Fewer humans in the middle. A back office that could run itself.
@@ -247,11 +245,11 @@ Trust is not a universal value - it is a vector. A coding agent with a strong tr
 
 The businesses being built here - reputation infrastructure, trust scoring, attestation networks - are the credit bureaus of the agent economy. That is not a small opportunity.
 
-![Agent governance - on-chain voting, incentive design, permission frameworks.](/images/governance-proposal-figure06.png)
-
 Protocols like [Intuition](https://www.intuition.systems/) are building exactly this - a decentralized attestation layer where trust, claims, and signals become verifiable on-chain. The credit bureau of the agent economy, built on Base.
 
 ### III. Governance: The Rules of Engagement
+
+![Agent governance — on-chain voting, incentive design, permission frameworks.](/images/governance-proposal-figure06.png)
 
 Identity and reputation let agents find each other and decide who to trust. Governance defines the rules of the economy they're operating in.
 
@@ -267,11 +265,15 @@ The businesses being built here - protocol governance frameworks, on-chain incen
 
 ### IV. Financial Rails: Your Agent Will Have a Wallet Before a Bank Account
 
+![Who the agent is, how it pays, where it earns — the three gaps between today and the agent economy.](/images/financial-rails-v4.png)
+
 Identity, reputation, and governance create the conditions for economic activity. Financial rails are how value actually moves.
 
 Right now, agents pay with our credit cards for various services like APIs. We create the accounts, pass the KYC, add the card. Your agent didn't walk into a bank - you did. It's your identity, your liability, your credit limit. Your agent is far more likely to access a crypto wallet than a bank account. This isn't ideological - it's practical. Opening a bank account requires KYC documentation, human verification, regulated-entity relationships, and days to weeks of processing. A crypto wallet can be generated programmatically in milliseconds. Smart contracts are open source, composable, and available to anything that can sign a transaction. For an autonomous agent that needs to transact immediately, permissionlessly, and at machine speed, the choice isn't close.
 
 The [x402](https://www.x402.org) protocol opened the first door - native web payments at the protocol layer, triggered as part of the HTTP request-response cycle. No accounts, no API keys, no subscriptions. Just a payment header. HTTP 402 sat dormant in the web's original spec for thirty years. Agents turned out to be the use case it was waiting for.
+
+![OpenWallet Standard — one CLI command to connect any AI agent to any blockchain wallet.](/images/openwallet-homepage.jpg)
 
 Others are pushing further. [OpenWallet](https://openwallet.sh/), [MoonPay](https://www.moonpay.com/agents), [Stripe](https://stripe.com/blog/machine-payments-protocol), Ramp, and emerging machine payment protocols like [Tempo](https://stripe.com/blog/machine-payments-protocol) are building ways for agents to access bank cards and payment infrastructure via CLI. The intent is right. But the architecture still has a seam in it: somewhere in the flow, a human has to grant permission. A human has to be KYC'd. A human has to authorize the agent to utilize a service on their behalf. The agent, for all its capability, is still waiting at the door for a human to let it in.
 
@@ -315,11 +317,9 @@ The AI infrastructure market is at that moment now. A handful of frontier provid
 
 The answer isn't to avoid frontier models. It's to stop treating any single provider as infrastructure. Local open-source models for anything private or cost-sensitive. Aggregation layers like [OpenRouter](https://openrouter.ai/) for flexibility and failover. Frontier APIs for tasks where quality justifies the cost.
 
-The AOL moment passes. It always does. The question is what you build before the lock-in calcifies - or after.
-
-![Who the agent is, how it pays, where it earns — the three gaps between today and the agent economy.](/images/financial-rails-v4.png)
-
 ![AOL Instant Messenger - millions built their internet lives inside a walled garden. Then TCP/IP won.](/images/aol-browser.jpg)
+
+The AOL moment passes. It always does. The question is what you build before the lock-in calcifies - or after.
 
 ![Anthropic's email announcing OpenClaw would no longer be covered by Claude subscriptions - overnight, every team running agents through that integration had to scramble.](/images/anthropic-openclaw-email.jpg)
 
