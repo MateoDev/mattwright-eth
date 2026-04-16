@@ -250,10 +250,8 @@ function formatDate(dateStr: string) {
     max-width: 100%;
     width: 100%;
     height: auto;
-    max-height: 480px;
-    object-fit: cover;
     display: block;
-    margin: 2em auto;
+    margin: 1.2em auto;
   }
 
   .markdown-body :global(code) {
@@ -301,6 +299,7 @@ function formatDate(dateStr: string) {
   @media (max-width: 600px) {
     h1 { font-size: 1.6em; }
     .markdown-body { font-size: 16px; }
-    .markdown-body :global(img) { max-height: 280px; }
+    .markdown-body :global(img) { width: 100%; height: auto; }
+    .markdown-body { font-size: 12px !important; }
   }
 </style>
