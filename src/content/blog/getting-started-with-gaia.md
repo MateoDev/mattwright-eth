@@ -103,6 +103,8 @@ Open that URL in a browser. You'll see your node dashboard — model info, knowl
 
 ---
 
+![Installing, initializing, and starting a Gaia node — three commands to go from zero to live](/images/gaia-cli-install.jpg)
+
 ## Stop
 
 ```bash
