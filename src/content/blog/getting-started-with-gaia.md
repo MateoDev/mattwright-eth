@@ -4,7 +4,6 @@ description: "How to deploy your own decentralized AI node in under 10 minutes."
 date: "2026-04-16"
 category: "TECHNICAL"
 readTime: "8 min"
-draft: true
 ---
 
 The internet runs on servers you don't own, serving models you can't audit, with data you have no visibility into.
