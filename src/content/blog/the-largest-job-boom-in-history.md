@@ -4,6 +4,7 @@ description: "Why agents create more work than they destroy."
 date: "2026-04-08"
 category: "STRATEGY"
 readTime: "12 min"
+image: "/images/largest-job-boom-header.png"
 draft: true
 ---
 

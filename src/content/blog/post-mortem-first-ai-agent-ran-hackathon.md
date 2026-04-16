@@ -4,6 +4,7 @@ description: "What if agents could not only innovate but also orchestrate innova
 date: "2025-01-22"
 category: "ESSAY"
 readTime: "8 min"
+image: "/images/hackathon-header.jpg"
 coverImage: "/images/hackathon-header.jpg"
 ---
 

@@ -4,6 +4,7 @@ description: "We're entering an era where knowledge will be the next economic re
 date: "2024-12-06"
 category: "STRATEGY"
 readTime: "25 min"
+image: "/images/69-projects-header.jpg"
 coverImage: "/images/69-projects-header.jpg"
 ---
 

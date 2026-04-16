@@ -4,6 +4,7 @@ description: "The story of how we got here — and why it started with a piece o
 date: "2025-02-06"
 category: "STRATEGY"
 readTime: "10 min"
+image: "/images/mother-header.jpg"
 ---
 
 ![Mother — sovereign discovery layer for the agentic internet](/images/mother-header.jpg)

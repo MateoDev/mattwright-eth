@@ -4,6 +4,7 @@ description: "On the return of sovereignty, the philosophy of the agentic web, a
 date: "2025-09-01"
 category: "ESSAY"
 readTime: "12 min"
+image: "/images/renaissance-header.jpg"
 ---
 
 ![The Internet Renaissance — a rebirth of sovereignty, knowledge, and human potential in the age of agents](/images/renaissance-header.jpg)
