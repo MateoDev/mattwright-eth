@@ -29,7 +29,7 @@ A Gaia node is a self-hosted AI inference service. It runs:
 
 Once running, your node gets a unique address on the Gaia network — something like `https://0xf639...us.gaianet.network` — and anyone (or any agent) can query it like they'd query ChatGPT.
 
-![AI agents landscape — where Gaia fits in the broader agent infrastructure stack](/images/gaia-agent-landscape.jpg)
+![Gaia — open-source decentralized AI node network](/images/gaia-logo.png)
 
 The network has grown to **710,000+ nodes** running over **30 trillion inferences**. It integrates with Coinbase, EigenLayer, ENS, MetaMask, and 110+ other partners. If you want to understand why, [this piece](https://www.taisu.io/centralized-ai-is-eating-the-world-but-what-if-users-owned-the-intelligence/) covers the $20M raise and the thesis behind it.
 

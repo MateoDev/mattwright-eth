@@ -1,5 +1,5 @@
 ---
-title: "Mother: Building the Sovereign Discovery Layer for the Agentic Internet"
+title: "Mother: Building the Discovery Layer for the Agentic Internet"
 description: "The story of how we got here — and why it started with a piece of lore."
 date: "2025-02-06"
 category: "STRATEGY"
