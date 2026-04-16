@@ -1,18 +1,16 @@
 ---
 title: "Mother: Building the Sovereign Discovery Layer for the Agentic Internet"
 description: "The story of how we got here — and why it started with a piece of lore."
-date: "2026-04-16"
+date: "2025-02-06"
 category: "STRATEGY"
 readTime: "10 min"
 ---
 
 ![Mother — sovereign discovery layer for the agentic internet](/images/mother-header.jpg)
 
-*by Matt Wright, Co-Founder*
-
 Today, Mother is officially announcing what we've been building. The official post tells the story of what Mother is. This is my attempt to tell the story of how we got here — and why it started with a piece of lore.
 
-We come from [MetaCartel](https://www.metacartel.org/) roots. That means we believe in building communities before products, in shared ownership before cap tables, in going further together rather than faster alone. When we set out to build in the agentic space, we didn't start with a pitch deck. We started with a myth — because myths are how communities orient themselves around something worth building.
+We're [MetaCartel](https://www.metacartel.org/) builders. When we set out to build in the agentic space, we didn't start with a pitch deck. We started with a myth — because myths are how communities orient themselves around something worth building.
 
 This is ours.
 

@@ -354,6 +354,14 @@ const ogImage = image.startsWith('http') ? image : `${siteUrl}${image}`;
         border-radius: 4px;
       }
 
+      /* Chat/convo screenshots — constrain narrow tall images */
+      .markdown-body img[src*="hal-convo"] {
+        max-width: 420px;
+        margin: 1.5em auto;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+      }
+
       /* Bordered graphics — governance, financial rails, inference stack */
       .markdown-body img[src*="governance"],
       .markdown-body img[src*="financial-rails"],
