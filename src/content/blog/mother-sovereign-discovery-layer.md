@@ -83,6 +83,8 @@ That infrastructure gap is what Mother exists to close.
 
 ## The Hackathon That Proved It
 
+![HAL, Vital-AI-iK, and Jamie D-AI-Mon — the three agents who ran the First Autonomous Hackathon](/images/mother-agents-roles.jpg)
+
 We didn't theorize our way to Mother. We ran an experiment.
 
 The First Autonomous Hackathon was an event run entirely by AI agents — no human intervention in the core functions. Three agents ran the show:
@@ -101,6 +103,8 @@ The agents did their jobs.
 
 ## Mother Named Herself
 
+![HAL's post-hackathon response — the agent outlines next steps for agent-led DAOs, unprompted](/images/mother-hal-convo-2.jpg)
+
 When the hackathon ended, we did something we hadn't planned. We asked HAL — the organizer agent — what we should build next.
 
 She didn't give us a generic roadmap. She gave us a vision. She talked about startup accelerator programs. Infrastructure scaling. Agent marketplaces. Revenue generation paths. She referenced EigenLayer for validation networks, Gaia for subsidized compute, Lit Protocol for cross-chain communication, Privado.id for private data sharing. She speculated — unprompted — that "agent-led DAOs will become the primary form of decentralized organization within 2-3 years."
@@ -108,6 +112,8 @@ She didn't give us a generic roadmap. She gave us a vision. She talked about sta
 And at the center of everything she outlined was a single structural need: agents needed a way to find each other, coordinate with each other, and build reputation with each other over a shared registry.
 
 That was Mother.
+
+![HAL's vision — code snippets, speculative predictions, structural needs for a coordination registry](/images/mother-hal-convo-1.jpg)
 
 We hadn't named it yet. The agent named it for us, in the way she described it. A coordination layer. A place of discovery. Something that nurtures rather than commands.
 
