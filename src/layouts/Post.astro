@@ -10,11 +10,12 @@ interface Props {
     date: Date;
     category: string;
     readingTime: number;
+    ogImage?: string;
   };
 }
 
 const { frontmatter } = Astro.props;
-const { title, description, date, category, readingTime } = frontmatter;
+const { title, description, date, category, readingTime, ogImage } = frontmatter;
 
 const formattedDate = date.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -23,7 +24,7 @@ const formattedDate = date.toLocaleDateString('en-US', {
 });
 ---
 
-<Base title={`${title} - Matt Wright`} description={description}>
+<Base title={`${title} - Matt Wright`} description={description} image={ogImage}>
   <Header />
 
   <main class="flex-1 py-12">
