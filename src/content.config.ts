@@ -13,6 +13,7 @@ const blog = defineCollection({
     forum_name: z.string().optional(),
     excerpt: z.boolean().optional(),
     chapter: z.string().optional(),
+    draft: z.boolean().optional(),
   }),
 });
 

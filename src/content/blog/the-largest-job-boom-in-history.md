@@ -4,6 +4,7 @@ description: "Why agents create more work than they destroy."
 date: "2026-04-08"
 category: "STRATEGY"
 readTime: "12 min"
+draft: true
 ---
 
 ![A vast construction site where AI agents and human workers build side by side — the new industrial revolution](/images/largest-job-boom-header.png)
