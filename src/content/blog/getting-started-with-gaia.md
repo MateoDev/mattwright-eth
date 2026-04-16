@@ -6,6 +6,8 @@ category: "TECHNICAL"
 readTime: "8 min"
 ---
 
+![Getting Started with Gaia — deploy your own sovereign AI node](/images/gaia-getting-started-header.jpg)
+
 The internet runs on servers you don't own, serving models you can't audit, with data you have no visibility into.
 
 Gaia is a different bet. It's an open-source network of decentralized AI nodes — each one sovereign, each one running an LLM with its own knowledge base, each one accessible as an OpenAI-compatible API endpoint. You run it on your own machine. You own the inference. You control what goes in and what comes out.
