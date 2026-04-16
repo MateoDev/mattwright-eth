@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Gaia"
 description: "How to deploy your own decentralized AI node in under 10 minutes."
-date: "2026-04-16"
+date: "2025-01-15"
 category: "TECHNICAL"
 readTime: "8 min"
 ---
@@ -82,7 +82,7 @@ This downloads the default model (Llama 3 8B) and sets up your vector database. 
 gaianet init
 ```
 
-Want a different model? Edit `~/gaianet/config.json` before running init. You can point it to any GGUF model hosted on Hugging Face.
+Want a different model? Edit `~/gaianet/config.json` before running init. You can point it to any GGUF model hosted on [Hugging Face](https://huggingface.co/gaianet). Check our [Hugging Face repo](https://huggingface.co/gaianet) for specialized models.
 
 ![Hugging Face models — browse and select any GGUF model for your Gaia node](/images/gaia-huggingface-models.jpg) The [awesome-gaia repo](https://github.com/GaiaNet-AI/awesome-gaia) has a curated list of pre-configured node setups for different use cases.
 
@@ -114,6 +114,8 @@ gaianet stop
 
 ---
 
+![Gaia node chat interface — once your node is live, query it directly via the web dashboard or API](/images/gaia-edit-ss1.jpg)
+
 ## Use It Like OpenAI
 
 Your node exposes an OpenAI-compatible API. Swap out the base URL in any app that uses OpenAI:
@@ -138,6 +140,8 @@ This works with **any OpenAI-compatible tool** — Cursor, AnythingLLM, OpenWebU
 ---
 
 ## Add Your Own Knowledge
+
+![GaiaNet node architecture — API server, LLM, RAG, vector database, WasmEdge runtime, and marketplace](/images/gaia-edit-ss2.jpg)
 
 The real power is custom knowledge bases.
 
