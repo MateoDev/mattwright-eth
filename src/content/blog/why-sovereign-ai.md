@@ -4,7 +4,7 @@ description: "Your data is being taken from you. Your intellectual property is b
 date: "2025-11-19"
 category: "STRATEGY"
 readTime: "15 min"
-image: "/images/sovereign-ai-mattwright.eth_httpss.mj.runzbf6_qx3gau_this_image_but_size_t_84643b69-7125-4aca-8b78-0ac75562689c_2.jpg"
+image: "/images/sovereign-ai-header.jpg"
 ---
 
 ![Sovereign AI — the intelligence layer of the internet belongs to the people who use it](/images/sovereign-ai-header.jpg)
