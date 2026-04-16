@@ -14,6 +14,7 @@ const blog = defineCollection({
     excerpt: z.boolean().optional(),
     chapter: z.string().optional(),
     draft: z.boolean().optional(),
+    image: z.string().optional(),
   }),
 });
 
