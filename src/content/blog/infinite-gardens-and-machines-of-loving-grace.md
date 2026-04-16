@@ -5,7 +5,6 @@ date: "2025-10-01"
 category: "ESSAY"
 readTime: "15 min"
 image: "/images/infinite-gardens-img-7.jpg"
-draft: true
 ---
 
 ![Infinite Gardens — machines tending a world that belongs to everyone](/images/infinite-gardens-img-7.jpg)
