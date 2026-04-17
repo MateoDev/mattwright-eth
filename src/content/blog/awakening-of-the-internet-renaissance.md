@@ -25,6 +25,18 @@ I've been thinking about the Renaissance — the original one, the 14th-to-16th-
 
 ![Two hands reaching toward each other — Michelangelo's Creation of Adam, reimagined for the age of machines](/images/renaissance-img-0.jpg)
 
+Every generation has its douchebags — the ones who mistake the tool they grew up with for the essence of the craft, and call every new tool a desecration of something sacred they were never actually protecting.
+
+Before the printing press, monks who spent their lives copying manuscripts by hand treated the press as profane — as if the slowness of the copying was the point, as if the suffering was the proof of authenticity. When the typewriter arrived, writers who swore by longhand called it mechanical and cold. When word processors came, the typewriter loyalists said the same thing. Every generation produces its version of the same person.
+
+We have ours now. The people who say AI writing isn't real writing, AI art isn't real art. They're not wrong that something is changing. They're wrong about what it means.
+
+What is actually happening is the same thing that has happened every time the means of production got cheaper and more accessible: the work that was reserved for those with expensive infrastructure or decades of specialized training gets redistributed. Not eliminated — redistributed. The printing press didn't kill writing. It killed the guild that controlled who got to write. The camera didn't kill painting. It killed the painter's monopoly on visual truth. Every creative revolution follows the same arc: democratization looks like desecration until it doesn't.
+
+The skills that took decades to develop and were protected by cost, access, and credentialed gatekeeping are flowing into the open. The artist who couldn't afford a studio. The writer who couldn't find a publisher. The engineer who couldn't afford the toolchain. Anyone and everyone, at economies of scale, can now reach toward whoever they dream of becoming.
+
+That's not the end of craft. That's the beginning of something the Renaissance understood better than we do: that genius is statistically distributed without regard for birth, and the systems that let it surface are the ones worth building.
+
 ---
 
 ## II. What the Web Promised, and What It Delivered Instead
@@ -96,6 +108,22 @@ It would mean, first, that the intelligence produced by the network flows back t
 It would mean, second, that the right to deploy agents is not gated by institutional access. That a researcher in Lagos, an artist in Medellín, a small manufacturer in Osaka can access the same agentic capabilities as a Fortune 500 enterprise — because the infrastructure is public, auditable, and owned by no single gatekeeper.
 
 It would mean, third, that craft returns as a value. One of the quieter losses of the attention-economy web was the degradation of quality as a meaningful signal. When virality is the metric, depth becomes a disadvantage. In a world of generative abundance — where anyone can produce anything, in any volume, at near-zero marginal cost — the things that matter are precisely the things that algorithms can't produce: taste, judgment, curation, the discernment to know what is true and what is real and what is worth keeping. Renaissance Florence valued the master craftsman. An internet renaissance would value the same thing, expressed through new forms.
+
+---
+
+## The Double-Entry Moment
+
+There is one more parallel from the Renaissance that almost nobody talks about, and it maps precisely onto what is happening right now.
+
+In 1494, a Venetian friar named Luca Pacioli published *Summa de Arithmetica* — the first codified system of double-entry bookkeeping. It didn't invent commerce. Commerce had existed for millennia. What it did was create a shared, verifiable ledger language that let strangers trust each other's accounts across distance, without a king or a church vouching for the transaction.
+
+Before double-entry: trade was local, trust was personal, scale was limited by relationship. You could only do business with people you knew, or people vouched for by people you knew.
+
+After double-entry: the Medici could run a banking network across Florence, Venice, Rome, London, and Bruges — with agents in each city, operating semi-autonomously — because the accounting system created a verifiable, auditable record that didn't require the Medici patriarch to personally witness every transaction. It was the first multinational. Run by semi-autonomous agents. Made possible by trust embedded in the ledger.
+
+The machine payment protocols being built right now — x402, the Machine Payments Protocol, OpenWallet — are doing the same thing for the agent economy. Not just making payments cheaper. Making the architecture of a billion-agent economy possible. Any agent can transact with any service for the first time, without prior relationship, because trust is embedded in the protocol.
+
+The Medici built the first multinational by building trust into the ledger. We are building the first agent economy by building payments into the protocol.
 
 ---
 
