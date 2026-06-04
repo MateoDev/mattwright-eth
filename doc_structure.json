@@ -1,0 +1,4694 @@
+{
+  "title": "Gaia-Ecosystem-Is-Evolving",
+  "revisionId": "AFwiY1_r4Vy1p52jnWoVR_sP24rpKSlWSn7et8-mSWp1XaFRNaeIxhhV0f5fyTAOQfI87sfddG3PzdE1jPbO9z6OYNI-bpVayishbxQ1AEyRfo8",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1ksXfh68cNb8fLtzOhFRkSJvLtZkB2xqHdY-_oBr6Zeo",
+  "tabs": [
+    {
+      "tabProperties": {
+        "tabId": "t.0",
+        "title": "Tab 1",
+        "index": 0
+      },
+      "documentTab": {
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 32,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 31,
+                    "textRun": {
+                      "content": "The Gaia Ecosystem is Evolving",
+                      "textStyle": {
+                        "bold": true,
+                        "fontSize": {
+                          "magnitude": 20,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 31,
+                    "endIndex": 32,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 32,
+              "endIndex": 66,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 32,
+                    "endIndex": 65,
+                    "textRun": {
+                      "content": "By Matt Wright, CEO \u2014 EVM Systems",
+                      "textStyle": {
+                        "italic": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.34901962,
+                              "green": 0.34901962,
+                              "blue": 0.34901962
+                            }
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 11,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 65,
+                    "endIndex": 66,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 16,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 66,
+              "endIndex": 316,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 66,
+                    "endIndex": 316,
+                    "textRun": {
+                      "content": "The founding team \u2014 Sydney Lai, Shashank Sripada, and I \u2014 have resigned our operating roles at Gaia Labs (SayShell Ltd.). I have not sold a single token. I\u2019m staying on as an advisor, and I believe in this network as much as I did the day we joined.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 316,
+              "endIndex": 339,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 316,
+                    "endIndex": 339,
+                    "textRun": {
+                      "content": "A Change in Governance\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 339,
+              "endIndex": 417,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 339,
+                    "endIndex": 417,
+                    "textRun": {
+                      "content": "I\u2019ll be straight about the why: it came down to governance, and to alignment.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 417,
+              "endIndex": 796,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 417,
+                    "endIndex": 796,
+                    "textRun": {
+                      "content": "We had a clear plan for the product and for how to resource the product and GTM workstream, and the team wasn\u2019t fully aligned on it. We wanted to put our heads down and build the open-source roadmap we believed in. When the people doing the building and the people steering the entity don\u2019t agree on where focus and resources go, you either resolve it or you make a clean break.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 796,
+              "endIndex": 1207,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 796,
+                    "endIndex": 1207,
+                    "textRun": {
+                      "content": "We tried to resolve it, and we kept showing up while we did. None of us has been paid since October. Through all of it, we did our best to work through the issues these changes created \u2014 sitting with the partners, vendors, and stakeholders who needed answers, and getting them those answers even while we were chasing the same ones ourselves. We did that because people trusted us, and that was worth honoring.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1207,
+              "endIndex": 1309,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1207,
+                    "endIndex": 1309,
+                    "textRun": {
+                      "content": "In the end, the honest move was to step back and let the people who own the entity set its direction.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1309,
+              "endIndex": 1595,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1309,
+                    "endIndex": 1595,
+                    "textRun": {
+                      "content": "The original deal was sound: a clear open-source product vision and a clean division of labor \u2014 our partners driving market capture and commercial momentum while we did the hard engineering. And it worked. The product shipped, it ran at real scale, and the nodes are open source today.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1595,
+              "endIndex": 1763,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1595,
+                    "endIndex": 1763,
+                    "textRun": {
+                      "content": "What we couldn\u2019t get aligned on was where the Labs went next, and how its focus and resources were allocated. We wanted product. That\u2019s the difference that led us out.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1763,
+              "endIndex": 2373,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1763,
+                    "endIndex": 2373,
+                    "textRun": {
+                      "content": "This is the moment to draw clean lines between three things that had been tangled together. The Gaia Foundation stewards the open-source protocol and the token treasury. Gaia Labs (SayShell Ltd.), under ByteTrade, manages the token, cap table, investor communications, and exchange engagement, and is leading the restructuring. Commercial execution sits with EVM Systems \u2014 the same core team, the commercial arm for Gaia \u2014 which activates once the Foundation has the capital to fund it. It\u2019s the separation Aragon and Gnosis made as they matured: not a rupture, just the right architecture for the next stage.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2373,
+              "endIndex": 2638,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2373,
+                    "endIndex": 2638,
+                    "textRun": {
+                      "content": "For investors, their investment terms and rights are unchanged. For token holders, there will be a future for Gaia \u2014 the team is now restructuring for the next phase of the project. I\u2019m still a stakeholder, no bridges burned, and I still want this protocol to win.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2638,
+              "endIndex": 2705,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2638,
+                    "endIndex": 2705,
+                    "textRun": {
+                      "content": "Here\u2019s the context, because the fact doesn\u2019t mean much without it.\n",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2705,
+              "endIndex": 3028,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2705,
+                    "endIndex": 3028,
+                    "textRun": {
+                      "content": "When we started Gaia, my co-founders and I were focused on the building toward the future of work. We saw a lot of projects building world changing technology in internet-native governance of assets, automated payments in exchange for output, and digital identity, reputation built on timestamped credentials on a ledger. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3028,
+              "endIndex": 3594,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3028,
+                    "endIndex": 3594,
+                    "textRun": {
+                      "content": "All of this, fancy in theory, bureaucratic and messy in reality. We saw DAOs fall to their knees, we saw onlookers applaud to the demise of democracy as best as we knew it in capital systems. The problem was that none of this was built for us - we created the patterns, but this system was for the machine economy. Governance, automated payment and financial rails, identity, reputation systems. All the bells and whistles AI and AI agents would need to coordinate resources such as compute, data, intelligence \u2014 and in today\u2019s paradigm, context or applied context.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3594,
+              "endIndex": 3631,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3594,
+                    "endIndex": 3631,
+                    "textRun": {
+                      "content": "We just hadn\u2019t said it out loud yet.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3631,
+              "endIndex": 3648,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3631,
+                    "endIndex": 3648,
+                    "textRun": {
+                      "content": "Where It Started\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3648,
+              "endIndex": 3875,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3648,
+                    "endIndex": 3875,
+                    "textRun": {
+                      "content": "This began in the fall of 2023. By ETH Denver in February 2024 we\u2019d decided to jump in as co-founders with the team that had been incubating Gaia. By May 2024, we were full-time on the future of the decentralized AI ecosystem.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 3875,
+              "endIndex": 4334,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3875,
+                    "endIndex": 4334,
+                    "textRun": {
+                      "content": "The first product was the Gaia node \u2014 an agent, and more than an agent. In 2024 it was an open-source container you could deploy on your own machine in under five minutes from the CLI: a packaged vector database, a RAG pipeline, a prompt manager, an API server so any permissioned party could talk to it, and an integration layer for any of the roughly 2 million open-source models on HuggingFace. The catch was that training the RAG by hand still took days.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4334,
+              "endIndex": 4858,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4334,
+                    "endIndex": 4858,
+                    "textRun": {
+                      "content": "The Gaia node was early, and almost nobody understood it at the time. This was pre-Eliza, pre-OpenClaw, pre-Hermes \u2014 the harnesses that make it obvious simply didn\u2019t exist yet. Now they do. With OpenClaw, Hermes, and XO (beta.xo.builders), you can one-click a Gaia node from a text message and train its knowledge base the same way, over text. The part that gets interesting is what you build on top of that runtime: private, permissioned, and external-facing environments where agents share context strictly on your terms.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4858,
+              "endIndex": 4996,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4858,
+                    "endIndex": 4995,
+                    "textRun": {
+                      "content": "If you want to help build that open-source future with the Gaia ecosystem, my DMs are open. Happy to guide folks to the proper channels. ",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4995,
+                    "endIndex": 4996,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 4996,
+              "endIndex": 5013,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4996,
+                    "endIndex": 5013,
+                    "textRun": {
+                      "content": "What We Executed\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5013,
+              "endIndex": 5133,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5013,
+                    "endIndex": 5133,
+                    "textRun": {
+                      "content": "It\u2019s worth pausing on what this team actually accomplished, because none of it was inevitable and all of it was earned.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5133,
+              "endIndex": 5156,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5133,
+                    "endIndex": 5155,
+                    "textRun": {
+                      "content": "Scale & infrastructure",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5155,
+                    "endIndex": 5156,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 8,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5156,
+              "endIndex": 5211,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5156,
+                    "endIndex": 5211,
+                    "textRun": {
+                      "content": "710,000+ active nodes across consumer, edge, and cloud\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5211,
+              "endIndex": 5278,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5211,
+                    "endIndex": 5278,
+                    "textRun": {
+                      "content": "30+ trillion real inference requests processed at production scale\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5278,
+              "endIndex": 5373,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5278,
+                    "endIndex": 5373,
+                    "textRun": {
+                      "content": "Delivered EdgeOS, Console, and core infrastructure tooling for deploying and routing inference\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5373,
+              "endIndex": 5473,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5373,
+                    "endIndex": 5473,
+                    "textRun": {
+                      "content": "Built at a fraction of the capital our peers (TAO, Ritual, Gensyn) needed to reach comparable scale\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5473,
+              "endIndex": 5502,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5473,
+                    "endIndex": 5501,
+                    "textRun": {
+                      "content": "Token, governance & identity",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5501,
+                    "endIndex": 5502,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 8,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5502,
+              "endIndex": 5534,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5502,
+                    "endIndex": 5534,
+                    "textRun": {
+                      "content": "Publicly announced a $20M raise\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5534,
+              "endIndex": 5652,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5534,
+                    "endIndex": 5652,
+                    "textRun": {
+                      "content": "Launched the $GAIA token and established a liquid market across major exchanges; listed on KuCoin, Kraken, and Bitget\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5652,
+              "endIndex": 5742,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5652,
+                    "endIndex": 5742,
+                    "textRun": {
+                      "content": "Stood up the Gaia Foundation, DAO, delegates, and Security Council, with on-chain vesting\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5742,
+              "endIndex": 5795,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5742,
+                    "endIndex": 5795,
+                    "textRun": {
+                      "content": "Designed and finalized the GAIA staking architecture\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5795,
+              "endIndex": 5868,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5795,
+                    "endIndex": 5868,
+                    "textRun": {
+                      "content": "Launched Gaia Domains (~3,000 shortnames) as a persistent identity layer\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5868,
+              "endIndex": 5894,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5868,
+                    "endIndex": 5893,
+                    "textRun": {
+                      "content": "Product, partners & reach",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 5893,
+                    "endIndex": 5894,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 8,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 5894,
+              "endIndex": 5964,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5894,
+                    "endIndex": 5964,
+                    "textRun": {
+                      "content": "Developed consumer hardware \u2014 the Gaia AI Phone on Samsung Galaxy S25\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 5964,
+              "endIndex": 6113,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5964,
+                    "endIndex": 6113,
+                    "textRun": {
+                      "content": "Completed 110+ strategic integrations across wallets, L2s, agent frameworks, and payments (Coinbase, Base, EigenLayer, Recall, OpenLedger, and more)\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 6113,
+              "endIndex": 6217,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6113,
+                    "endIndex": 6217,
+                    "textRun": {
+                      "content": "Built a community of 437K+ social followers, 160K on Discord, 166K on Telegram, and 2.9M+ website users\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 6217,
+              "endIndex": 6263,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6217,
+                    "endIndex": 6263,
+                    "textRun": {
+                      "content": "Activated a global network of 65+ ambassadors\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 6263,
+              "endIndex": 6361,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6263,
+                    "endIndex": 6361,
+                    "textRun": {
+                      "content": "Featured in Forbes, Cointelegraph, and Analytics India Mag as a leading voice in decentralized AI\n",
+                      "textStyle": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "strikethrough": false,
+                        "smallCaps": false,
+                        "backgroundColor": {},
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {}
+                          }
+                        },
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        },
+                        "weightedFontFamily": {
+                          "fontFamily": "Arial",
+                          "weight": 400
+                        },
+                        "baselineOffset": "NONE"
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "START",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spacingMode": "NEVER_COLLAPSE",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 4,
+                    "unit": "PT"
+                  },
+                  "borderBetween": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderTop": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderBottom": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderLeft": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "borderRight": {
+                    "color": {},
+                    "width": {
+                      "unit": "PT"
+                    },
+                    "padding": {
+                      "unit": "PT"
+                    },
+                    "dashStyle": "SOLID"
+                  },
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  },
+                  "keepLinesTogether": false,
+                  "keepWithNext": false,
+                  "avoidWidowAndOrphan": true,
+                  "shading": {
+                    "backgroundColor": {}
+                  },
+                  "pageBreakBefore": false
+                },
+                "bullet": {
+                  "listId": "kix.list.2",
+                  "textStyle": {}
+                }
+              }
+            },
+            {
+              "startIndex": 6361,
+              "endIndex": 6417,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6361,
+                    "endIndex": 6417,
+                    "textRun": {
+                      "content": "That foundation is the thing everything else stands on.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 8,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 6417,
+              "endIndex": 6438,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6417,
+                    "endIndex": 6438,
+                    "textRun": {
+                      "content": "What\u2019s Next for Gaia\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6438,
+              "endIndex": 6628,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6438,
+                    "endIndex": 6553,
+                    "textRun": {
+                      "content": "The network is in steady hands. With the restructuring underway, the ByteTrade team continues to build \u2014 including ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 6553,
+                    "endIndex": 6559,
+                    "textRun": {
+                      "content": "Olares",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://one.olares.com/"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 6559,
+                    "endIndex": 6628,
+                    "textRun": {
+                      "content": ", their sovereign hardware platform \u2014 and the network keeps running.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 6628,
+              "endIndex": 6629,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6628,
+                    "endIndex": 6629,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 6629,
+              "endIndex": 6727,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6629,
+                    "endIndex": 6727,
+                    "textRun": {
+                      "content": "Whether the Foundation decides to move forward on Gaia v2 is currently left as an open proposal. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 6727,
+              "endIndex": 6748,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6727,
+                    "endIndex": 6748,
+                    "textRun": {
+                      "content": "On the Gaia AI Phone\n",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 6748,
+              "endIndex": 6941,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6748,
+                    "endIndex": 6941,
+                    "textRun": {
+                      "content": "and I want to address this directly. We made the call to roll it back. Shipping hardware halfway is worse than not shipping it at all, and the people who pre-ordered deserve better than that. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 6941,
+              "endIndex": 7087,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6941,
+                    "endIndex": 7087,
+                    "textRun": {
+                      "content": "The Labs, under its current ownership, has taken on the device refunds and is working with the partners involved to make pre-order buyers whole. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 7087,
+              "endIndex": 7470,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7087,
+                    "endIndex": 7470,
+                    "textRun": {
+                      "content": "What we\u2019re leaving behind is open: we\u2019re releasing Gaia Edge OSS \u2014 the on-device local inference and agentic-skills software we built \u2014 so it can run on millions of devices across many hardware partners instead of being locked to one SKU. The software belongs to the community now. That\u2019s what \u201copen\u201d actually means in practice. It costs us something, and it\u2019s still the right call.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 7470,
+              "endIndex": 7503,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7470,
+                    "endIndex": 7503,
+                    "textRun": {
+                      "content": "What the Future of AI Looks Like\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 7503,
+              "endIndex": 8210,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7503,
+                    "endIndex": 8210,
+                    "textRun": {
+                      "content": "Fast forward to 2026. AI is going parabolic \u2014 closer to some AGI paradigm, closer to a world where it\u2019s genuinely hard to tell whose data is whose. It\u2019s hard to keep pushing this manifesto when Claude is this good and keeps disrupting vertical after vertical \u2014 and when, frankly, people keep asking why you\u2019d bother. But that has always been the tension, and it\u2019s the right one to sit in. Closed and open will coexist. The future is collaborative: massive frontier models with serious compute, open local models on edge devices, and agents working on behalf of other agents. The only real question is whether the open layer is worth building, maintaining, and defending. We still believe the answer is yes.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 8210,
+              "endIndex": 8584,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8210,
+                    "endIndex": 8275,
+                    "textRun": {
+                      "content": "Here\u2019s why it matters in practice. I\u2019ve written before about the ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 8275,
+                    "endIndex": 8296,
+                    "textRun": {
+                      "content": "Billion Agent Economy",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://mattwright.eth.limo/building-for-the-billion-agent-economy/"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 8296,
+                    "endIndex": 8337,
+                    "textRun": {
+                      "content": ", and about what it does to human work in",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 8337,
+                    "endIndex": 8584,
+                    "textRun": {
+                      "content": " really halves of the same argument. Agents need to run everywhere, hold context across sessions, pay for knowledge automatically, and coordinate without a human in the critical path. And the people with real context should earn from it directly.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 8584,
+              "endIndex": 9023,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8584,
+                    "endIndex": 9023,
+                    "textRun": {
+                      "content": "Think about an e-commerce merchant. Their real edge is context no marketplace can see \u2014 live inventory, true margins, what actually sells together, which SKUs to push this week. As shopping agents become the buyers, that merchant runs a node that lets a buyer\u2019s agent check fit, availability, and price in real time, and earns on every query that converts \u2014 instead of renting that visibility back from a platform that owns the customer. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 9023,
+              "endIndex": 9246,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9023,
+                    "endIndex": 9246,
+                    "textRun": {
+                      "content": "The same logic runs for a DeFi trader who\u2019d rather sell access to a signal node that nets $1,000 than watch someone burn a hundred hours rebuilding it. A professor monetizing their knowledge as it moves across AI systems. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 9246,
+              "endIndex": 9640,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9246,
+                    "endIndex": 9640,
+                    "textRun": {
+                      "content": "A doctor running a private local model on their own hardware, sharing inference only when there\u2019s genuine demand to their patients in a private, secure environment. None of them should have to route every query through a frontier provider at three cents a call. They should run their own node, earn from their own knowledge, and participate in a network that rewards specialization over scale.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 9640,
+              "endIndex": 9666,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9640,
+                    "endIndex": 9666,
+                    "textRun": {
+                      "content": "Gaia v2: An Open Proposal\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 9666,
+              "endIndex": 9944,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9666,
+                    "endIndex": 9944,
+                    "textRun": {
+                      "content": "Gaia v2 is on the table \u2014 but it\u2019s a proposal, not a fully approved plan by Gaia key stakeholders. I have brought it to the Foundation in my advisory role on the Technical Security Council, and we have not reached alignment with the Labs on it. That decision is theirs to make.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 9944,
+              "endIndex": 10395,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9944,
+                    "endIndex": 10395,
+                    "textRun": {
+                      "content": "The proposal is the natural next step the original node was always reaching for: turning the 710,000+ inference nodes into agentic nodes \u2014 active memory, MCP discoverability, x402 earnings, verifiable on-chain identity \u2014 with node v2, domains v2, workspaces, and private, permissioned environments where nodes discover, talk to, and pay one another directly. The work is shovel-ready and the runtime to build it exists. We\u2019re ready whenever they are.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 10395,
+              "endIndex": 10414,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 10395,
+                    "endIndex": 10414,
+                    "textRun": {
+                      "content": "What\u2019s Next for Me\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 10414,
+              "endIndex": 10862,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 10414,
+                    "endIndex": 10862,
+                    "textRun": {
+                      "content": "I\u2019m full-time on XO (xo.builders) \u2014 the runtime where agents go to work. It\u2019s a separate company, with its own team and its own backers, and it\u2019s where my focus lives for the foreseeable future. The bet is simple: building an agent is easy now; running fleets of them in production is not. Agents are employees now \u2014 they onboard, they offboard, and almost no one has answered what data an agent gets access to or what it\u2019s allowed to leave with. \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 10862,
+              "endIndex": 11383,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 10862,
+                    "endIndex": 11383,
+                    "textRun": {
+                      "content": "Organizations need permissioning, governance, and payment rails just to let swarms collaborate safely, and that infrastructure mostly doesn\u2019t exist yet. XO is built for it: open, composable, and designed so your team owns its context and can move its whole stack as the industry shifts under us. Shashank is advising, focused on verticalizing agentic orgs for enterprises and embedding XO where real companies operate. A dedicated piece on what we\u2019re shipping at XO is coming; for now, the docs live at docs.xo.builders.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11383,
+              "endIndex": 11748,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11383,
+                    "endIndex": 11748,
+                    "textRun": {
+                      "content": "EVM Systems remains the commercial arm for Gaia, and it activates once the Foundation has the capital to fund commercial execution. Until then, my focus is XO. I\u2019m also staying close to Gaia as an advisor and open-source contributor, carrying the v2 proposal through the Technical Security Council. I haven\u2019t sold a token, and I\u2019m not going anywhere as a believer.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11748,
+              "endIndex": 11749,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11748,
+                    "endIndex": 11749,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11749,
+              "endIndex": 11803,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11749,
+                    "endIndex": 11803,
+                    "textRun": {
+                      "content": "Deploy OpenClaw, Hermes & more agents in your infra! \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11803,
+              "endIndex": 11824,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11803,
+                    "endIndex": 11822,
+                    "textRun": {
+                      "content": "https://xo.builders",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://xo.builders"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 11822,
+                    "endIndex": 11824,
+                    "textRun": {
+                      "content": " \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11824,
+              "endIndex": 11850,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11824,
+                    "endIndex": 11848,
+                    "textRun": {
+                      "content": "https://docs.xo.builders",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://docs.xo.builders"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 11848,
+                    "endIndex": 11850,
+                    "textRun": {
+                      "content": " \n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11850,
+              "endIndex": 11875,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11850,
+                    "endIndex": 11874,
+                    "textRun": {
+                      "content": "https://beta.xo.builders",
+                      "textStyle": {
+                        "underline": true,
+                        "foregroundColor": {
+                          "color": {
+                            "rgbColor": {
+                              "red": 0.06666667,
+                              "green": 0.33333334,
+                              "blue": 0.8
+                            }
+                          }
+                        },
+                        "link": {
+                          "url": "https://beta.xo.builders"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 11874,
+                    "endIndex": 11875,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11875,
+              "endIndex": 11876,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11875,
+                    "endIndex": 11876,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11876,
+              "endIndex": 11904,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11876,
+                    "endIndex": 11904,
+                    "textRun": {
+                      "content": "To Everyone Who\u2019s Been Here\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 11904,
+              "endIndex": 12177,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11904,
+                    "endIndex": 12177,
+                    "textRun": {
+                      "content": "To the 710,000 node operators who kept this network running. To the 110+ partners who integrated before anyone else believed the thesis. To the OpenClaw builders, the developers running inference on hardware they own, and the investors and advisors who took the bet early.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 12177,
+              "endIndex": 12248,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12177,
+                    "endIndex": 12248,
+                    "textRun": {
+                      "content": "Thank you. The mission continues. Just from a few different seats now.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 12248,
+              "endIndex": 12256,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12248,
+                    "endIndex": 12256,
+                    "textRun": {
+                      "content": "Onward.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 115,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceBelow": {
+                    "magnitude": 10,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 12256,
+              "endIndex": 12270,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12256,
+                    "endIndex": 12270,
+                    "textRun": {
+                      "content": "\u2014 Matt Wright\n",
+                      "textStyle": {
+                        "bold": true
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 12270,
+              "endIndex": 12271,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12270,
+                    "endIndex": 12271,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 12271,
+              "endIndex": 12296,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12271,
+                    "endIndex": 12296,
+                    "textRun": {
+                      "content": "Advisor, Gaia Foundation\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 12296,
+              "endIndex": 12323,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12296,
+                    "endIndex": 12322,
+                    "textRun": {
+                      "content": "Co-founder, evmsystems.ai ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 12322,
+                    "endIndex": 12323,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            }
+          ]
+        },
+        "documentStyle": {
+          "background": {
+            "color": {}
+          },
+          "pageNumberStart": 1,
+          "marginTop": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "pageSize": {
+            "height": {
+              "magnitude": 792,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 612,
+              "unit": "PT"
+            }
+          },
+          "marginHeader": {
+            "magnitude": 35.4,
+            "unit": "PT"
+          },
+          "marginFooter": {
+            "magnitude": 35.4,
+            "unit": "PT"
+          },
+          "useCustomHeaderFooterMargins": true,
+          "documentFormat": {
+            "documentMode": "PAGES"
+          }
+        },
+        "namedStyles": {
+          "styles": [
+            {
+              "namedStyleType": "NORMAL_TEXT",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {}
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_1",
+              "textStyle": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.101960786,
+                      "green": 0.101960786,
+                      "blue": 0.101960786
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 8,
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_2",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.18039216,
+                      "green": 0.45490196,
+                      "blue": 0.70980394
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 13,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_3",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.12156863,
+                      "green": 0.3019608,
+                      "blue": 0.47058824
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_4",
+              "textStyle": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.18039216,
+                      "green": 0.45490196,
+                      "blue": 0.70980394
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_5",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.18039216,
+                      "green": 0.45490196,
+                      "blue": 0.70980394
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_6",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.12156863,
+                      "green": 0.3019608,
+                      "blue": 0.47058824
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "TITLE",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {}
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 28,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 100,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "NEVER_COLLAPSE",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "SUBTITLE",
+              "textStyle": {
+                "italic": true,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 24,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Georgia",
+                  "weight": 400
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 18,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            }
+          ]
+        },
+        "lists": {
+          "kix.list.1": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25cf",
+                  "glyphFormat": "%0",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25cb",
+                  "glyphFormat": "%1",
+                  "indentFirstLine": {
+                    "magnitude": 54,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 72,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25a0",
+                  "glyphFormat": "%2",
+                  "indentFirstLine": {
+                    "magnitude": 90,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 108,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25cf",
+                  "glyphFormat": "%3",
+                  "indentFirstLine": {
+                    "magnitude": 126,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 144,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25cb",
+                  "glyphFormat": "%4",
+                  "indentFirstLine": {
+                    "magnitude": 162,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 180,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25a0",
+                  "glyphFormat": "%5",
+                  "indentFirstLine": {
+                    "magnitude": 198,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 216,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25cf",
+                  "glyphFormat": "%6",
+                  "indentFirstLine": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 252,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25cf",
+                  "glyphFormat": "%7",
+                  "indentFirstLine": {
+                    "magnitude": 270,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 288,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u25cf",
+                  "glyphFormat": "%8",
+                  "indentFirstLine": {
+                    "magnitude": 306,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 324,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                }
+              ]
+            }
+          },
+          "kix.list.2": {
+            "listProperties": {
+              "nestingLevels": [
+                {
+                  "bulletAlignment": "START",
+                  "glyphSymbol": "\u2022",
+                  "glyphFormat": "%0",
+                  "indentFirstLine": {
+                    "magnitude": 18,
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                },
+                {
+                  "bulletAlignment": "START",
+                  "glyphType": "NONE",
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "unit": "PT"
+                  },
+                  "textStyle": {},
+                  "startNumber": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

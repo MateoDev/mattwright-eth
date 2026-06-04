@@ -1,17 +1,10 @@
----
-title: "The Gaia Ecosystem is Evolving"
-description: "The founding team reflects on governance changes, the future of Gaia protocol, and the evolution toward commercial execution under XO."
-date: "2026-06-04"
-category: "STRATEGY"
-readTime: "8 min"
-image: "/images/gaia-ecosystem-header.jpg"
----
+The Gaia Ecosystem is Evolving
 
-![The Gaia Ecosystem is Evolving](/images/gaia-ecosystem-header.jpg)
+By Matt Wright, CEO — EVM Systems
 
 The founding team — Sydney Lai, Shashank Sripada, and I — have resigned our operating roles at Gaia Labs (SayShell Ltd.). I have not sold a single token. I’m staying on as an advisor, and I believe in this network as much as I did the day we joined.
 
-## A Change in Governance
+A Change in Governance
 
 I’ll be straight about the why: it came down to governance, and to alignment.
 
@@ -47,7 +40,7 @@ The Gaia node was early, and almost nobody understood it at the time. This was p
 
 If you want to help build that open-source future with the Gaia ecosystem, my DMs are open. Happy to guide folks to the proper channels.
 
-## What We Executed
+What We Executed
 
 It’s worth pausing on what this team actually accomplished, because none of it was inevitable and all of it was earned.
 
@@ -135,7 +128,7 @@ https://docs.xo.builders
 
 https://beta.xo.builders
 
-## To Everyone Who’s Been Here
+To Everyone Who’s Been Here
 
 To the 710,000 node operators who kept this network running. To the 110+ partners who integrated before anyone else believed the thesis. To the OpenClaw builders, the developers running inference on hardware they own, and the investors and advisors who took the bet early.
 
