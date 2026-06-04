@@ -360,6 +360,12 @@ const ogImage = image.startsWith('http') ? image : `${siteUrl}${image}`;
         width: auto;
       }
 
+      /* Tighter spacing for XO links */
+      .markdown-body p:has(a[href*="xo.builders"]) {
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+      }
+
       /* Chat/convo screenshots — constrain narrow tall images */
       .markdown-body img[src*="hal-convo"] {
         max-width: 420px;
