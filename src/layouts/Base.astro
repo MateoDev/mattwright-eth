@@ -354,6 +354,12 @@ const ogImage = image.startsWith('http') ? image : `${siteUrl}${image}`;
         border-radius: 4px;
       }
 
+      /* Header images — constrain to reasonable size */
+      .markdown-body img[src*="gaia-ecosystem-header"] {
+        max-width: 600px;
+        width: auto;
+      }
+
       /* Chat/convo screenshots — constrain narrow tall images */
       .markdown-body img[src*="hal-convo"] {
         max-width: 420px;
