@@ -2,7 +2,7 @@
 title: "4 DApps Built on Quorum at ETHParis 2019"
 description: "One-click blockchain setup tools, corporate bonds as payment collateral, a trustless fiat bank account for DApps, and more from ETHParis 2019."
 date: "2019-03-14"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "6 min"
 forum_url: "https://medium.com/@mateo_ventures/4-dapps-built-on-quorum-at-ethparis-2019-762ac23de783"
 forum_name: "Medium"

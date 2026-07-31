@@ -2,7 +2,7 @@
 title: "New to Quorum? Start Here."
 description: "What is Quorum, why it's built on Ethereum, and how to get started as a developer on JPMorgan's enterprise blockchain."
 date: "2020-04-24"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "8 min"
 forum_url: "https://medium.com/@mateo_ventures/new-to-quorum-start-here-81d87d96bc5f"
 forum_name: "Medium"

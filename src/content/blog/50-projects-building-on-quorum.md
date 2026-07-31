@@ -2,7 +2,7 @@
 title: "50+ Projects Building on J.P. Morgan's Quorum Blockchain"
 description: "A comprehensive list of projects using and building on Quorum's private/permissioned blockchain across banking, healthcare, supply chain, and more."
 date: "2019-08-08"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "10 min"
 forum_url: "https://medium.com/@mateo_ventures/heres-who-s-building-on-quorum-see-the-list-b18d65aa0a2c"
 forum_name: "Medium"

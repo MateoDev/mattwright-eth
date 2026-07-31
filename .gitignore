@@ -24,3 +24,8 @@ pnpm-debug.log*
 # astro
 .astro/
 .vercel
+# deployment archives / CID scratch files
+*.tar.gz
+*.tgz
+*cid*.txt
+*CID*.txt

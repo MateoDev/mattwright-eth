@@ -2,7 +2,7 @@
 title: "3 Quorum Bounty Winners from ETHDenver 2020"
 description: "Permissioned email on blockchain, secure medical supply chain, and a platform for private sponsorship of investigative journalism."
 date: "2020-03-12"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "6 min"
 forum_url: "https://medium.com/@mateo_ventures/3-quorum-bounty-winners-from-ethdenver-2020-cb37a0d91386"
 forum_name: "Medium"

@@ -2,7 +2,7 @@
 title: "Infinite Gardens and Machines of Loving Grace"
 description: "The institutions got there first. Agents can take it back."
 date: "2025-10-01"
-category: "ESSAY"
+category: "Thoughts"
 readTime: "15 min"
 image: "/images/infinite-gardens-img-7.jpg"
 ---

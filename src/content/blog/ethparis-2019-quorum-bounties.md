@@ -2,7 +2,7 @@
 title: "ETHParis 2019 — Quorum Bounties"
 description: "The Quorum team's bounties for ETHParis 2019: privacy, performance, and public/private chain integration."
 date: "2019-03-07"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "3 min"
 forum_url: "https://medium.com/@mateo_ventures/ethparis-2019-quorum-bounties-49bf9f979346"
 forum_name: "Medium"
