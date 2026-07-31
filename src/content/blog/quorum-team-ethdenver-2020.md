@@ -2,7 +2,7 @@
 title: "The Quorum Team is Coming Back to ETHDenver"
 description: "Why you should build with Quorum at ETHDenver 2020, what bounties we're offering, and what was built last year."
 date: "2020-01-29"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "4 min"
 forum_url: "https://medium.com/@mateo_ventures/the-quorum-team-is-coming-back-to-ethdenver-90d9512a7eff"
 forum_name: "Medium"

@@ -2,7 +2,7 @@
 title: "69+ Projects to Build for the Rise of AI Agents"
 description: "We're entering an era where knowledge will be the next economic resource. Here are 69+ projects to build for the rise of autonomous AI agents."
 date: "2024-12-06"
-category: "STRATEGY"
+category: "Thoughts"
 readTime: "25 min"
 image: "/images/69-projects-header.jpg"
 coverImage: "/images/69-projects-header.jpg"

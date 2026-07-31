@@ -2,7 +2,7 @@
 title: "Quorum Monthly Brief — August 2020"
 description: "Quorum v2.7, Tessera updates, Windows support in Wizard, and how to get involved with the community."
 date: "2020-08-13"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "5 min"
 forum_url: "https://medium.com/@mateo_ventures/quorum-monthly-brief-august-2020-5f75158a9664"
 forum_name: "Medium"

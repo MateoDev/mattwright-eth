@@ -2,7 +2,7 @@
 title: "Getting Started with Gaia"
 description: "How to deploy your own decentralized AI node in under 10 minutes."
 date: "2025-01-15"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "8 min"
 image: "/images/gaia-getting-started-header.jpg"
 ---

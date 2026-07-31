@@ -2,7 +2,7 @@
 title: "Post-Mortem: First AI Agent Ran Hackathon"
 description: "What if agents could not only innovate but also orchestrate innovation itself? From running hackathons to managing DAOs, agents are poised to revolutionize how we build decentralized systems."
 date: "2025-01-22"
-category: "ESSAY"
+category: "Thoughts"
 readTime: "8 min"
 image: "/images/hackathon-header.jpg"
 coverImage: "/images/hackathon-header.jpg"

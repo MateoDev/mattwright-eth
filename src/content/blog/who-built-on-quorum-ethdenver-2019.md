@@ -2,7 +2,7 @@
 title: "Here's Who Built on Quorum at ETH Denver 2019"
 description: "A web3 gaming experience with no extensions, a permissioned security token platform, and a supply chain DApp — the three Quorum bounty winners from ETHDenver 2019."
 date: "2019-02-21"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "5 min"
 forum_url: "https://medium.com/@mateo_ventures/heres-who-built-on-quorum-at-eth-denver-f708be33e30"
 forum_name: "Medium"

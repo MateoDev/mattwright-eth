@@ -2,7 +2,7 @@
 title: "The Largest Job Boom in History"
 description: "Why agents create more work than they destroy."
 date: "2026-04-08"
-category: "STRATEGY"
+category: "Thoughts"
 readTime: "12 min"
 image: "/images/largest-job-boom-header.png"
 draft: true

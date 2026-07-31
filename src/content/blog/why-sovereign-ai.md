@@ -2,7 +2,7 @@
 title: "Why Sovereign AI Is the Most Important Infrastructure Problem of Our Time"
 description: "Your data is being taken from you. Your intellectual property is being taken from you. Your agency is being taken from you."
 date: "2025-11-19"
-category: "STRATEGY"
+category: "Thoughts"
 readTime: "15 min"
 image: "/images/sovereign-ai-header.jpg"
 ---

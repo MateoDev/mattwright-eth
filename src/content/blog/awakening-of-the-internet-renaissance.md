@@ -2,7 +2,7 @@
 title: "The Awakening of the Internet Renaissance"
 description: "On the return of sovereignty, the philosophy of the agentic web, and what it means to reclaim the digital commons."
 date: "2025-09-01"
-category: "ESSAY"
+category: "Thoughts"
 readTime: "12 min"
 image: "/images/renaissance-header.jpg"
 ---

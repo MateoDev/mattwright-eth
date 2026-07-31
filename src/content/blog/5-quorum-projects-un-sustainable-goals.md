@@ -2,7 +2,7 @@
 title: "5 Projects Built on Quorum for the UN's Sustainable Development Goals"
 description: "P2P lending for the unbanked, patient data storage in developing countries, supply chain for aid, and more — teams applying Quorum to global social impact."
 date: "2019-05-03"
-category: "TECHNICAL"
+category: "Technical"
 readTime: "7 min"
 forum_url: "https://medium.com/@mateo_ventures/5-projects-built-on-quorum-that-applied-to-the-uns-sustainable-goals-program-1b753b24a434"
 forum_name: "Medium"
