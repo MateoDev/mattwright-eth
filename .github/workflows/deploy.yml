@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22.12.0'
           cache: 'npm'
           
       - name: Install dependencies
@@ -29,19 +29,33 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           
-      - name: Pin to IPFS & Update ENS
+      - name: Pin to IPFS
         if: github.ref == 'refs/heads/main'
         env:
           PINATA_JWT: ${{ secrets.PINATA_JWT }}
-          BLOG_MANAGER_KEY: ${{ secrets.BLOG_MANAGER_KEY }}
         run: |
-          # Install dependencies for IPFS upload
-          npm install -g @pinata/cli
-          
-          # Upload to IPFS
-          echo "Uploading to IPFS..."
-          IPFS_HASH=$(pinata upload ./dist --name "mattwright-eth-$(date +%Y-%m-%d)" --json | jq -r '.IpfsHash')
+          set -euo pipefail
+          if [ -z "${PINATA_JWT:-}" ]; then
+            echo "PINATA_JWT is not configured in GitHub Secrets"
+            exit 1
+          fi
+
+          echo "Uploading dist/ to Pinata/IPFS..."
+          RESPONSE_FILE=$(mktemp)
+          cd dist
+          find . -type f | sort | while read -r f; do
+            echo "-F file=@${f#./};filename=dist/${f#./}"
+          done | xargs curl --fail-with-body --silent --show-error --request POST \
+            --url https://uploads.pinata.cloud/v3/files \
+            --header "Authorization: Bearer ${PINATA_JWT}" \
+            -F "network=public" \
+            -F "name=mattwright-eth-${GITHUB_SHA}" > "$RESPONSE_FILE"
+
+          cat "$RESPONSE_FILE"
+          IPFS_HASH=$(jq -r '.data.cid // .IpfsHash // empty' "$RESPONSE_FILE")
+          if [ -z "$IPFS_HASH" ] || [ "$IPFS_HASH" = "null" ]; then
+            echo "Could not parse IPFS CID from Pinata response"
+            exit 1
+          fi
           echo "IPFS Hash: $IPFS_HASH"
-          
-          # Update ENS (simplified - we'll add this step)
-          echo "ENS update would happen here with hash: $IPFS_HASH"
+          echo "IPFS_HASH=$IPFS_HASH" >> "$GITHUB_ENV"
