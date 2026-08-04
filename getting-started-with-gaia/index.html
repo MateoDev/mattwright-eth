@@ -1,0 +1,171 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-5hce7sga> <head><meta charset="UTF-8"><meta name="description" content="How to deploy your own decentralized AI node in under 10 minutes."><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="Astro v6.0.6"><meta property="og:title" content="Getting Started with Gaia — Matt Wright"><meta property="og:description" content="How to deploy your own decentralized AI node in under 10 minutes."><meta property="og:image" content="https://mattwright.eth.limo/images/gaia-getting-started-header.jpg"><meta property="og:type" content="article"><meta property="og:url" content="https://mattwright.eth.limo"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Getting Started with Gaia — Matt Wright"><meta name="twitter:description" content="How to deploy your own decentralized AI node in under 10 minutes."><meta name="twitter:image" content="https://mattwright.eth.limo/images/gaia-getting-started-header.jpg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><title>Getting Started with Gaia — Matt Wright</title><link rel="stylesheet" href="/_astro/Base.BbLSQ7RQ.css">
+<link rel="stylesheet" href="/_astro/_slug_@_@astro.SkOxnrum.css"></head> <body data-astro-cid-5hce7sga> <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" data-astro-cid-5hce7sga> <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5hce7sga> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-5hce7sga></path> </svg> <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5hce7sga> <circle cx="12" cy="12" r="4" data-astro-cid-5hce7sga></circle> <line x1="12" y1="2" x2="12" y2="4" data-astro-cid-5hce7sga></line> <line x1="12" y1="20" x2="12" y2="22" data-astro-cid-5hce7sga></line> <line x1="2" y1="12" x2="4" y2="12" data-astro-cid-5hce7sga></line> <line x1="20" y1="12" x2="22" y2="12" data-astro-cid-5hce7sga></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-5hce7sga></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-5hce7sga></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-5hce7sga></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-5hce7sga></line> </svg> </button> <div id="doc" data-astro-cid-5hce7sga>  <div class="post-nav" data-astro-cid-yvbahnfj> <a href="/" class="back-link" data-astro-cid-yvbahnfj>← Writing</a> <span class="post-cat-label" data-astro-cid-yvbahnfj>Technical</span> </div> <div class="post-header" data-astro-cid-yvbahnfj>  <h1 data-astro-cid-yvbahnfj>Getting Started with Gaia</h1> <div class="post-meta" data-astro-cid-yvbahnfj> January 15, 2025 <span data-astro-cid-yvbahnfj> · 8 min read</span>  </div> </div> <div class="markdown-body" data-astro-cid-yvbahnfj> <p><img src="/images/gaia-getting-started-header.jpg" alt="Getting Started with Gaia — deploy your own sovereign AI node"></p>
+<p>The internet runs on servers you don’t own, serving models you can’t audit, with data you have no visibility into.</p>
+<p>Gaia is a different bet. It’s an open-source network of decentralized AI nodes — each one sovereign, each one running an LLM with its own knowledge base, each one accessible as an OpenAI-compatible API endpoint. You run it on your own machine. You own the inference. You control what goes in and what comes out.</p>
+<p>This guide walks you through deploying your own Gaia node from scratch. By the end, you’ll have a live node running at your own URL, ready to power any app that speaks OpenAI’s API format.</p>
+<hr>
+<h2 id="what-is-a-gaia-node">What Is a Gaia Node?</h2>
+<p><img src="/images/gaia-node-architecture.jpg" alt="GaiaNet node architecture — API server, RAG pipeline, vector database, WasmEdge runtime, and marketplace"></p>
+<p>A Gaia node is a self-hosted AI inference service. It runs:</p>
+<ul>
+<li>An <strong>LLM</strong> (Llama, Qwen, Mistral, or any GGUF-format model)</li>
+<li>A <strong>vector database</strong> (Qdrant) with your custom knowledge base</li>
+<li>A <strong>RAG pipeline</strong> that retrieves relevant context before every inference</li>
+<li>A <strong>web dashboard</strong> and OpenAI-compatible API endpoint</li>
+</ul>
+<p>Once running, your node gets a unique address on the Gaia network — something like <code>https://0xf639...us.gaianet.network</code> — and anyone (or any agent) can query it like they’d query ChatGPT.</p>
+<p><img src="/images/gaia-logo.png" alt="Gaia — open-source decentralized AI node network"></p>
+<p>The network has grown to <strong>710,000+ nodes</strong> running over <strong>30 trillion inferences</strong>. It integrates with Coinbase, EigenLayer, ENS, MetaMask, and 110+ other partners. If you want to understand why, <a href="https://www.taisu.io/centralized-ai-is-eating-the-world-but-what-if-users-owned-the-intelligence/">this piece</a> covers the $20M raise and the thesis behind it.</p>
+<hr>
+<h2 id="what-you-need">What You Need</h2>
+<ul>
+<li><strong>Mac or Linux</strong> (Windows via WSL2 works too)</li>
+<li><strong>8GB RAM minimum</strong> (16GB recommended for larger models)</li>
+<li><strong>20GB free disk space</strong> (models are large)</li>
+<li>A terminal</li>
+</ul>
+<p>That’s it. No Docker, no cloud account, no API key.</p>
+<hr>
+<h2 id="install">Install</h2>
+<p>One command installs the full stack — WasmEdge runtime, Qdrant vector database, the RAG server, and the dashboard:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">curl</span><span style="color:#79B8FF"> -sSfL</span><span style="color:#9ECBFF"> 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh'</span><span style="color:#F97583"> |</span><span style="color:#B392F0"> bash</span></span></code></pre>
+<p>When it finishes, follow the prompt to set your PATH:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#79B8FF">source</span><span style="color:#9ECBFF"> ~/.bashrc</span></span>
+<span class="line"><span style="color:#6A737D"># or on Mac:</span></span>
+<span class="line"><span style="color:#79B8FF">source</span><span style="color:#9ECBFF"> ~/.zshrc</span></span></code></pre>
+<p>You’ll see output like this as it installs:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>[+] Downloading default config file ...</span></span>
+<span class="line"><span>[+] Installing WasmEdge with wasi-nn_ggml plugin ...</span></span>
+<span class="line"><span>[+] Installing Qdrant binary...</span></span>
+<span class="line"><span>[+] Downloading the rag-api-server.wasm ...</span></span>
+<span class="line"><span>[+] Downloading dashboard ...</span></span></code></pre>
+<hr>
+<h2 id="initialize">Initialize</h2>
+<p>This downloads the default model (Llama 3 8B) and sets up your vector database. It takes a few minutes — the model file is a few gigabytes.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">gaianet</span><span style="color:#9ECBFF"> init</span></span></code></pre>
+<p>Want a different model? Edit <code>~/gaianet/config.json</code> before running init. You can point it to any GGUF model hosted on <a href="https://huggingface.co/gaianet">Hugging Face</a>. Check our <a href="https://huggingface.co/gaianet">Hugging Face repo</a> for specialized models.</p>
+<p><img src="/images/gaia-huggingface-models.jpg" alt="Hugging Face models — browse and select any GGUF model for your Gaia node"> The <a href="https://github.com/GaiaNet-AI/awesome-gaia">awesome-gaia repo</a> has a curated list of pre-configured node setups for different use cases.</p>
+<hr>
+<h2 id="start">Start</h2>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">gaianet</span><span style="color:#9ECBFF"> start</span></span></code></pre>
+<p>Your node is now live. The terminal prints your node address:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>... ... https://0xf63939431ee11267f4855a166e11cc44d24960c0.us.gaianet.network</span></span></code></pre>
+<p>Open that URL in a browser. You’ll see your node dashboard — model info, knowledge base stats, and a chat interface. Try it.</p>
+<hr>
+<p><img src="/images/gaia-cli-install.jpg" alt="Installing, initializing, and starting a Gaia node — three commands to go from zero to live"></p>
+<h2 id="stop">Stop</h2>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">gaianet</span><span style="color:#9ECBFF"> stop</span></span></code></pre>
+<hr>
+<p><img src="/images/gaia-edit-ss1.jpg" alt="Gaia node chat interface — once your node is live, query it directly via the web dashboard or API"></p>
+<h2 id="use-it-like-openai">Use It Like OpenAI</h2>
+<p>Your node exposes an OpenAI-compatible API. Swap out the base URL in any app that uses OpenAI:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="python"><code><span class="line"><span style="color:#F97583">from</span><span style="color:#E1E4E8"> openai </span><span style="color:#F97583">import</span><span style="color:#E1E4E8"> OpenAI</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">client </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> OpenAI(</span></span>
+<span class="line"><span style="color:#FFAB70">    base_url</span><span style="color:#F97583">=</span><span style="color:#9ECBFF">"https://YOUR-NODE-ADDRESS.gaianet.network/v1"</span><span style="color:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#FFAB70">    api_key</span><span style="color:#F97583">=</span><span style="color:#9ECBFF">"GAIA"</span><span style="color:#6A737D">  # any string works</span></span>
+<span class="line"><span style="color:#E1E4E8">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">response </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> client.chat.completions.create(</span></span>
+<span class="line"><span style="color:#FFAB70">    model</span><span style="color:#F97583">=</span><span style="color:#9ECBFF">"llama"</span><span style="color:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#FFAB70">    messages</span><span style="color:#F97583">=</span><span style="color:#E1E4E8">[{</span><span style="color:#9ECBFF">"role"</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"user"</span><span style="color:#E1E4E8">, </span><span style="color:#9ECBFF">"content"</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"What is Gaia?"</span><span style="color:#E1E4E8">}]</span></span>
+<span class="line"><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#79B8FF">print</span><span style="color:#E1E4E8">(response.choices[</span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8">].message.content)</span></span></code></pre>
+<p>This works with <strong>any OpenAI-compatible tool</strong> — Cursor, AnythingLLM, OpenWebUI, Obsidian, Dify, LangChain, and more. Your node, their interface.</p>
+<hr>
+<h2 id="add-your-own-knowledge">Add Your Own Knowledge</h2>
+<p><img src="/images/gaia-edit-ss2.jpg" alt="GaiaNet node architecture — API server, LLM, RAG, vector database, WasmEdge runtime, and marketplace"></p>
+<p>The real power is custom knowledge bases.</p>
+<p><img src="/images/gaia-txt2rag-tool.jpg" alt="Txt2RAG tool — convert any text file into an embedding snapshot for your Gaia knowledge base"> You can load any domain-specific data into your node’s vector store:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># Convert a text file to embeddings</span></span>
+<span class="line"><span style="color:#B392F0">gaianet</span><span style="color:#9ECBFF"> embed</span><span style="color:#79B8FF"> --text</span><span style="color:#9ECBFF"> my-knowledge-base.txt</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Rebuild the vector database</span></span>
+<span class="line"><span style="color:#B392F0">gaianet</span><span style="color:#9ECBFF"> init</span><span style="color:#79B8FF"> --skip-download</span></span></code></pre>
+<p>Guides for converting different formats:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=qo43dv_Oero">Plain text to embeddings</a></li>
+<li><a href="https://www.youtube.com/watch?v=vjIVfrAjqEw">Markdown files to embeddings</a></li>
+</ul>
+<hr>
+<h2 id="deploy-to-the-network">Deploy to the Network</h2>
+<p>Once your node is running locally, you can register it on the Gaia network so other agents and apps can discover and use it.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">gaianet</span><span style="color:#9ECBFF"> info</span></span></code></pre>
+<p>This prints your node ID and public address. You can then register at <a href="https://www.gaianet.ai/">gaianet.ai</a> to get your node listed in the discovery network.</p>
+<hr>
+<h2 id="what-to-build-next">What to Build Next</h2>
+<p>Once your node is running, you can:</p>
+<ul>
+<li><strong>Connect it to Cursor IDE</strong> as a private AI coding assistant (<a href="https://www.youtube.com/watch?v=ve_bEZL_rYQ">guide</a>)</li>
+<li><strong>Build a Telegram bot</strong> with Coinbase AgentKit + your node (<a href="https://docs.gaianet.ai/tutorial/coinbase">guide</a>)</li>
+<li><strong>Spin up a voice chat interface</strong> — whisper + LLM + TTS on one node (<a href="https://www.youtube.com/watch?v=bu8wUFAAKxI">demo</a>)</li>
+<li><strong>Power an AI agent</strong> that uses your knowledge base for specialized reasoning</li>
+<li><strong>Join the network</strong> and earn rewards for serving inference to other agents</li>
+</ul>
+<hr>
+<h2 id="resources">Resources</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Resource</th><th>Link</th></tr></thead><tbody><tr><td>Official docs</td><td><a href="https://docs.gaianet.ai/">docs.gaianet.ai</a></td></tr><tr><td>GitHub</td><td><a href="https://github.com/GaiaNet-AI/gaianet-node">GaiaNet-AI/gaianet-node</a></td></tr><tr><td>Awesome Gaia (community builds)</td><td><a href="https://github.com/GaiaNet-AI/awesome-gaia">awesome-gaia</a></td></tr><tr><td>Node installation walkthrough</td><td><a href="https://www.youtube.com/watch?v=RwS6DZQBJ7A">YouTube</a></td></tr><tr><td>Spinning up your own node</td><td><a href="https://www.youtube.com/watch?v=bu8wUFAAKxI">YouTube</a></td></tr><tr><td>69+ projects to build on Gaia</td><td><a href="https://mirror.xyz/mattwright.eth/lMiFZnjbJ_jYCzE05XKzvTqrRqeRkJGXa8pIGNBBo2A">Mirror</a></td></tr><tr><td>Discord</td><td><a href="https://discord.gg/gaianet-ai">discord.gg/gaianet-ai</a></td></tr><tr><td>Telegram</td><td><a href="https://t.me/+0gVvm-GgiF01MmQ9">t.me/gaianet</a></td></tr></tbody></table>
+<hr>
+<p>The node is running. The network is live. The inference is yours.</p> </div> <div class="post-footer" data-astro-cid-yvbahnfj> <a href="/" class="back-link" data-astro-cid-yvbahnfj>← Back to writing</a> </div>  </div> <script>
+      // Init theme from localStorage, default light
+      (function() {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      })();
+
+      function toggleTheme() {
+        const html = document.documentElement;
+        const isDark = html.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          html.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+        } else {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        }
+        updateToggleLabel();
+      }
+
+      // no label to update — icon-only toggle
+    </script> </body> </html>

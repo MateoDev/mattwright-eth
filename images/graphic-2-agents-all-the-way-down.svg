@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" width="700" height="500">
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; }
+    .label { font-size: 12px; font-weight: 600; fill: #111; }
+    .sublabel { font-size: 10px; fill: #666; }
+    .note { font-size: 10px; fill: #888; font-style: italic; }
+    .tier { font-size: 11px; font-weight: 600; fill: #111; letter-spacing: 1px; }
+  </style>
+
+  <!-- Human at top -->
+  <circle cx="350" cy="50" r="16" stroke="#111" stroke-width="2" fill="none"/>
+  <circle cx="350" cy="44" r="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <line x1="350" y1="56" x2="350" y2="72" stroke="#111" stroke-width="1.5"/>
+  <line x1="338" y1="62" x2="362" y2="62" stroke="#111" stroke-width="1.5"/>
+  <text x="350" y="95" text-anchor="middle" class="tier">HUMAN ORCHESTRATOR</text>
+  <text x="350" y="108" text-anchor="middle" class="sublabel">Sets goals, defines boundaries, makes judgment calls</text>
+
+  <!-- Connector down -->
+  <line x1="350" y1="115" x2="350" y2="145" stroke="#111" stroke-width="1.5"/>
+  <polygon points="345,143 350,153 355,143" fill="#111"/>
+
+  <!-- Primary Agent -->
+  <rect x="250" y="155" width="200" height="60" rx="8" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="350" y="182" text-anchor="middle" class="label">PRIMARY AGENT</text>
+  <text x="350" y="198" text-anchor="middle" class="sublabel">Acts as PM — coordinates, delegates, reports</text>
+
+  <!-- Three branches down -->
+  <line x1="300" y1="215" x2="300" y2="255" stroke="#111" stroke-width="1.2"/>
+  <line x1="350" y1="215" x2="350" y2="255" stroke="#111" stroke-width="1.2"/>
+  <line x1="400" y1="215" x2="400" y2="255" stroke="#111" stroke-width="1.2"/>
+  <polygon points="295,253 300,263 305,253" fill="#111"/>
+  <polygon points="345,253 350,263 355,253" fill="#111"/>
+  <polygon points="395,253 400,263 405,253" fill="#111"/>
+
+  <!-- Sub-agents row -->
+  <rect x="220" y="265" width="160" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="300" y="286" text-anchor="middle" class="label" font-size="11">SUB-AGENT A</text>
+  <text x="300" y="301" text-anchor="middle" class="sublabel">Research + data</text>
+
+  <rect x="400" y="265" width="160" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <text x="480" y="286" text-anchor="middle" class="label" font-size="11">SUB-AGENT B</text>
+  <text x="480" y="301" text-anchor="middle" class="sublabel">Execution + tools</text>
+
+  <rect x="70" y="265" width="130" height="50" rx="6" stroke="#111" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="135" y="286" text-anchor="middle" class="label" font-size="11">EXTERNAL AGENT</text>
+  <text x="135" y="301" text-anchor="middle" class="sublabel">Different owner</text>
+
+  <!-- Dashed line from primary to external -->
+  <line x1="250" y1="185" x2="135" y2="265" stroke="#111" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Backend agents layer -->
+  <line x1="300" y1="315" x2="300" y2="350" stroke="#111" stroke-width="1"/>
+  <line x1="480" y1="315" x2="480" y2="350" stroke="#111" stroke-width="1"/>
+  <polygon points="296,348 300,356 304,348" fill="#111"/>
+  <polygon points="476,348 480,356 484,348" fill="#111"/>
+
+  <rect x="160" y="358" width="380" height="55" rx="6" stroke="#111" stroke-width="1.5" fill="none"/>
+  <line x1="160" y1="358" x2="540" y2="358" stroke="#111" stroke-width="1.5" stroke-dasharray="0"/>
+  <text x="350" y="380" text-anchor="middle" class="tier" font-size="10">BACKEND AGENTS</text>
+  <text x="350" y="396" text-anchor="middle" class="sublabel">No personality — compress data, manage shared knowledge,</text>
+  <text x="350" y="408" text-anchor="middle" class="sublabel">delegate infrastructure tasks, maintain the system</text>
+
+  <!-- Bottom label -->
+  <rect x="120" y="440" width="460" height="35" rx="4" stroke="#111" stroke-width="1" fill="none" stroke-dasharray="6,3"/>
+  <text x="350" y="462" text-anchor="middle" class="note" font-size="11">Agents all the way down — from orchestrator to infrastructure</text>
+</svg>

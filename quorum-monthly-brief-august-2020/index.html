@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-5hce7sga> <head><meta charset="UTF-8"><meta name="description" content="Quorum v2.7, Tessera updates, Windows support in Wizard, and how to get involved with the community."><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="Astro v6.0.6"><meta property="og:title" content="Quorum Monthly Brief — August 2020 — Matt Wright"><meta property="og:description" content="Quorum v2.7, Tessera updates, Windows support in Wizard, and how to get involved with the community."><meta property="og:image" content="https://mattwright.eth.limo/images/billion-agent-economy-header.jpg"><meta property="og:type" content="article"><meta property="og:url" content="https://mattwright.eth.limo"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Quorum Monthly Brief — August 2020 — Matt Wright"><meta name="twitter:description" content="Quorum v2.7, Tessera updates, Windows support in Wizard, and how to get involved with the community."><meta name="twitter:image" content="https://mattwright.eth.limo/images/billion-agent-economy-header.jpg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><title>Quorum Monthly Brief — August 2020 — Matt Wright</title><link rel="stylesheet" href="/_astro/Base.BbLSQ7RQ.css">
+<link rel="stylesheet" href="/_astro/_slug_@_@astro.SkOxnrum.css"></head> <body data-astro-cid-5hce7sga> <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" data-astro-cid-5hce7sga> <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5hce7sga> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-5hce7sga></path> </svg> <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5hce7sga> <circle cx="12" cy="12" r="4" data-astro-cid-5hce7sga></circle> <line x1="12" y1="2" x2="12" y2="4" data-astro-cid-5hce7sga></line> <line x1="12" y1="20" x2="12" y2="22" data-astro-cid-5hce7sga></line> <line x1="2" y1="12" x2="4" y2="12" data-astro-cid-5hce7sga></line> <line x1="20" y1="12" x2="22" y2="12" data-astro-cid-5hce7sga></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-5hce7sga></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-5hce7sga></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-5hce7sga></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-5hce7sga></line> </svg> </button> <div id="doc" data-astro-cid-5hce7sga>  <div class="post-nav" data-astro-cid-yvbahnfj> <a href="/" class="back-link" data-astro-cid-yvbahnfj>← Writing</a> <span class="post-cat-label" data-astro-cid-yvbahnfj>Technical</span> </div> <div class="post-header" data-astro-cid-yvbahnfj>  <h1 data-astro-cid-yvbahnfj>Quorum Monthly Brief — August 2020</h1> <div class="post-meta" data-astro-cid-yvbahnfj> August 13, 2020 <span data-astro-cid-yvbahnfj> · 5 min read</span>  </div> </div> <div class="forum-callout" data-astro-cid-yvbahnfj> <span class="forum-callout-label" data-astro-cid-yvbahnfj>// cross-posted</span> <a href="https://medium.com/@mateo_ventures/quorum-monthly-brief-august-2020-5f75158a9664" target="_blank" rel="noopener noreferrer" data-astro-cid-yvbahnfj>
+Originally posted on Medium →
+</a> </div><div class="markdown-body" data-astro-cid-yvbahnfj> <p>We have done a significant amount of work over the last month.</p>
+<p>We released Quorum v2.7 — a huge push from the team. The Quorum engineering team also made enhancements to Tessera, Wizard, Cakeshop, and Qubernetes, open sourced a new tool for stress testing, shipped a Terraform Provider plugin for network provisioning automation, and added new plugins for key management and AuthN/AuthZ.</p>
+<p>On top of that, we worked with the team at Splunk to bring the community a new selector for third-party tools in Quorum Wizard — you can now deploy the Quorum Splunk App without leaving the command line.</p>
+<hr>
+<h2 id="developer-updates">Developer Updates</h2>
+<h3 id="quorum-v27">Quorum v2.7</h3>
+<p>Major new features in this release:</p>
+<ul>
+<li><strong>Private contract state extension</strong> — support for adding new members to existing private smart contracts (Beta)</li>
+<li><strong>HashiCorp Vault account management</strong> — account management via external plugin with open-sourced SDK (Beta)</li>
+<li><strong>JSON RPC API OAuth/AuthZ</strong> — protect JSON RPC APIs via a plugin interface (Beta)</li>
+</ul>
+<p>Full release on <a href="https://github.com/ConsenSys/quorum">GitHub</a>.</p>
+<h3 id="tessera-0106">Tessera 0.10.6</h3>
+<ul>
+<li>Bootstrap mode support</li>
+<li>Custom encryptor type (<code>CUSTOM</code>) with Unbound’s UKC as pilot implementation</li>
+<li>Logging improvements and catalog log messages</li>
+<li>Localhost peer recognition with IP or hostname</li>
+</ul>
+<h3 id="quorum-wizard-v12">Quorum Wizard v1.2</h3>
+<ul>
+<li>Added Quorum 2.7.0</li>
+<li><strong>Windows support</strong> — run the wizard on Windows to generate docker-compose or kubernetes networks</li>
+<li>Splunk as optional third-party tool alongside docker-compose networks</li>
+</ul>
+<p>Update via:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">npm</span><span style="color:#9ECBFF"> install</span><span style="color:#79B8FF"> -g</span><span style="color:#9ECBFF"> quorum-wizard</span></span>
+<span class="line"><span style="color:#6A737D"># or without installing:</span></span>
+<span class="line"><span style="color:#B392F0">npx</span><span style="color:#9ECBFF"> quorum-wizard</span></span></code></pre>
+<h3 id="qubernetes-v013">Qubernetes v0.1.3</h3>
+<ul>
+<li>Cakeshop support — easily deployed via qubernetes on Kubernetes</li>
+<li>Prometheus geth/quorum metrics collection</li>
+<li>Grafana docker-compose dashboard for optional deployment</li>
+</ul>
+<h3 id="quorum-profiling-tool-open-sourced">Quorum Profiling Tool (Open Sourced)</h3>
+<p>A new stress-testing tool for Quorum networks is now open source. Use it to benchmark transaction throughput under load.</p>
+<hr>
+<h2 id="get-involved">Get Involved</h2>
+<p>If you’re looking to host a webinar for your community, write articles that educate developers on Quorum features, get involved in Slack, or produce content that demos how to build on Quorum — the team is happy to help. Reach out at <a href="mailto:info@goquorum.com">info@goquorum.com</a>.</p> </div> <div class="forum-callout forum-callout-bottom" data-astro-cid-yvbahnfj> <span class="forum-callout-label" data-astro-cid-yvbahnfj>// discuss</span> <a href="https://medium.com/@mateo_ventures/quorum-monthly-brief-august-2020-5f75158a9664" target="_blank" rel="noopener noreferrer" data-astro-cid-yvbahnfj>
+Join the discussion on Medium →
+</a> </div><div class="post-footer" data-astro-cid-yvbahnfj> <a href="/" class="back-link" data-astro-cid-yvbahnfj>← Back to writing</a> </div>  </div> <script>
+      // Init theme from localStorage, default light
+      (function() {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      })();
+
+      function toggleTheme() {
+        const html = document.documentElement;
+        const isDark = html.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          html.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+        } else {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        }
+        updateToggleLabel();
+      }
+
+      // no label to update — icon-only toggle
+    </script> </body> </html>

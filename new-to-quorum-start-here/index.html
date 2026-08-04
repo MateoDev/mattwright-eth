@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-5hce7sga> <head><meta charset="UTF-8"><meta name="description" content="What is Quorum, why it's built on Ethereum, and how to get started as a developer on JPMorgan's enterprise blockchain."><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="Astro v6.0.6"><meta property="og:title" content="New to Quorum? Start Here. — Matt Wright"><meta property="og:description" content="What is Quorum, why it's built on Ethereum, and how to get started as a developer on JPMorgan's enterprise blockchain."><meta property="og:image" content="https://mattwright.eth.limo/images/billion-agent-economy-header.jpg"><meta property="og:type" content="article"><meta property="og:url" content="https://mattwright.eth.limo"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="New to Quorum? Start Here. — Matt Wright"><meta name="twitter:description" content="What is Quorum, why it's built on Ethereum, and how to get started as a developer on JPMorgan's enterprise blockchain."><meta name="twitter:image" content="https://mattwright.eth.limo/images/billion-agent-economy-header.jpg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><title>New to Quorum? Start Here. — Matt Wright</title><link rel="stylesheet" href="/_astro/Base.BbLSQ7RQ.css">
+<link rel="stylesheet" href="/_astro/_slug_@_@astro.SkOxnrum.css"></head> <body data-astro-cid-5hce7sga> <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" data-astro-cid-5hce7sga> <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5hce7sga> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-5hce7sga></path> </svg> <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5hce7sga> <circle cx="12" cy="12" r="4" data-astro-cid-5hce7sga></circle> <line x1="12" y1="2" x2="12" y2="4" data-astro-cid-5hce7sga></line> <line x1="12" y1="20" x2="12" y2="22" data-astro-cid-5hce7sga></line> <line x1="2" y1="12" x2="4" y2="12" data-astro-cid-5hce7sga></line> <line x1="20" y1="12" x2="22" y2="12" data-astro-cid-5hce7sga></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-5hce7sga></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-5hce7sga></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-5hce7sga></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-5hce7sga></line> </svg> </button> <div id="doc" data-astro-cid-5hce7sga>  <div class="post-nav" data-astro-cid-yvbahnfj> <a href="/" class="back-link" data-astro-cid-yvbahnfj>← Writing</a> <span class="post-cat-label" data-astro-cid-yvbahnfj>Technical</span> </div> <div class="post-header" data-astro-cid-yvbahnfj>  <h1 data-astro-cid-yvbahnfj>New to Quorum? Start Here.</h1> <div class="post-meta" data-astro-cid-yvbahnfj> April 24, 2020 <span data-astro-cid-yvbahnfj> · 8 min read</span>  </div> </div> <div class="forum-callout" data-astro-cid-yvbahnfj> <span class="forum-callout-label" data-astro-cid-yvbahnfj>// cross-posted</span> <a href="https://medium.com/@mateo_ventures/new-to-quorum-start-here-81d87d96bc5f" target="_blank" rel="noopener noreferrer" data-astro-cid-yvbahnfj>
+Originally posted on Medium →
+</a> </div><div class="markdown-body" data-astro-cid-yvbahnfj> <h2 id="what-is-quorum">What is Quorum?</h2>
+<p>Quorum is a private/permissioned blockchain platform built for enterprise. It’s a fork of the Go Ethereum client (geth) — the official GoLang implementation of the Ethereum protocol — designed to process private transactions with a permissioned group of known participants. Developed and maintained by J.P. Morgan since 2015, Quorum is enterprise-ready and available straight from GitHub.</p>
+<h2 id="why-ethereum">Why Ethereum?</h2>
+<p>Ethereum isn’t just a cryptocurrency — it’s an open source platform for building decentralized applications (DApps) and a general platform for smart contract development. It provides a decentralized virtual machine (the EVM) which can execute scripts across a distributed network of nodes, with Turing-complete instruction sets.</p>
+<p>Ethereum also has the largest blockchain ecosystem with 4x more developers than any other protocol. Tons of people are building on top of it, which means tooling, libraries, and momentum.</p>
+<h2 id="why-quorum-specifically">Why Quorum Specifically?</h2>
+<p>During the early development of Quorum, it became clear that the internet of value would bring significant changes to enterprises. Ethereum’s public network — where every transaction and participant is publicly visible — wasn’t suitable for enterprise use cases that require:</p>
+<ul>
+<li><strong>Privacy</strong> — sensitive transaction data should not be publicly visible</li>
+<li><strong>Speed and throughput</strong> — enterprise volumes require higher performance than public mainnet</li>
+<li><strong>Permissioned access</strong> — only known, trusted participants</li>
+</ul>
+<p>Quorum addressed these challenges by adding:</p>
+<ul>
+<li>A privacy manager to support private transactions (via Tessera)</li>
+<li>Private and public EVM state — same smart contracts as public Ethereum</li>
+<li>A permissioned network (consortium model)</li>
+<li>Pluggable consensus mechanisms</li>
+</ul>
+<p>Public Ethereum tools work seamlessly with Quorum — Truffle Suite, Remix IDE, MetaMask, web3j all play nicely.</p>
+<h2 id="architecture">Architecture</h2>
+<p>Quorum consists of three core components:</p>
+<ol>
+<li><strong>Quorum Node</strong> — a modified Geth client with privacy and permissioning extensions</li>
+<li><strong>Transaction Manager (Tessera)</strong> — handles private transaction distribution and encryption</li>
+<li><strong>Encryption Enclave</strong> — manages cryptographic keys for private transactions</li>
+</ol>
+<h2 id="common-use-cases">Common Use Cases</h2>
+<p>Quorum is most useful when you have:</p>
+<ul>
+<li>Geographically distributed entities in a network</li>
+<li>Limited trust between participants</li>
+<li>No need or desire for central control</li>
+<li>A requirement for transaction privacy</li>
+</ul>
+<p>This typically maps to:</p>
+<ul>
+<li><strong>Asset and supply chain systems</strong></li>
+<li><strong>Multi-party financial settlement</strong></li>
+<li><strong>Real-time auditing and compliance</strong></li>
+<li><strong>Healthcare data management</strong></li>
+<li><strong>Cross-organizational decision making</strong></li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<ul>
+<li><a href="https://docs.goquorum.consensys.net/">Getting Started with Quorum</a></li>
+<li><a href="https://github.com/ConsenSys/quorum">GitHub</a></li>
+<li><a href="https://docs.goquorum.consensys.net/">Developer Docs</a></li>
+<li>Slack: <code>#quorum</code> on the ConsenSys Slack</li>
+</ul>
+<p>The best first step: clone the repo, spin up a local network with Quorum Wizard (<code>npx quorum-wizard</code>), and deploy a simple private smart contract. The tooling is solid and the Ethereum muscle memory transfers directly.</p> </div> <div class="forum-callout forum-callout-bottom" data-astro-cid-yvbahnfj> <span class="forum-callout-label" data-astro-cid-yvbahnfj>// discuss</span> <a href="https://medium.com/@mateo_ventures/new-to-quorum-start-here-81d87d96bc5f" target="_blank" rel="noopener noreferrer" data-astro-cid-yvbahnfj>
+Join the discussion on Medium →
+</a> </div><div class="post-footer" data-astro-cid-yvbahnfj> <a href="/" class="back-link" data-astro-cid-yvbahnfj>← Back to writing</a> </div>  </div> <script>
+      // Init theme from localStorage, default light
+      (function() {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      })();
+
+      function toggleTheme() {
+        const html = document.documentElement;
+        const isDark = html.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          html.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+        } else {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        }
+        updateToggleLabel();
+      }
+
+      // no label to update — icon-only toggle
+    </script> </body> </html>
