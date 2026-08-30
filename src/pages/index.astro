@@ -6,6 +6,9 @@ const posts = (await getCollection('blog'))
   .filter(p => !p.data.draft)
   .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
+const recentPosts = posts.filter(p => new Date(p.data.date).getFullYear() > 2020);
+const archivedPosts = posts.filter(p => new Date(p.data.date).getFullYear() <= 2020);
+
 const categories = ['All', 'Thoughts', 'Technical', 'Field Notes', 'Fiction'];
 
 function formatDate(dateStr: string) {
@@ -43,7 +46,7 @@ function formatDate(dateStr: string) {
 
   <!-- Post list -->
   <div id="post-list">
-    {posts.map((post) => (
+    {recentPosts.map((post) => (
       <div class="post-entry" data-category={post.data.category || 'Uncategorized'}>
         <span class="post-date">{formatDate(post.data.date)}</span>
         <a href={`/${post.id}`} class="post-title">{post.data.title}</a>
@@ -53,6 +56,24 @@ function formatDate(dateStr: string) {
         </span>
       </div>
     ))}
+
+    {archivedPosts.length > 0 && (
+      <details id="archive-posts">
+        <summary>Show more</summary>
+        <div id="archive-post-list">
+          {archivedPosts.map((post) => (
+            <div class="post-entry" data-category={post.data.category || 'Uncategorized'}>
+              <span class="post-date">{formatDate(post.data.date)}</span>
+              <a href={`/${post.id}`} class="post-title">{post.data.title}</a>
+              <span class="post-cat">
+                {post.data.category}
+                {post.data.forum_url && <span class="forum-dot" title="Cross-posted to forum"> ↗</span>}
+              </span>
+            </div>
+          ))}
+        </div>
+      </details>
+    )}
   </div>
 </Base>
 
@@ -153,6 +174,31 @@ function formatDate(dateStr: string) {
     border-bottom: none;
   }
 
+  #archive-posts {
+    margin-top: 4px;
+  }
+
+  #archive-posts summary {
+    display: inline-block;
+    margin: 2px 0 18px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  #archive-posts summary::-webkit-details-marker {
+    display: none;
+  }
+
+  #archive-posts summary:hover {
+    color: var(--ink);
+  }
+
   .post-date {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11px;
@@ -224,7 +270,7 @@ function formatDate(dateStr: string) {
     btn.classList.add('active');
 
     // Filter posts
-    document.querySelectorAll('#post-list .post-entry').forEach((el: Element) => {
+    document.querySelectorAll('.post-entry').forEach((el: Element) => {
       const postCat = (el as HTMLElement).dataset.category;
       if (category === 'All' || postCat === category) {
         (el as HTMLElement).style.display = 'grid';
@@ -232,7 +278,22 @@ function formatDate(dateStr: string) {
         (el as HTMLElement).style.display = 'none';
       }
     });
+
+    const archive = document.querySelector('#archive-posts') as HTMLDetailsElement | null;
+    if (archive) {
+      const hasVisibleArchivedPosts = Array.from(
+        archive.querySelectorAll('.post-entry')
+      ).some((el) => (el as HTMLElement).style.display !== 'none');
+      archive.style.display = hasVisibleArchivedPosts ? 'block' : 'none';
+      if (!hasVisibleArchivedPosts) archive.open = false;
+    }
   }
+
+  const archive = document.querySelector('#archive-posts') as HTMLDetailsElement | null;
+  archive?.addEventListener('toggle', () => {
+    const summary = archive.querySelector('summary');
+    if (summary) summary.textContent = archive.open ? 'Show less' : 'Show more';
+  });
 
   // Make global
   (window as any).filterPosts = filterPosts;
