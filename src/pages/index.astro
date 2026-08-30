@@ -6,6 +6,9 @@ const posts = (await getCollection('blog'))
   .filter(p => !p.data.draft)
   .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
+const recentPosts = posts.filter(p => new Date(p.data.date).getFullYear() > 2020);
+const archivedPosts = posts.filter(p => new Date(p.data.date).getFullYear() <= 2020);
+
 const categories = ['All', 'Thoughts', 'Technical', 'Field Notes', 'Fiction'];
 
 function formatDate(dateStr: string) {
@@ -17,16 +20,22 @@ function formatDate(dateStr: string) {
 <Base title="Matt Wright">
   <!-- Header / bio -->
   <div class="site-header">
-    <div class="site-nav">
-      <strong>Matt Wright</strong>
-      <span class="nav-links">
-        <a href="/about">about</a>
-      </span>
-    </div>
-    <p class="site-bio">
-      Matt Wright works on the future of work — building open-source AI infrastructure, machine environments, agentic payments, and coordination systems for agentic teams. Founding Team at Quirq, Managing Partner at EVM Systems, and co-founder of Gaia.
-    </p>
-  </div>
+        <div class="site-nav">
+          <strong>Matt Wright</strong>
+          <span class="nav-links">
+            <a href="/about" class="nav-arrow">about <span class="arrow">↗</span></a>
+          </span>
+        </div>
+        <p class="site-bio">
+          Founding Team at <a href="https://quirq.ai" target="_blank" rel="noopener">Quirq <span class="arrow">↗</span></a> (currently raising Seed), Managing Partner at <a href="https://evmsystems.ai" target="_blank" rel="noopener">EVM Systems <span class="arrow">↗</span></a>, and co-founder of <a href="https://gaianet.ai" target="_blank" rel="noopener">Gaia <span class="arrow">↗</span></a> — a decentralized AI network with 710k+ nodes and 30T+ inferences. Previously built developer communities at Consensys (400k+ devs), JP Morgan Quorum (acquired by Consensys), and AngelHack — 200k devs in 60+ countries, with hackathons for Fortune 500 companies including Mastercard, Motorola, Barclays, and UBS.
+        </p>
+        <div class="home-links">
+          <a href="https://x.com/evmpapi" target="_blank" rel="noopener">X <span class="arrow">↗</span></a>
+          <a href="https://github.com/evmpapi" target="_blank" rel="noopener">GitHub <span class="arrow">↗</span></a>
+          <a href="https://www.linkedin.com/in/matthewdavidwright/" target="_blank" rel="noopener">LinkedIn <span class="arrow">↗</span></a>
+          <a href="mailto:matt@quirq.ai" class="home-email">email <span class="arrow">↗</span></a>
+        </div>
+      </div>
 
   <!-- Category filter -->
   <div class="category-bar" id="category-bar">
@@ -43,7 +52,7 @@ function formatDate(dateStr: string) {
 
   <!-- Post list -->
   <div id="post-list">
-    {posts.map((post) => (
+    {recentPosts.map((post) => (
       <div class="post-entry" data-category={post.data.category || 'Uncategorized'}>
         <span class="post-date">{formatDate(post.data.date)}</span>
         <a href={`/${post.id}`} class="post-title">{post.data.title}</a>
@@ -53,7 +62,36 @@ function formatDate(dateStr: string) {
         </span>
       </div>
     ))}
+
+    {archivedPosts.length > 0 && (
+      <details id="archive-posts">
+        <summary>Show more</summary>
+        <div id="archive-post-list">
+          {archivedPosts.map((post) => (
+            <div class="post-entry" data-category={post.data.category || 'Uncategorized'}>
+              <span class="post-date">{formatDate(post.data.date)}</span>
+              <a href={`/${post.id}`} class="post-title">{post.data.title}</a>
+              <span class="post-cat">
+                {post.data.category}
+                {post.data.forum_url && <span class="forum-dot" title="Cross-posted to forum"> ↗</span>}
+              </span>
+            </div>
+          ))}
+        </div>
+      </details>
+    )}
   </div>
+
+  <!-- External writing -->
+  <div class="external-section">
+    <h2>Also featured in</h2>
+    <ul class="external-links">
+      <li><a href="https://www.theverge.com/2018/2/1/16721230/wechat-china-app-mini-programs-messaging-electronic-id-system" target="_blank" rel="noopener">The Verge <span class="arrow">↗</span></a> — WeChat's electronic ID system</li>
+      <li><a href="https://medium.com/angelhack/chinas-sharing-economy-has-more-in-store-4ec313a5dfc9" target="_blank" rel="noopener">AngelHack / Medium <span class="arrow">↗</span></a> — China's sharing economy</li>
+      <li><a href="https://www.linkedin.com/pulse/wechat-beating-messenger-whatsapp-own-game-heres-why-matt-wright/" target="_blank" rel="noopener">LinkedIn <span class="arrow">↗</span></a> — Why WeChat beat Messenger and WhatsApp</li>
+    </ul>
+  </div>
+
 </Base>
 
 <style>
@@ -94,8 +132,81 @@ function formatDate(dateStr: string) {
     font-size: 14px;
     line-height: 1.6;
     color: var(--muted);
-    margin: 0;
+    margin: 0 0 16px 0;
     max-width: 540px;
+  }
+
+  .site-bio a {
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: var(--faint);
+  }
+
+  .site-bio a:hover {
+    color: var(--ink);
+    text-decoration-color: var(--ink);
+    opacity: 1;
+  }
+
+  .arrow {
+    font-size: 0.78em;
+    display: inline-block;
+  }
+
+  .home-links {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    display: flex;
+    gap: 16px;
+    margin-top: 6px;
+  }
+
+  .home-links a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .home-links a:hover {
+    color: var(--ink);
+    opacity: 1;
+  }
+
+  .external-section {
+    margin-top: 44px;
+    padding-top: 24px;
+    border-top: 1px solid var(--faint);
+  }
+
+  .external-section h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 14px 0;
+  }
+
+  .external-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .external-links li {
+    font-size: 14px;
+    padding: 3px 0;
+  }
+
+  .external-links a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .external-links a:hover {
+    color: var(--ink);
+    opacity: 1;
   }
 
   .category-bar {
@@ -151,6 +262,31 @@ function formatDate(dateStr: string) {
 
   .post-entry:last-child {
     border-bottom: none;
+  }
+
+  #archive-posts {
+    margin-top: 4px;
+  }
+
+  #archive-posts summary {
+    display: inline-block;
+    margin: 2px 0 18px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  #archive-posts summary::-webkit-details-marker {
+    display: none;
+  }
+
+  #archive-posts summary:hover {
+    color: var(--ink);
   }
 
   .post-date {
@@ -224,7 +360,7 @@ function formatDate(dateStr: string) {
     btn.classList.add('active');
 
     // Filter posts
-    document.querySelectorAll('#post-list .post-entry').forEach((el: Element) => {
+    document.querySelectorAll('.post-entry').forEach((el: Element) => {
       const postCat = (el as HTMLElement).dataset.category;
       if (category === 'All' || postCat === category) {
         (el as HTMLElement).style.display = 'grid';
@@ -232,7 +368,22 @@ function formatDate(dateStr: string) {
         (el as HTMLElement).style.display = 'none';
       }
     });
+
+    const archive = document.querySelector('#archive-posts') as HTMLDetailsElement | null;
+    if (archive) {
+      const hasVisibleArchivedPosts = Array.from(
+        archive.querySelectorAll('.post-entry')
+      ).some((el) => (el as HTMLElement).style.display !== 'none');
+      archive.style.display = hasVisibleArchivedPosts ? 'block' : 'none';
+      if (!hasVisibleArchivedPosts) archive.open = false;
+    }
   }
+
+  const archive = document.querySelector('#archive-posts') as HTMLDetailsElement | null;
+  archive?.addEventListener('toggle', () => {
+    const summary = archive.querySelector('summary');
+    if (summary) summary.textContent = archive.open ? 'Show less' : 'Show more';
+  });
 
   // Make global
   (window as any).filterPosts = filterPosts;
