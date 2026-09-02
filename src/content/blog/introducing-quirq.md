@@ -4,6 +4,7 @@ description: "AI needs a real place to work. Quirq is a one-click environment fo
 date: "2026-09-02"
 category: "Thoughts"
 readTime: "26 min"
+ogImage: "/images/posts/introducing-quirq/what-you-pay-for-to-what-you-can-prove.png"
 ---
 
 ![Quirq connects tokens, calls, and spend to verified work and cost per quirq through an observable Environment.](/images/posts/introducing-quirq/what-you-pay-for-to-what-you-can-prove.png)
