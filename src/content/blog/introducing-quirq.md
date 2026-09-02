@@ -318,32 +318,25 @@ Once you give those a shot, we're happy to answer more questions around your cur
 
 [Get in touch if you already know](mailto:hello@quirq.ai) you want to license this for internal or external observability, deployment or management.
 
-Install: `curl -fsSL quirq.ai/install | sh`
+**Get started**
 
-GitHub: [github.com/quirq-ai](https://github.com/quirq-ai)
+- Install Quirq: `curl -fsSL quirq.ai/install | sh`
+- [Browse the open-source Space repository](https://github.com/quirq-ai/xo-space)
+- [Launch an agent on our managed Cloud](https://beta.xo.builders)
 
-[One-click agents on our managed Cloud](https://beta.xo.builders)
+**See it working**
 
-**Explore our resources**
+- [Watch the two-minute agent provisioning demo](https://youtu.be/NVJxt-ydY3k)
+- [Watch OpenClaw provisioning on Quirq and Nebius](https://youtu.be/lrM7Jk4HvOo)
+- [See how observability works](https://docs.quirq.ai/docs/space/observability)
+- [Explore the Space Walk interface](https://docs.quirq.ai/docs/space/space-walk)
+- [Read the managed Cloud provisioning guide](https://docs.quirq.ai/docs/cloud)
 
-[Two-minute agent provisioning demo](https://youtu.be/NVJxt-ydY3k)
+**Go deeper**
 
-[OpenClaw provisioning on Quirq + Nebius](https://youtu.be/lrM7Jk4HvOo)
-
-[How observability works](https://docs.quirq.ai/docs/space/observability)
-
-[The Space Walk interface](https://docs.quirq.ai/docs/space/space-walk)
-
-[Managed cloud provisioning](https://docs.quirq.ai/docs/cloud)
-
-[All of our research notes](https://www.quirq.ai/research)
-
-Reach out if you have any questions! [matt@quirq.ai](mailto:matt@quirq.ai)
-
-[Join our community on Telegram](https://t.me/+4K3HQfoxfK00YjFh)
-
-[Follow us on X](https://x.com/quirq_ai)
-
-[Whitepaper](https://www.quirq.ai/whitepaper)
-
-[Docs](https://docs.quirq.ai/)
+- [Read our research notes](https://www.quirq.ai/research)
+- [Read the Quirq whitepaper](https://www.quirq.ai/whitepaper)
+- [Browse the documentation](https://docs.quirq.ai)
+- [Join the Quirq community on Telegram](https://t.me/+4K3HQfoxfK00YjFh)
+- [Follow Quirq on X](https://x.com/quirq_ai)
+- [Email me](mailto:matt@quirq.ai)
