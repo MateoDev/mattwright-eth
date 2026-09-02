@@ -268,6 +268,8 @@ Against every minted quirq the Environment meters everything production consumed
 
 **The token and the quirq are two sides of the same thing.**
 
+![Cost per completed unit of work across four agent configurations: cheapest model routing delivers 29x more completed work per dollar than the most expensive single-model baseline.](/images/posts/introducing-quirq/cost-per-four-configurations.png)
+
 The token meters the machine's draw on the world, compute and energy and cost. The quirq meters the world's change by the machine, outcomes delivered at human-assigned value. Neither replaces the other, and dividing them gives you the numbers that were missing.
 
 **What a business actually reads**
